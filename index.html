@@ -1,0 +1,148 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kunal Satpal</title>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Full Page js-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/easings.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/scrolloverflow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
+
+ 
+   
+    <!-- Ed Full PAge JS-->
+    <!--Semantic & Custom CSS + JS-->
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <!--End-->
+</head>
+<body>
+    <div id="home">
+        <nav id="navbar">
+            <div class="container" id="navbar">
+                <li>
+                    <a href="#home" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
+                    <span class="group">
+                        <a href="#home" class="home"><span>HOME</span></a>
+                        <a href="#aboutsection">ABOUT</a>
+                        <a href="#resume"><button class="ui basic button primary resume" id="primary">RESUME</button></a>
+                        <a href="mailto:kunalsatpal1@gmail.com"><button class="ui button primary" id="primary">MAIL ME</button></a>
+                    </span>
+                </li>
+            </div>
+        </nav>
+        <div id="about" class="ui column grid">
+            <div class="row" id="aboutmeheader">
+                    About Me
+            </div>
+            <div class="row" id="aboutmedesc">
+                        I’m Kunal Satpal a self-taught product designer, and an undergraduate student at Inidian Institute of Technology Roorkee. I love listening to people and solving their problem, so much that I decided to make a career out of it.  
+            </div>
+        </div>
+        <img src="./images/me.svg" id="me">
+        </div>
+        <div id="aboutsection">
+            <div class="ui column grid" id="about">
+                <div class="row" id="aboutmeheader">
+                    I believe in learning through experience
+                </div>
+                <div class="row" id="aboutmedesc">
+                    I am always ready to accept new challenges and push my limits. I have worked from nascent startups to companies and believe in learing from practical applications.
+                </div>
+                <div class="row bluedesc" id="aboutmedesc">
+                    Let’s work together, Say Hello
+                </div>
+            </div>
+        <div class="ui three column grid worklogos">
+            <div class="row">
+                <div class="column"><img src="./images/curefit.svg" /></div>
+                <div class="column"><img src="./images/stockroom.svg" /></div>
+                <div class="column"><img src="./images/gg.svg" /></div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="./images/img.svg" /></div>
+                <div class="column"><img src="./images/pipeline.svg" /></div>
+                <div class="column"><img src="./images/pitbit.svg" /></div>
+            </div>
+        </div>
+        <div id="about" class="ui column grid fun">
+            <div class="row" id="aboutmeheader">
+                I do much more than just work
+            </div>
+            <div class="row" id="aboutmedesc">
+                Work hard and party harder, this is what I follow.  I always try to enjoy life at its fullest, when I am not designing you can find me listening to music, scoring some crazy goals in fifa or just getting something to eat. 
+            </div>
+        </div>    
+        <img src="./images/fun.svg" class="funimage"> 
+        <div id="about" class="ui column grid people">
+            <div class="row" id="aboutmeheader">
+                For me, people matter<br>the most
+            </div>
+            <div class="row" id="aboutmedesc">
+                Whether it is family, friends , bussiness relationships, the people around me always had a great impact on me. I love talking to others, know their stories and get inspired.</div>
+        </div>
+        <div id="family"> 
+            <img src="./images/img.png" class="peoplepics large" id="peoplepics" data-tooltip="IMG Family" />           
+            <img src="./images/family.png" class="peoplepics medium family" id="peoplepics" data-tooltip="IMG Family" />           
+            <img src="./images/friend1.png" class="peoplepic mediumlarge friends1" id="peoplepics" data-tooltip="IMG Family" />         
+            <div class="peoplepicdiv">
+                <img src="./images/friend2.png" class="pictures" id="friend2">
+                <img src="./images/friend3.png" class="pictures" id="friend3">
+                <img src="./images/friend4.png" class="pictures" id="friend4">
+                <img src="./images/friend5.png" class="pictures" id="friend5">
+                <div class="empty" id="empty" onclick="redirect()">View More on<br>Instragram</div>
+            </div>
+        </div>
+        </div>
+        <div id="contact">
+            <div class="contactheader">
+                Say Hello
+                <div class="contactdesc">I am available for freelance projects, remote work or just discussing design, feel free to ping me at</div>
+                <div class="contactemail"><a href="mailto:kunalsatpal1@gmail.com"><img src="./images/mailicon.png">kunalsatpal1@gmail.com</a></div>
+            </div>
+            <div class="line">
+
+            </div>
+        </div>
+        <div id="footer">
+            <div class="icons">
+                <a href=""><img src="./images/dripple.svg" class="icon" id="dribble"></a>
+                <a href=""><img src="./images/medium.svg" class="icon right" id="medium"></a>
+                <a href=""><img src="./images/linkedin.svg" class="icon right" id="linkedin"></a>
+                <a href=""><img src="./images/behance.svg" class="icon" id="behance"></a>
+            </div>
+        </div>
+        <script src="./js/index.js"></script>
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
+    	});
+
+        function myFunction() {
+            console.log(sticky+" "+window.pageYOffset);
+          if (window.pageYOffset > sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>   
+</body>
+</html>

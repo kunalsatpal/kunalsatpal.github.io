@@ -1,0 +1,398 @@
+
+/* site variables*/
+
+#primary.button{
+    background-color: #78BEFF !important;    
+}
+#primary.button.basic{
+       stroke: solid;
+       color:#78BEFF !important;
+       background-color: transparent  !important;
+       box-shadow: 0 0 0 1px #78BEFF inset !important;
+       border-color: #eeeeee !important;
+}
+
+/* Custom CSS */
+#home{
+    overflow: hidden;
+    position: relative;
+    height: 38.4375em;
+    z-index: 2;
+    background: radial-gradient(1088.88px at 67.43% 75.47%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
+}
+.group{
+    float: right;
+    margin-top: 15px;
+}
+#navbar .logo{
+    left: 10vw;
+}
+nav{
+    transition-duration: 0.5s;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color transparent;
+    z-index: 20;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 0.75em;
+    color: #333333 !important;
+}
+#navbar{
+    z-index: 20 !important;
+}
+#navbar .container{
+    width: 85vw;
+}
+.sticky{
+    background-color: white;
+    position: fixed;
+    z-index: 20 !important;
+    top: 0;
+    padding: 0;
+    width: 100vw;
+    transition-duration: 0.5s;
+}
+.home{
+    margin-right: 2.25em !important;
+}
+.resume{
+    margin-right: 1.025em !important;
+    margin-left: 2.425em !important;
+}
+.content{
+    margin: 16px;
+}
+.section{
+    height: 100vh;
+}
+#me{
+    position: absolute;
+    width: 25.875em;
+    height: 35.5625em; 
+    z-index: 2;
+    bottom: -6.7625em;
+    right: 13.402vw;
+    }
+#about{
+    position: absolute;
+    left: 12.778vw;
+    bottom: 9.6875em;
+    width: 33.4375em;
+    height: 7.125em;
+    z-index: 3;
+}
+#aboutmeheader{
+    font-family: Noto Sans;
+    position: relative;
+    margin: 0;
+    top: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #333333;
+    align-self: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0.75em;
+}
+#aboutmedesc{
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #888888;
+}
+#aboutsection{
+    position: relative;
+    background: url("../images/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 6.9375em;
+    height: 106.8125em;
+    z-index: 0;
+
+}
+
+#aboutsection #about{
+    position: absolute;
+    top: 5em;
+    left: 12.778vw;
+    width: 23em;
+    height: 14.9375em;
+}
+#aboutsection #aboutmeheader{
+    font-family: Noto Sans;
+    position: relative;
+    margin: 0;
+    top: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333333;
+    align-self: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0.0em;
+    line-height: 1.5em;
+}
+#aboutsection #aboutmedesc{
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #888888;
+    line-height: 1.5625em;
+}
+#aboutsection .bluedesc{
+    color: #78BEFF !important;
+    font-size: 1.125em;
+    font-weight: bold !important;
+
+}
+.worklogos{
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    top: 4em;
+    right: 13.472vw;
+    float: right;
+    width: 39.0625em;
+    height: 17.1875em;
+}
+.worklogos .rows{
+    padding-top: 0 !important;
+}
+.worklogos .column{
+    display: flex !important;
+    justify-content: center;
+}
+.fun{
+    width: 23em !important;
+    height: 7.8125em !important;
+    top: 37.125em !important;
+}
+.funimage{
+    position: absolute;
+    right: 13.472vw;
+    top: 36.75em;
+    width: 43em;
+    height: 20em;
+}
+
+.people{
+    position: absolute;
+    width: 27.25em;
+    height: 9.875em;
+    top: 61.125em !important;
+    left: 51.52vw !important;
+}
+.people #aboutmeheader{
+    width: 18.625em;
+    height: 4.125em;
+    margin: 0;
+    margin-top: 0.5em !important;
+    color: #000000;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    line-height: 1.5em;
+}
+.people #aboutmedesc{
+    width: 27.25em !important;
+    height: 4.6875em !important;
+    font-size: 0.9em !important;
+    margin-top: -7em !important;
+    text-align: left;
+}
+#family{
+    width: 100vw;
+    text-align: center !important;
+}
+.peoplepics{
+    text-align: center;
+    position: absolute;
+    left: 3.875em;
+}
+.large{
+    position: absolute;
+    top: 61.125em;
+    width: 39.25em;
+    height: 24.8125em;
+
+}
+.medium{
+    width: 16.0625em;
+    height: 15.125em;
+}
+.family{
+    position: absolute;
+    top: 74em;
+    left: 38.25em;
+}
+.mediumlarge{
+    width: 29.25em;
+    height: 15.125em;
+
+}
+.friends1{
+    position: absolute;
+    top: 74em;
+    left: 63.171vw;
+}
+.peoplepicdiv{
+    position: absolute;
+    top: 90.4375em;
+    height: 15.375em;
+    min-width: 100vw;
+}
+.peoplepicdiv .pictures{
+    height: 15.375em !important;
+    margin-right: 1.25em;
+    vertical-align: middle;
+}
+.peoplepicdiv #friend2{
+    width: 20em;
+}
+.peoplepicdiv #friend3{
+    width: 16.875em;
+}
+.peoplepicdiv #friend4{
+    width: 15.125em;
+}
+.peoplepicdiv #friend5{
+    width: 13.625em;
+}
+.peoplepicdiv .empty{
+    box-sizing: border-box;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 14.0em;
+    width: 10.875em;
+    border: 1.5px dashed #78BEFF;
+    border-radius: 6px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.75em;
+    font-size: 1.125em;
+    color: #78BEFF;
+
+}
+
+/* Contact Part */
+#contact{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 35em;
+    position: relative;
+    background: url('../images/contact_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#contact .contactheader{
+    position: absolute;
+    top: 14.8125rem;
+    margin: 0 auto;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #0A0A0D;
+    width: 100vw;
+}
+#contact .contactdesc{
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.5em; 
+    width: 50vw;
+    font-size: 1.5rem;
+    line-height: 2.4375rem;
+    color: #0A0A0D;
+    opacity: 0.5;
+}
+#contact .contactemail{
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+    color: #78BEFF;
+    margin-top: 1.1875rem;
+}
+.contactemail img{
+    width: 1.875rem;
+    height: 1.375rem;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+.line{
+    width: 31.875rem;
+    opacity: 0.3;
+    border: 1px solid #78BEFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin: 0 auto;
+    position: absolute;
+    top: 32.4375em;
+    left: 50vw;
+    margin-left: -15.9375rem;
+}
+
+/*Footer*/
+#footer{
+    width: 100vw;
+    height: 18rem;
+    text-align: center;
+    position: relative;
+}
+#footer .icons{
+    position: absolute;
+    top: 8.25rem;
+    left: 50vw;
+    min-width: 20.5rem;
+    margin-left: -10.25rem;
+    height: 1.375rem;
+}
+#footer .icons .icon{
+    width: 1.375rem;
+    height: 1.375rem;
+    color: #78BEFF;
+}
+#footer .icons .right{
+    margin-left: 3.1875rem;
+    margin-right: 3.1875rem;
+}
+#dribble{
+    position: absolute;
+    left: 0;
+}
+#behance{
+    position: absolute;
+    right: 0;
+}
