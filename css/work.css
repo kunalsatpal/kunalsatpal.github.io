@@ -2,7 +2,10 @@
 /* site variables*/
 
 #primary.button{
-    background-color: #78BEFF !important;    
+    background-color: #78BEFF !important; 
+    font-size: 1.25em;
+    width: 8em;
+    height: 3em;   
 }
 #primary.button.basic{
        stroke: solid;
@@ -47,9 +50,10 @@ nav a{
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 0.75em;
+    font-size: .8em;
     color: #333333 !important;
 }
+
 #navbar{
     z-index: 20 !important;
 }
@@ -225,6 +229,10 @@ nav a{
     color: #999999;
     margin-bottom: 1.625rem;
 }
+#work .description a{
+    text-align: left;
+    
+}
 #work .description .desc{
     text-align: left;
     font-family: Noto Sans;
@@ -316,13 +324,14 @@ nav a{
 #contact .contactemail{
     font-weight: bold;
     font-size: 1.5rem;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     color: #ffffff !important;
-    margin-top: 1.75rem;
+    margin-top: 3rem;
 }
 .contactemail img{
     width: 2rem;
     margin-right: .8em;
+    letter-spacing: .02em;
     vertical-align: middle;
 }
 .grey{
@@ -358,7 +367,7 @@ nav a{
     transform: matrix(1, 0, 0, 1, 0, 0);
     margin: 0 auto;
     position: absolute;
-    top: 36em;
+    top: 4em;
     left: 50vw;
     margin-left: -15.9375rem;
 }

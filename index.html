@@ -22,12 +22,14 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
     <!--End-->
 </head>
 <body>
     <div id="home">
+        <div class="parent">
         <nav id="navbar">
+
             <div class="container" id="navbar">
                 <li>
                     <a href="#home" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
@@ -40,6 +42,8 @@
                 </li>
             </div>
         </nav>
+        </div>
+        <div class="parent">
         <div id="about" class="ui column grid">
             <div class="row" id="aboutmeheader">
                     About Me
@@ -50,7 +54,9 @@
         </div>
         <img src="./images/me.svg" id="me">
         </div>
+        </div>
         <div id="aboutsection">
+        <div class="parent">
             <div class="ui column grid" id="about">
                 <div class="row" id="aboutmeheader">
                     I believe in learning through experience
@@ -74,15 +80,18 @@
                 <div class="column"><img src="./images/pitbit.svg" /></div>
             </div>
         </div>
+        </div>
+        <div class="parent">
         <div id="about" class="ui column grid fun">
             <div class="row" id="aboutmeheader">
                 I do much more than just work
             </div>
-            <div class="row" id="aboutmedesc">
+            <div class="row" id="aboutmedesc2">
                 Work hard and party harder, this is what I follow.  I always try to enjoy life at its fullest, when I am not designing you can find me listening to music, scoring some crazy goals in fifa or just getting something to eat. 
             </div>
         </div>    
         <img src="./images/fun.svg" class="funimage"> 
+        </div>
         <div id="about" class="ui column grid people">
             <div class="row" id="aboutmeheader">
                 For me, people matter<br>the most
@@ -143,6 +152,7 @@
             navbar.classList.remove("sticky");
           }
         }
-        </script>   
+        </script>
+    
 </body>
 </html>
