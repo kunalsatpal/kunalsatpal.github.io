@@ -25,7 +25,7 @@
 <body>
     <div id="home">
         <nav id="navbar">
-            <div class="parent">
+            <div class="container" id="navbar">
                 <li>
                     <a href="#home" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
                     <span class="group">
@@ -112,30 +112,30 @@
         </div>
         
         <div id="footer">
-            <div class="line"></div>
+            <div class="line">
+            </div>
             <div class="icons">
                 <a href=""><img src="./images/dribblel.svg" class="icon" id="dribble"></a>
                 <a href=""><img src="./images/mediuml.svg" class="icon right" id="medium"></a>
-                <a href=""><img src="./images/linkedinl.svg" class="icon" id="linkedin"></a>
+                <a href=""><img src="./images/linkedinl.svg" class="icon right" id="linkedin"></a>
+                <a href=""><img src="./images/behancel.svg" class="icon" id="behance"></a>
             </div>
         </div>
-        <script src="./js/index.js"></script>
+        <script src="./js/work.js"></script>
         <script>
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                //options here
-                autoScrolling:true,
-                licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
-          });
-            $(window).scroll(function() {
-              if (window.pageYOffset > 0) {
-                $('#navbar').addClass("sticky");
-              } else {
-                $('#navbar').removeClass("sticky");
-              }
-            });
-        });
-        </script>
-       
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            console.log(sticky+" "+window.pageYOffset);
+          if (window.pageYOffset > sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>   
 </body>
 </html>

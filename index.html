@@ -27,8 +27,10 @@
 </head>
 <body>
     <div id="home">
+        <div class="parent">
         <nav id="navbar">
-            <div class="parent">
+
+            <div class="container" id="navbar">
                 <li>
                     <a href="#home" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
                     <span class="group">
@@ -40,6 +42,7 @@
                 </li>
             </div>
         </nav>
+        </div>
         <div class="parent">
         <div id="about" class="ui column grid">
             <div class="row" id="aboutmeheader">
@@ -65,7 +68,6 @@
                     Let’s work together, Say Hello
                 </div>
             </div>
-            
         <div class="ui three column grid worklogos">
             <div class="row">
                 <div class="column"><img src="./images/curefit.svg" /></div>
@@ -80,46 +82,36 @@
         </div>
         </div>
         <div class="parent">
-            <div id="about" class="ui column grid fun">
-                <div class="row" id="aboutmeheader">
-                    I do much more than just work
-                </div>
-                <div class="row" id="aboutmedesc2">
-                    Work hard and party harder, this is what I follow.  I always try to enjoy life at its fullest, when I am not designing you can find me listening to music, scoring some crazy goals in fifa or just getting something to eat. 
-                </div>
-            </div>    
-            <img src="./images/fun.svg" class="funimage"> 
+        <div id="about" class="ui column grid fun">
+            <div class="row" id="aboutmeheader">
+                I do much more than just work
             </div>
-            
-         <div class="parent">
-            <div id="1strow"> 
-                    <div class="call"> 
-                    <img src="./images/img.png" class="peoplepics large" id="peoplepics" data-tooltip="IMG Family" />
-                    </div>
-                    <div class="call" id="peoplematter">
-                         <div class="row" id="aboutmeheader">
-                            For me, people matter<br>the most
-                        </div>
-                        <div class="row" id="aboutmedesc">
-                            Whether it is family, friends , bussiness relationships, the people around me always had a great impact on me. I love talking to others, know their stories and get inspired.
-                        </div>    
-                        <div>
-                            <img src="./images/family.png" class="peoplepic family element1" id="peoplepics" data-tooltip="IMG Family" />           
-                            <img src="./images/friend1.png" class="peoplepic mediumlarge element2" id="peoplepics" data-tooltip="IMG Family" />
-                    </div>
-                </div>             
-                <div class="parent">                  
-                    <div>
-                        <img src="./images/friend2.png" class="pictures" id="friend2">
-                        <img src="./images/friend3.png" class="pictures" id="friend3">
-                        <img src="./images/friend4.png" class="pictures" id="friend4">
-                        <img src="./images/friend5.png" class="pictures" id="friend5">
-                        <div id="empty" onclick="redirect()">View More on<br>Instragram</div>
-                    </div>
-                </div>    
-            </div>
+            <div class="row" id="aboutmedesc2">
+                Work hard and party harder, this is what I follow.  I always try to enjoy life at its fullest, when I am not designing you can find me listening to music, scoring some crazy goals in fifa or just getting something to eat. 
             </div>
         </div>    
+        <img src="./images/fun.svg" class="funimage"> 
+        </div>
+        <div id="about" class="ui column grid people">
+            <div class="row" id="aboutmeheader">
+                For me, people matter<br>the most
+            </div>
+            <div class="row" id="aboutmedesc">
+                Whether it is family, friends , bussiness relationships, the people around me always had a great impact on me. I love talking to others, know their stories and get inspired.</div>
+        </div>
+        <div id="family"> 
+            <img src="./images/img.png" class="peoplepics large" id="peoplepics" data-tooltip="IMG Family" />           
+            <img src="./images/family.png" class="peoplepics medium family" id="peoplepics" data-tooltip="IMG Family" />           
+            <img src="./images/friend1.png" class="peoplepic mediumlarge friends1" id="peoplepics" data-tooltip="IMG Family" />         
+            <div class="peoplepicdiv">
+                <img src="./images/friend2.png" class="pictures" id="friend2">
+                <img src="./images/friend3.png" class="pictures" id="friend3">
+                <img src="./images/friend4.png" class="pictures" id="friend4">
+                <img src="./images/friend5.png" class="pictures" id="friend5">
+                <div class="empty" id="empty" onclick="redirect()">View More on<br>Instragram</div>
+            </div>
+        </div>
+        </div>
         <div id="contact">
             <div class="contactheader">
                 Say Hello
@@ -134,25 +126,32 @@
             <div class="icons">
                 <a href=""><img src="./images/dripple.svg" class="icon" id="dribble"></a>
                 <a href=""><img src="./images/medium.svg" class="icon right" id="medium"></a>
-                <a href=""><img src="./images/linkedin.svg" class="icon" id="linkedin"></a>
+                <a href=""><img src="./images/linkedin.svg" class="icon right" id="linkedin"></a>
+                <a href=""><img src="./images/behance.svg" class="icon" id="behance"></a>
             </div>
         </div>
         <script src="./js/index.js"></script>
         <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
         $(document).ready(function() {
-            $('#fullpage').fullpage({
-                //options here
-                autoScrolling:true,
-                licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
-        	});
-            $(window).scroll(function() {
-              if (window.pageYOffset > 0) {
-                $('#navbar').addClass("sticky");
-              } else {
-                $('#navbar').removeClass("sticky");
-              }
-            });
-        });
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
+    	});
+
+        function myFunction() {
+            console.log(sticky+" "+window.pageYOffset);
+          if (window.pageYOffset > sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
         </script>
     
 </body>

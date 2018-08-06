@@ -29,7 +29,7 @@
     margin-top: 15px;
 }
 #navbar .logo{
-    left: -2.25em;
+    left: 0;
 }
 nav{
     transition-duration: 0.5s;
@@ -54,17 +54,18 @@ nav a{
 
 #navbar{
     z-index: 20 !important;
-    width:100%;
+}
+#navbar .container{
+    width: 85vw;
 }
 .sticky{
     background-color: white;
     position: fixed;
     z-index: 20 !important;
     top: 0;
-    padding-top: .2em;
-    padding-bottom: .5em;
-    width: 100%;
-    transition-duration: 0.4s;
+    padding: 0;
+    width: 100vw;
+    transition-duration: 0.5s;
 }
 .home{
     margin-right: 2.25em !important;
@@ -80,21 +81,19 @@ nav a{
     height: 80vh;
 }
 #me{
-        position: absolute;
     float: right;
-    margin-top: 5em;
+    margin-top: 4.8em; 
     z-index: 2;
-    left: 58%;
-    width: 17%;
+    width: 40%;
     min-width: 346px;
-    margin-right: 3em;
-    bottom: -5.7625em;
+    margin-right: 2em;
+    bottom: -6.7625em;
     }
 #about{
     position: absolute;
-    bottom: 14em;
-    width: 100%;
-    max-width: 440px;
+    bottom: 12em;
+    width: 40%;
+    max-width: 480px;
     height: 7.125em;
     z-index: 3;
 }
@@ -123,7 +122,6 @@ nav a{
     font-weight: normal;
     font-size: 1em;
     color: #888888;
-    line-height: 1.5625em;
 }
 #aboutsection{
     position: relative;
@@ -161,7 +159,7 @@ nav a{
 #aboutsection #aboutmedesc{
     position: relative;
     bottom: 0;
-    margin-top: .9em;
+    margin: 0;
     padding: 0;
     font-family: Noto Sans;
     font-style: normal;
@@ -169,7 +167,6 @@ nav a{
     font-size: 1em;
     color: #888888;
     line-height: 1.5625em;
-    max-width: 440px;
 }
 #aboutmedesc2{
     position: relative;
@@ -214,10 +211,9 @@ nav a{
 }
 .funimage{
     position: absolute;
-    left: 45%;
-    top: 29em;
-    width: 43%;
-    max-width: 612px;
+    right: 13.472vw;
+    top: 30.75em;
+    height: 24em;
 }
 
 .people{
@@ -248,25 +244,35 @@ nav a{
 }
 
 #family{
-    width: 100%;
+    width: 100vw;
+    text-align: center !important;
 }
 .peoplepics{
     text-align: center;
     position: absolute;
+    left: 3.875em;
 }
 .large{
+    position: absolute;
     top: 61.125em;
-    margin-left: 0%;
-    width: 43%;
-    max-width:500px;
+    width: 39.25em;
+    height: 24.8125em;
 
 }
 .medium{
-    top: 10em;
-    left: -18em;
+    width: 16.0625em;
+    height: 15.125em;
 }
+.family{
+    position: absolute;
+    top: 74em;
+    left: 38.25em;
+}
+.mediumlarge{
+    width: 29.25em;
+    height: 15.125em;
 
-
+}
 .friends1{
     position: absolute;
     top: 74em;
@@ -278,13 +284,23 @@ nav a{
     height: 15.375em;
     min-width: 100vw;
 }
-.pictures{
-    height: 14em !important;
-    margin-right: 1em;
-    margin-top: 1em;
+.peoplepicdiv .pictures{
+    height: 15.375em !important;
+    margin-right: 1.25em;
     vertical-align: middle;
 }
-
+.peoplepicdiv #friend2{
+    width: 20em;
+}
+.peoplepicdiv #friend3{
+    width: 16.875em;
+}
+.peoplepicdiv #friend4{
+    width: 15.125em;
+}
+.peoplepicdiv #friend5{
+    width: 13.625em;
+}
 .peoplepicdiv .empty{
     box-sizing: border-box;
     display: inline-flex;
@@ -293,7 +309,7 @@ nav a{
     align-items: center;
     text-align: center;
     padding: 0;
-    margin-top: 1em;
+    margin: 0;
     height: 14.0em;
     width: 10.875em;
     border: 1.5px dashed #78BEFF;
@@ -305,26 +321,6 @@ nav a{
     font-size: 1.125em;
     color: #78BEFF;
 
-}
-#empty{
-    box-sizing: border-box;
-    display: inline-flex;
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin-top: 1rem;
-    height: 14.0rem;
-    width: 10em;
-    border: 1.5px dashed #78BEFF;
-    border-radius: 6px;
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 1.75em;
-    font-size: 1.125em;
-    color: #78BEFF;
 }
 
 /* Contact Part */
@@ -397,10 +393,9 @@ nav a{
 }
 #footer .icons{
     position: absolute;
-    top: 3.25rem;
+    top: 8.25rem;
     left: 50vw;
     min-width: 20.5rem;
-    margin: auto;
     margin-left: -10.25rem;
     height: 1.375rem;
 }
@@ -410,59 +405,21 @@ nav a{
     color: #78BEFF;
 }
 #footer .icons .right{
-    margin: 0 5rem;
+    margin-left: 3.1875rem;
+    margin-right: 3.1875rem;
 }
 #dribble{
-    width: 33%;
+    position: absolute;
+    left: 0;
 }
-#medium{
-    width: 33%;
+#behance{
+    position: absolute;
+    right: 0;
 }
-#linkedin{
-    width: 33%;
-}
-
 
 .parent{
     width: 85vw;
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: auto;
 
 }
-.call{
-    width:50%;
-    max-width: 60em;
-}
-
-.1strow{
-    top: 61.125em;
-}
-
-#peoplematter{
-    padding-top: 61.125em;
-    margin-left: 52%;
-    max-width: 520px;
-}
-
-#image2 {
-    position: absolute;
-    top: 6.5em;
-    width: 100%;
-}
-.people2 {
-    position: absolute;
-    top: 61.125em !important;
-    left: 51.52vw !important;
-}
-.element1{
-    left: -7em;
-    height: 12%;
-    margin-top: 4em;
-}
-
-.element2{
-    height: 12%;
-    margin-top: 4em;
-    margin-left: -14%;
-}
-/*media queries*/
