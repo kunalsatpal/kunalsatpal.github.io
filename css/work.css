@@ -26,33 +26,13 @@
     background-size: cover;
 }
 
-.group{
-    float: right;
-    margin-top: 15px;
-}
-#navbar .logo{
-    left: -2.25em;
-}
-nav{
-    transition-duration: 0.5s;
-    padding-top: 20px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    background-color transparent;
-    z-index: 20;
-}
-nav li{
-    display: inline;
-}
-nav a{
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: .8em;
-    color: #333333 !important;
-}
+.group{     float: right;     margin-top: 15px; } #navbar .logo{
+left: -2.25em;     min-width: 180px; } nav{     transition-duration:
+0.5s;     padding-top: 20px;     overflow: hidden;     display: flex;
+align-items: center;     background-color transparent;     z-index:
+20; } nav li{     display: inline; } nav a{     font-family: Noto
+Sans;     font-style: normal;     font-weight: normal;     line-
+height: normal;     font-size: .8em;     color: #333333 !important; }
 
 #navbar{
     z-index: 20 !important;
@@ -84,6 +64,11 @@ nav a{
 }
 /* home section */
 .main{
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* bottom: 14rem; */
+    text-align: center;
     text-align: center;
     font-family: Noto Sans;
     font-size: 1em;
@@ -91,10 +76,12 @@ nav a{
     line-height: 1.3125rem;
     color: #222222;
     max-width: 52.5em;
-    width: 80%;
     font-style: normal;
+    /* overflow: hidden; */
     margin: auto;
-    margin-top: 9.25rem;
+    top: 14rem;
+    width: 85vw;
+    /* top: 9.25rem; */
 
 }
 .main .header{
@@ -430,7 +417,8 @@ nav a{
 #nav_btn{ 
 display: none;
 float: right; 
-padding: 20px;
+padding: 1.25rem;
+padding-right: 0;
 cursor: pointer; 
 }
 #nav_btn span, #nav_btn span::before, #nav_btn span::after{ 
@@ -450,6 +438,9 @@ position: absolute;
 #nav_btn span::before{ top: -8px; }
 #nav_btn span::after{ bottom: -8px; } 
 
+.contactheader{
+    margin-top: 2rem;
+}
 
 @media screen and (max-device-width: 840px)
 {
@@ -463,7 +454,14 @@ position: absolute;
 }
 @media screen and (max-device-width: 500px)
 {   body{}
-    #work .description .desc {margin-bottom: 2rem;}
+    #work .description .desc {margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.6rem;    
+    }
+    #contact .contactdesc{
+        width: 75vw;
+
+    }
     #work .section{display: block;}
 
     .group{
@@ -477,7 +475,7 @@ position: absolute;
         margin: auto;
     } 
     #work .section{
-        height: 80vh;
+        height: 98vh;
     }
 
     #HI{
@@ -511,6 +509,7 @@ position: absolute;
         #navbar .logo {
         width: 50%;
         margin-top: 0;
+        left: -1.25em;
     }
 
     .main .header{
@@ -521,6 +520,13 @@ position: absolute;
     }
     .scroll-downs{
         top: 34rem;
+    }
+
+    #contact .contactheader{
+        padding-top: 12rem;
+        margin-top: 0;
+        position: relative;
+        top: 0;
     }
 }
 
