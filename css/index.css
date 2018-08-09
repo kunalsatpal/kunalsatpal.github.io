@@ -624,7 +624,9 @@ position: absolute;
 }
 @media screen and (max-device-width: 580px)
 {   k{}
-    
+    #home{
+    background: radial-gradient(800px at 61.43% 20%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
+    }   
     .pictures{
     text-align: center;
     height: 8em !important;
