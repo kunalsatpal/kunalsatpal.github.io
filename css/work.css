@@ -444,16 +444,20 @@ position: absolute;
 
 @media screen and (max-device-width: 840px)
 {
-   k{}
+
    #nav_btn{
         display: block;
     }
     .group{
         display: none;
-    }    
+    }
 }
 @media screen and (max-device-width: 500px)
 {   k{}
+
+    .line{
+        width: 50vw;
+    }
     #work .description .desc {margin-bottom: 2rem;
     font-size: 1rem;
     line-height: 1.6rem;    

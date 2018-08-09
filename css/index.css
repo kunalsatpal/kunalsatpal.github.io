@@ -347,7 +347,7 @@ nav a{
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     text-align: center;
     letter-spacing: 0.02em;
     color: #0A0A0D;
@@ -359,7 +359,7 @@ nav a{
     margin: 0 auto;
     margin-top: 2.5em; 
     width: 50vw;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 2.4375rem;
     color: #0A0A0D;
     opacity: 0.5;
@@ -507,7 +507,16 @@ position: absolute;
     }    
 }
 @media screen and (max-device-width: 840px)
-{   k{}
+{
+    k{}
+   #about {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 24vh;
+    position: relative;
+    bottom: 0;
+}
     #work .description .desc {margin-bottom: 2rem;
     font-size: 1rem;
     line-height: 1.6rem;    
@@ -624,6 +633,14 @@ position: absolute;
 }
 @media screen and (max-device-width: 580px)
 {   k{}
+    .line{
+        width: 65vw;
+        margin-left: auto;
+        margin-right: auto;
+        left:0;
+        right:0;
+        margin-top: 2.5rem;
+    }
     #home{
     background: radial-gradient(800px at 61.43% 20%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
     }   
@@ -646,6 +663,11 @@ position: absolute;
 #empty{
     width: 90%;
     height: 5rem;
+}
+#contact{
+    background: url(../images/bottom.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 }
 @media screen and (max-device-width: 420px)
