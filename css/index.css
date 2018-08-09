@@ -526,6 +526,7 @@ position: absolute;
     }
     #aboutsection #about{
     display: block;
+    top: 3rem;
     text-align: center;
     width: 100%;
     margin: auto;
@@ -533,9 +534,14 @@ position: absolute;
     position: relative;
     /* height: 7.125em; */
     /* z-index: 3; */
-}   
+} 
+
+#about{
+    text-align: center;
+}  
 #aboutsection #aboutmeheader {
     display: block;
+    padding-bottom: 0rem !important;
 }
 #aboutsection #aboutmedesc {
     display: block;
@@ -567,7 +573,7 @@ position: absolute;
     position: relative;
     left:0;
     right:0;
-    margin-top: 7rem;
+    margin-top: 10rem;
     top:0;
 }
 .peoplepics{
@@ -587,9 +593,14 @@ position: absolute;
     padding-top: 1rem   ;
     margin: auto;
 }
+#aboutmeheader{
+       display: block !important;
+    padding-bottom: 1.5rem !important;
+}
 .row{
     margin: auto !important;
     padding-top: .5rem !important;
+    width: 90% !important;
 }
 .element1 {
     height: 11rem;
@@ -611,3 +622,55 @@ position: absolute;
     text-align: center;
 }
 }
+@media screen and (max-device-width: 580px)
+{   k{}
+    
+    .pictures{
+    text-align: center;
+    height: 8em !important;
+}
+.element1 {
+    height: 8rem;
+    margin-top: 2rem;
+    margin-left: 0;
+    left: 0;
+} 
+ .element2 {
+    height: 8rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    left: 0;
+}
+#empty{
+    width: 90%;
+    height: 5rem;
+}
+}
+@media screen and (max-device-width: 420px)
+{   k{}
+    
+    .pictures{
+    text-align: center;
+    height: 8em !important;
+}
+.element1 {
+    height: 6rem;
+    margin-top: 2rem;
+    margin-left: 0;
+    left: 0;
+} 
+ .element2 {
+    height: 6rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    left: 0;
+}
+#empty{
+    width: 90%;
+    height: 5rem;
+}
+}
+
+
+
+
