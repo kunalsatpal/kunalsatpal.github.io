@@ -191,8 +191,8 @@ nav a{
 
 }
 .worklogos{
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 4em;
     left: 44%;
@@ -369,7 +369,7 @@ nav a{
     font-size: 1.5rem;
     letter-spacing: 0.1em;
     color: #78BEFF;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 .contactemail img{
     width: 1.875rem;
@@ -468,3 +468,146 @@ nav a{
 }
 /*media queries*/
 
+#nav_btn{ 
+display: none;
+float: right; 
+padding: 1.25rem;
+padding-right: 0;
+cursor: pointer; 
+}
+#nav_btn span, #nav_btn span::before, #nav_btn span::after{ 
+width: 28px; 
+height: 4px; 
+float: left; 
+display: block; 
+background: #000; 
+position: relative; 
+text-indent: -9000px; 
+}
+#nav_btn span{ margin: 8px 0; }
+#nav_btn span::before, #nav_btn span::after{ 
+content: ''; 
+position: absolute;
+}
+#nav_btn span::before{ top: -8px; }
+#nav_btn span::after{ bottom: -8px; } 
+
+.contactheader{
+    margin-top: 2rem;
+}
+
+@media screen and (max-device-width: 840px)
+{
+   k{}
+   #nav_btn{
+        display: block;
+    }
+    .group{
+        display: none;
+    }    
+}
+@media screen and (max-device-width: 840px)
+{   k{}
+    #work .description .desc {margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.6rem;    
+    }
+    #contact .contactdesc{
+        width: 75vw;
+    }
+    .group{
+        display: none;
+    }
+    #nav_btn{
+        display: block;
+    }
+    #me{
+        display: none;
+    }
+    #aboutsection #about{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    /* margin-top: 4rem; */
+    position: relative;
+    /* height: 7.125em; */
+    /* z-index: 3; */
+}   
+#aboutsection #aboutmeheader {
+    display: block;
+}
+#aboutsection #aboutmedesc {
+    display: block;
+    margin-top: .9rem;
+}
+.worklogos {
+
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 620px;
+    left:0;
+    right:0 ;
+    top:0;
+    float: none;
+    margin: auto !important;
+    margin-top: 8rem !important;
+
+}
+
+.fun{
+    top: 5rem !important;
+
+}
+.funimage{
+    width:95%;
+    display: block;
+    margin: auto;
+    position: relative;
+    left:0;
+    right:0;
+    margin-top: 7rem;
+    top:0;
+}
+.peoplepics{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+.large{
+    top:0;
+}
+.call{
+    width: 100%;
+    text-align: center;
+}
+#peoplematter{
+    padding-top: 1rem   ;
+    margin: auto;
+}
+.row{
+    margin: auto !important;
+    padding-top: .5rem !important;
+}
+.element1 {
+    height: 11rem;
+    margin-top: 2rem;
+    margin-left: 0;
+    left: 0;
+} 
+ .element2 {
+    height: 11rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    left: 0;
+} 
+.pictures{
+    text-align: center;
+    height: 12em !important;
+}
+#photo{
+    text-align: center;
+}
+}

@@ -444,7 +444,7 @@ position: absolute;
 
 @media screen and (max-device-width: 840px)
 {
-   body{}
+   k{}
    #nav_btn{
         display: block;
     }
@@ -453,7 +453,7 @@ position: absolute;
     }    
 }
 @media screen and (max-device-width: 500px)
-{   body{}
+{   k{}
     #work .description .desc {margin-bottom: 2rem;
     font-size: 1rem;
     line-height: 1.6rem;    
@@ -527,6 +527,11 @@ position: absolute;
         margin-top: 0;
         position: relative;
         top: 0;
+    }
+    #home{
+    background: url(../images/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 }
 
