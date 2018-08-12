@@ -396,6 +396,11 @@ nav a{
     text-align: center;
     position: relative;
 }
+.icons{
+    min-width: 20.5rem;
+    margin: auto;
+    height: 1.375rem;
+}
 #footer .icons{
     position: absolute;
     top: 3.25rem;

@@ -16,9 +16,7 @@
 }
 
 /* Custom CSS */
-#home{
-    overflow: hidden;
-    position: relative;
+#home{    position: relative;
     height: 50em;
     background: url('../images/work_background.svg');
     z-index: 2;
@@ -108,8 +106,18 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     margin-bottom: 6.9375rem;
 }
 
-
-
+#icon{
+    margin: auto;
+    margin-left: 2rem;
+    margin-top:.6rem;
+    height: 1.8rem;
+}
+#button a{
+    float: left;
+}
+#dribble{
+    width:20%;
+}
 /* Mouse Scroller */
 .scroll-downs {
     position: absolute;
@@ -413,6 +421,35 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     margin: auto;
 
 }
+#text{
+    width: 65%;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin: auto;
+    margin-top: 1rem;
+    color: #666666;
+
+}
+#article_heading{
+    width: 65%;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin: auto;
+    margin-top: .1rem;
+    margin-left: 1.2rem   ;
+    color: #666666;
+
+}
+#text2{
+    width: 65%;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    color: #666666;
+
+}
 
 #nav_btn{ 
 display: none;
@@ -540,3 +577,106 @@ position: absolute;
 }
 
 
+.heading{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #222222;
+}
+.subheading{
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #222222;
+}
+
+li{
+    margin: .75rem;
+}
+
+#cover {
+    text-align: center;
+}
+#cover2 {
+    text-align: center;
+}
+#cover img{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width:66vw;
+    overflow: hidden;
+}
+#cover2 img{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width:40vw;
+    overflow: hidden;
+}
+
+#cover3{
+    text-align: center;
+}
+#cover3 img{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width:40vw;
+    display: inline;
+    overflow: hidden;
+}
+
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #eeeeee;
+}
+
+#branding2 img{
+    display:inline;
+    width: 25% !important;
+    margin-top: 0 !important;;
+}
+.article:hover {
+    opacity: 1;
+
+}
+.center {
+    margin:auto;
+}
+.article {
+    display: inline-flex;
+    width: 48%;
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: .8;
+}
+.article img{
+    width: 100%;
+}
+.article_heading{
+    font-size: 1.75rem;
+    font-color: #222;
+
+}
+.article_image{
+    margin:2rem;
+}
+
+#thanks{
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    width: 25%;
+}
+.float {
+position: fixed;
+left: 17rem;
+top: 5.9rem;
+transition: all 0.2s ease-in 0s;//this is the key attribute
+z-index: 9999;
+cursor: pointer;
+}
