@@ -605,7 +605,8 @@ li{
     text-align: center;
     margin: auto;
     margin-top: 2rem;
-    width:66vw;
+    width:72vw;
+    max-width:1100px;
     overflow: hidden;
 }
 #cover2 img{
@@ -674,8 +675,8 @@ hr {
 }
 .float {
 position: fixed;
-left: 17rem;
-top: 5.9rem;
+float: left;
+margin-left: -2.1rem;
 transition: all 0.2s ease-in 0s;//this is the key attribute
 z-index: 9999;
 cursor: pointer;

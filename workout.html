@@ -25,6 +25,7 @@
 </head>
 <body>
     <div id="home">
+    	<div style="height:80px;">
         <nav id="navbar">
             <div class="parent">
             <a id="nav_btn"><span>Toggle Menu</span></a>
@@ -39,7 +40,8 @@
                 </li>
             </div>
         </nav>
-    <div class="float"><img src="./images/back.svg"></div>     
+        </div>
+   	<div class="parent"><div class="float"><img src="./images/back.svg"></div></div>     
     <div class="parent">
     
     	<div id="cover"><img src="./images/workout_cover.png"></div>
@@ -175,6 +177,13 @@ Tabs in the lower navigation were decided according to their hierarchical import
               }
             });
         });
+        $(document).on("scroll",function(){
+        if($(document).scrollTop()>150){
+            $(".nav-placeholder").height($("#navbar ").outerHeight());
+        } else {
+            $(".nav-placeholder").height(0);
+        }
+    });
         </script>
        
 </body>
