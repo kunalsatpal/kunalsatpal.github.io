@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- Full Page js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/easings.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/scrolloverflow.js"></script>
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/work.css" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+
     <!--End-->
 </head>
 <body>
@@ -48,12 +50,12 @@
                 A growing <b>Product and Experience designer</b>, fueled and driven by real world challenges with a passion of finding smart solutions to some difficult design problems.
             </div>
    
-            MY WORKS
+            <a href="#" class="scroll_down">MY WORKS
             <div class="scroll-downs">
                 <div class="mousey">
                   <div class="scroller"></div>
                 </div>
-              </div>
+            </div></a>
         </div>
         </div>
       </div>
@@ -139,6 +141,11 @@
               }
             });
         });
+
+    $('.scroll_down').click (function() {
+      $('html, body').animate({scrollTop: $('#work').offset().top }, 'slow');
+      return false;
+    });
         </script>
        
 </body>
