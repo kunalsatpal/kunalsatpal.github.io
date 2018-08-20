@@ -17,7 +17,7 @@
 
 /* Custom CSS */
 #home{    position: relative;
-    height: 50em;
+    height: 55em;
     background: url('../images/work_background.svg');
     z-index: 2;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     font-style: normal;
     /* overflow: hidden; */
     margin: auto;
-    top: 14rem;
+    top: 18rem;
     width: 85vw;
     /* top: 9.25rem; */
 
@@ -102,7 +102,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     width: 100%;
     height: 7.875rem;
     margin: 0 auto;
-    margin-top: 2.375rem;
+    margin-top: 1.375rem;
     margin-bottom: 8rem;
 }
 
@@ -139,6 +139,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     box-sizing: content-box;
   }
   .scroller {
+    margin-left: -.5px;
     width: 3px;
     height: 10px;
     border-radius: 25%;
@@ -318,16 +319,16 @@ a:hover{
     color: #ffffff;
     opacity: 0.5;
 }
-#contact .contactemail a{
+#footer .contactemail a{
     color: #ffffff !important;
 
 }
-#contact .contactemail{
+#footer .contactemail{
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 0.1em;
     color: #ffffff !important;
-    margin-top: 3rem;
+
 }
 .contactemail img{
     width: 2rem;
@@ -367,10 +368,7 @@ a:hover{
     border: 1px solid #ffffff;
     transform: matrix(1, 0, 0, 1, 0, 0);
     margin: 0 auto;
-    position: absolute;
-    top: 4em;
-    left: 50vw;
-    margin-left: -15.9375rem;
+    margin-top: 3rem;
 }
 
 /*Footer*/
@@ -404,11 +402,7 @@ a:hover{
     opacity: 0.3;
     border: 1px solid white;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    margin: 0 auto;
-    position: absolute;
-    top: 3.25sem;
-    left: 50vw;
-    margin-left: -15.9375rem;
+   
 }
 
 #dribble{
@@ -497,7 +491,9 @@ position: absolute;
 }
 @media screen and (max-device-width: 500px)
 {   k{}
-
+    #footer .contactemail {
+        margin-top: -4rem;
+    }
     .line{
         width: 50vw;
     }
@@ -694,4 +690,11 @@ margin-left: -2.1rem;
 transition: all 0.2s ease-in 0s;//this is the key attribute
 z-index: 9999;
 cursor: pointer;
+}
+
+#footer .contactemail a{
+    font-size: 1.2rem;
+}
+#footer .contactemail img{
+    width: 1.2rem;
 }
