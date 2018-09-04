@@ -273,6 +273,7 @@ a:hover{
     text-align: center;
     background-color: #78BEFF;
     color: white;
+    cursor: pointer;
 }
 #work image{
     position: absolute;
@@ -580,6 +581,7 @@ position: absolute;
 
 
 .heading{
+    font-family: Noto Sans;
     font-size: 2.25rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -587,6 +589,7 @@ position: absolute;
     color: #222222;
 }
 .heading2{
+    font-family: Noto Sans;
     font-size: 2.25rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -595,6 +598,7 @@ position: absolute;
     color: #222222;
 }
 .subheading{
+    font-family: Noto Sans;
     font-size: 1.75rem;
     font-weight: bold;
     margin-bottom: 2rem;
