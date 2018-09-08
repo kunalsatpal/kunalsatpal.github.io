@@ -630,6 +630,20 @@ li{
     width:40vw;
     overflow: hidden;
 }
+#cover5{
+    position: inline;
+}
+#cover5 #img{
+    float: left;
+    margin-top: 2rem;
+    width:34vw;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+#cover5 img{
+    width:34vw;
+    
+}
 
 #cover3{
     text-align: center;
@@ -642,8 +656,16 @@ li{
     display: inline;
     overflow: hidden;
 }
-
-
+#cover4{
+    text-align: center;
+}
+#cover4 img{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width:100vw;
+    overflow: hidden;
+}
 hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -701,4 +723,13 @@ cursor: pointer;
 }
 #footer .contactemail img{
     width: 1.2rem;
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2em;
+    width:100px;
+}
+b{
+    color: #333333;
 }
