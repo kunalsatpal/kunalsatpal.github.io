@@ -643,6 +643,7 @@ li{
 }
 #cover5 img{
     width:34vw;
+    max-width: 490px;
     
 }
 
