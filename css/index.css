@@ -286,7 +286,7 @@ nav a{
     vertical-align: middle;
 }
 
-.peoplepicdiv .empty{
+.peoplepicdiv .{
     box-sizing: border-box;
     display: inline-flex;
     vertical-align: middle;
@@ -307,7 +307,7 @@ nav a{
     color: #78BEFF;
 
 }
-#empty{
+.empty{
     box-sizing: border-box;
     display: inline-flex;
     vertical-align: middle;
@@ -326,6 +326,10 @@ nav a{
     line-height: 1.75em;
     font-size: 1.125em;
     color: #78BEFF;
+}
+
+.empty a {
+    border:none;
 }
 
 /* Contact Part */
@@ -368,8 +372,8 @@ nav a{
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 0.1em;
-    color: #78BEFF;
-    margin-top: .5rem;
+    color: #78BEFF !important;
+    margin-top: 2.4rem;
 }
 .contactemail img{
     width: 1.875rem;
@@ -390,7 +394,7 @@ a:hover{
     transform: matrix(1, 0, 0, 1, 0, 0);
     margin: 0 auto;
     position: absolute;
-    top: 32.4375em;
+    top: 34.4375em;
     left: 50vw;
     margin-left: -15.9375rem;
 }
@@ -671,7 +675,7 @@ position: absolute;
     margin-left: 0rem;
     left: 0;
 }
-#empty{
+.empty{
     width: 90%;
     height: 5rem;
 }
@@ -700,7 +704,7 @@ position: absolute;
     margin-left: 0rem;
     left: 0;
 }
-#empty{
+.empty{
     width: 90%;
     height: 5rem;
 }
