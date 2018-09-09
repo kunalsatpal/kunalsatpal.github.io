@@ -102,8 +102,8 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     width: 100%;
     height: 7.875rem;
     margin: 0 auto;
-    margin-top: 1.375rem;
-    margin-bottom: 8rem;
+    margin-top: 2vh;
+    margin-bottom: 12vh;
 }
 
 #icon{
@@ -121,7 +121,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
 /* Mouse Scroller */
 .scroll-downs {
     position: absolute;
-    top: 28.687rem;
+    top: 16vh;
     right: 0;
     bottom: 0;
     left: 0;
@@ -434,6 +434,7 @@ a:hover{
 }
 #article_heading{
     width: 65%;
+    font-family: Noto Sans;
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin: auto;
@@ -722,7 +723,7 @@ cursor: pointer;
 }
 
 #footer .contactemail a{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 #footer .contactemail img{
     width: 1.8rem;
