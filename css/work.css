@@ -432,6 +432,10 @@ a:hover{
     font-family: 'pt-serif';
 
 }
+
+table {
+    font-family: Noto Sans;
+} 
 #article_heading{
     width: 65%;
     font-family: Noto Sans;
