@@ -258,6 +258,7 @@ a:hover{
 #work .description .odd-button{
     font-family: Noto Sans;
     font-style: normal;
+    width: 100%;
     font-weight: normal;
     line-height: 1.3125rem;
     font-size: 0.875rem;
@@ -266,6 +267,7 @@ a:hover{
 }
 #work .description .even-button{
     font-family: Noto Sans;
+    width: 100%;
     font-style: normal;
     font-weight: normal;
     line-height: 1.3125rem;
