@@ -17,7 +17,7 @@
 
 /* Custom CSS */
 #home{    position: relative;
-    height: 55em;
+    height: 100vh;
     background: url('../images/work_background.svg');
     z-index: 2;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     font-style: normal;
     /* overflow: hidden; */
     margin: auto;
-    top: 30vh;
+    top: 35vh;
     width: 85vw;
     /* top: 9.25rem; */
 
