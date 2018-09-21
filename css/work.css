@@ -77,7 +77,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     font-style: normal;
     /* overflow: hidden; */
     margin: auto;
-    top: 18rem;
+    top: 30vh;
     width: 85vw;
     /* top: 9.25rem; */
 
@@ -338,7 +338,7 @@ a:hover{
     vertical-align: middle;
 }
 .grey{
-    margin-top: 4em;
+    margin-top: 2rem;
     text-align: center;
     font-family: Noto Sans;
     font-style: normal;
@@ -370,6 +370,33 @@ a:hover{
     transform: matrix(1, 0, 0, 1, 0, 0);
     margin: 0 auto;
     margin-top: 3rem;
+}
+
+.burger {
+    margin-top: .4em;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 2.4rem;
+    height: .32rem;
+    background-color: #333;
+    margin: .36rem 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-11px, .36rem);
+    transform: rotate(-45deg) translate(-10px, .36rem);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 /*Footer*/
@@ -487,8 +514,10 @@ position: absolute;
 }
 
 @media screen and (max-device-width: 840px)
-{
-
+{   
+    .burger{
+        display: inline-block;
+    }
    #nav_btn{
         display: block;
     }
@@ -498,6 +527,13 @@ position: absolute;
 }
 @media screen and (max-device-width: 500px)
 {   k{}
+
+#work{
+    margin-bottom: 2rem;
+}
+.burger{
+        display: inline-block;
+    }
     #footer .contactemail {
         margin-top: -4rem;
     }
@@ -525,7 +561,9 @@ position: absolute;
         margin: auto;
     } 
     #work .section{
-        height: 98vh;
+        min-height: 98vh;
+        height: auto;
+        overflow: -webkit-paged-y;
     }
 
     #HI{
@@ -567,10 +605,9 @@ position: absolute;
     }
     .main .desc{
         margin-bottom: 10rem;
+        font-size: 1.36rem;
     }
-    .scroll-downs{
-        top: 34rem;
-    }
+    
 
     #contact .contactheader{
         padding-top: 12rem;
@@ -744,3 +781,5 @@ b{
 .ui.small.table{
     font-size: .8em;
 }
+}
+
