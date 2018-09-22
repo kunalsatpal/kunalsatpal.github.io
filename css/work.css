@@ -292,7 +292,7 @@ a:hover{
 #contact{
     margin-top: 0em;
     padding: 0;
-    width: 100vw;
+    
     height: auto;
     position: relative;
     background: url('../images/contact_dark.svg');
@@ -531,6 +531,13 @@ position: absolute;
 }
 @media screen and (max-device-width: 500px)
 {   k{}
+
+.contactemail a img{
+    display: none;
+}
+.contactemail a{
+    font-size: 1.2rem;
+}
 
 .scroll_down{
     display: none;
@@ -771,9 +778,7 @@ z-index: 9999;
 cursor: pointer;
 }
 
-#footer .contactemail a{
-    font-size: 1.6rem;
-}
+
 #footer .contactemail img{
     width: 1.8rem;
 }
