@@ -579,7 +579,7 @@ position: absolute;
     width: 72rem !important; 
 }
 #text{
-    width: 92%;
+    width: 96%;
     font-size: 1.1rem;
 }
 #cover img{
@@ -601,9 +601,32 @@ position: absolute;
     font-size: 1.2rem;
 }
 
-.scroll_down{
+.hide{
     display: none;
 }
+.scroll-downs{
+    display: block;
+}
+.mousey{
+    border-radius: 4px;
+}
+.scroller{
+    margin-left: -1.5px;
+    width: 5px;
+    height: 7px;
+    border-radius: 25%;
+    background-color: #222222;
+    animation-name: scroll;
+    /* transform: rotate(90deg); */
+    animation-duration: 1.2s;
+    /* transform: rotate(90deg); */
+    animation-timing-function: cubic-bezier(0.68, 0.04, 1, 1);
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    /* -webkit-transform: rotate(-45deg) translate(-9px, .36rem); */
+    /* transform: rotate(90deg); */
+}
+
 #work{
     margin-bottom: 2rem;
 }

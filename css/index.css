@@ -19,7 +19,7 @@
 #home{
     overflow: hidden;
     position: relative;
-    height: 90vh;
+    height: 72vh;
     z-index: 2;
     background: radial-gradient(1088.88px at 67.43% 75.47%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
 }
@@ -768,6 +768,10 @@ position: absolute;
 
 
 @media screen and (max-device-width: 500px){
+#home{
+    height: 90vh;
+}
+
 #navbar .logo {
     min-width: 180px !important;
     width: 50%;
