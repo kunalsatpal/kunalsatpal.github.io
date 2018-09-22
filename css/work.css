@@ -17,7 +17,9 @@
 
 /* Custom CSS */
 #home{    position: relative;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
+
     background: url('../images/work_background.svg');
     z-index: 2;
     background-repeat: no-repeat;
@@ -291,7 +293,7 @@ a:hover{
     margin-top: 0em;
     padding: 0;
     width: 100vw;
-    height: 32em;
+    height: auto;
     position: relative;
     background: url('../images/contact_dark.svg');
     background-repeat: no-repeat;
@@ -299,8 +301,7 @@ a:hover{
     text-align: center;
 }
 #contact .contactheader{
-    position: absolute;
-    top: 20rem;
+    padding-top: 23vh;
     margin: 0 auto;
     font-family: Noto Sans;
     font-style: normal;
@@ -327,6 +328,7 @@ a:hover{
 
 }
 #footer .contactemail{
+    padding-top: 5vh;
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 0.1em;
@@ -530,6 +532,9 @@ position: absolute;
 @media screen and (max-device-width: 500px)
 {   k{}
 
+.scroll_down{
+    display: none;
+}
 #work{
     margin-bottom: 2rem;
 }
@@ -537,7 +542,7 @@ position: absolute;
         display: inline-block;
     }
     #footer .contactemail {
-        margin-top: -4rem;
+        
     }
     .line{
         width: 50vw;
@@ -548,6 +553,7 @@ position: absolute;
     }
     #contact .contactdesc{
         width: 75vw;
+        font-size: 1.25rem;
 
     }
     #work .section{display: block;}
@@ -612,7 +618,7 @@ position: absolute;
     
 
     #contact .contactheader{
-        padding-top: 12rem;
+        
         margin-top: 0;
         position: relative;
         top: 0;
