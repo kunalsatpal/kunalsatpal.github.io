@@ -323,7 +323,7 @@ a:hover{
     text-align: center;
 }
 #contact .contactheader{
-    padding-top: 23vh;
+    padding-top: 40vh;
     margin: 0 auto;
     font-family: Noto Sans;
     font-style: normal;
@@ -352,7 +352,7 @@ a:hover{
 #footer .contactemail{
     padding-top: 5vh;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: 0.1em;
     color: #ffffff !important;
 
@@ -428,7 +428,7 @@ a:hover{
 /*Footer*/
 #footer{
     width: 100vw;
-    height: 18rem;
+    height: 22rem;
     text-align: center;
     position: relative;
     background: #78BEFF;
@@ -710,7 +710,7 @@ position: absolute;
     
 
     #contact .contactheader{
-        
+        padding-top: 23vh;
         margin-top: 0;
         position: relative;
         top: 0;
@@ -738,7 +738,7 @@ li{
 #cover img{
     text-align: center;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: .5rem;
     width:72vw;
     max-width:1100px;
     overflow: hidden;
