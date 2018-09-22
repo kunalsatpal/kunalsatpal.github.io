@@ -19,7 +19,7 @@
 #home{
     overflow: hidden;
     position: relative;
-    height: 38.4375em;
+    height: 90vh;
     z-index: 2;
     background: radial-gradient(1088.88px at 67.43% 75.47%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
 }
@@ -30,6 +30,33 @@
 }
 #navbar .logo{
     left: -2.25em;
+}
+
+.burger {
+    margin-top: .4em;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 2.4rem;
+    height: .32rem;
+    background-color: #333;
+    margin: .36rem 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, .36rem);
+    transform: rotate(-45deg) translate(-9px, .36rem);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-9px, -.36rem);
+    transform: rotate(45deg) translate(-9px, -.36rem);
 }
 nav{
     transition-duration: 0.5s;
@@ -281,8 +308,8 @@ nav a{
 }
 .pictures{
     height: 14em !important;
-    margin-right: 1em;
-    margin-top: 1em;
+    margin-right: .5em;
+    margin-top: .7em;
     vertical-align: middle;
 }
 
@@ -324,12 +351,13 @@ nav a{
     font-style: normal;
     font-weight: bold;
     line-height: 1.75em;
-    font-size: 1.125em;
+    font-size: 1.0rem;
     color: #78BEFF;
 }
 
 .empty a {
     border:none;
+    margin-top: .2rem;
 }
 
 /* Contact Part */
@@ -345,16 +373,15 @@ nav a{
     text-align: center;
 }
 #contact .contactheader{
-    position: absolute;
-    top: 14.8125rem;
+        padding-top: 23vh;
     margin: 0 auto;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #0A0A0D;
+    color: #222222;
     width: 100vw;
 }
 #contact .contactdesc{
@@ -369,11 +396,11 @@ nav a{
     opacity: 0.5;
 }
 #contact .contactemail, a{
+    padding-top: 5vh;
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 0.1em;
     color: #78BEFF !important;
-    margin-top: 7vh;
 }
 .contactemail img{
     width: 1.875rem;
@@ -388,15 +415,12 @@ a:hover{
     color: #333;
 }
 .line{
-    width: 31.875rem;
+    width: 31.87rem;
     opacity: 0.3;
-    border: 1px solid #78BEFF;
+    border: 1px solid #78befe;
     transform: matrix(1, 0, 0, 1, 0, 0);
     margin: 0 auto;
-    position: absolute;
-    top: 34.4375em;
-    left: 50vw;
-    margin-left: -15.9375rem;
+    margin-top: 3rem;
 }
 
 /*Footer*/
@@ -413,7 +437,7 @@ a:hover{
 }
 #footer .icons{
     position: absolute;
-    top: 3.25rem;
+    top: 9rem;
     left: 50vw;
     min-width: 20.5rem;
     margin: auto;
@@ -514,6 +538,9 @@ position: absolute;
 @media screen and (max-device-width: 840px)
 {
    k{}
+   .burger{
+    display: block;
+   }
    #nav_btn{
         display: block;
     }
@@ -528,9 +555,13 @@ position: absolute;
     display: block;
     text-align: center;
     margin: 0 auto;
-    margin-top: 24vh;
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    bottom: 23vh;
+    max-width: 30rem;
+    width: 80vw;
 }
     #work .description .desc {margin-bottom: 2rem;
     font-size: 1rem;
@@ -538,6 +569,7 @@ position: absolute;
     }
     #contact .contactdesc{
         width: 75vw;
+        font-size: 1.25rem;
     }
     .group{
         display: none;
@@ -552,7 +584,8 @@ position: absolute;
     display: block;
     top: 3rem;
     text-align: center;
-    width: 100%;
+    width: 100% !important;
+    height: fit-content !important;
     margin: auto;
     /* margin-top: 4rem; */
     position: relative;
@@ -591,13 +624,13 @@ position: absolute;
 
 }
 .funimage{
-    width:95%;
+    width:100%;
     display: block;
     margin: auto;
     position: relative;
     left:0;
     right:0;
-    margin-top: 10rem;
+    margin-top: 11vh;
     top:0;
 }
 .peoplepics{
@@ -623,7 +656,7 @@ position: absolute;
 }
 .row{
     margin: auto !important;
-    padding-top: .5rem !important;
+    padding-top: 3vh !important;
     width: 90% !important;
 }
 .element1 {
@@ -648,6 +681,24 @@ position: absolute;
 }
 @media screen and (max-device-width: 580px)
 {   k{}
+
+#strow{
+    padding-top: 6vh
+}
+.contactemail a {
+    font-size: 1.2rem;
+}
+.contactemail a img{
+    display: none;
+}
+.line{
+    width: 50vw;
+    }
+    .contactheader{
+    margin-top: 0;
+    position: relative;
+    top: 0;
+}
     .line{
         width: 65vw;
         margin-left: auto;
@@ -690,7 +741,12 @@ position: absolute;
     
     .pictures{
     text-align: center;
-    height: 8em !important;
+    height: 7em !important;
+    width: 35vw;
+}
+
+#friend5, #friend4{
+    height: 9rem !important;
 }
 .element1 {
     height: 6rem;
@@ -708,7 +764,127 @@ position: absolute;
     width: 90%;
     height: 5rem;
 }
+}
 
+
+@media screen and (max-device-width: 500px){
+#navbar .logo {
+    min-width: 180px !important;
+    width: 50%;
+    margin-top: 0;
+    min-width: 100px;
+    left: -1.25em;
+}
+}
+        
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 46px;
+  width: 46px;
+}
+
+.menu-link {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.hamburger-icon {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 1px;
+}
+
+.hamburger-bar {
+  background-color: #ffffff;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.hamburger-bar-2 {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hamburger-bar-3 {
+  bottom: 0;
+}
+
+.menu.open .hamburger-bar-1 {
+  transform: translateY(7px) translateY(-50%) rotate(45deg);
+}
+
+.menu.open .hamburger-bar-2 {
+  opacity: 0;
+}
+
+.menu.open .hamburger-bar-3 {
+  transform: translateY(-7px) translateY(50%) rotate(-45deg);
+}
+
+.overlay {
+  background-color: #000000;
+  color: #fffff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 30;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.open {
+    background-color: #000000;
+  color: #fffff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: .9;
+  visibility: visible;
+}
+
+.open .link{
+    font-style: Noto Sans;
+    font-size: 1.5rem;
+    text-align: center;
+    opacity: 90%;
+    padding: 5vh;
+    color: #ffffff;
+}
+
+.open .link a{
+    color: #ffffff !important;
+    opacity: 80%
+}
+
+.open .link a:hover{
+    opacity: 100%;
 }
 
 

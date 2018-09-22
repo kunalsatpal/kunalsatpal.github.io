@@ -19,8 +19,6 @@
 #home{    position: relative;
     min-height: 100vh;
     height: auto;
-
-    background: url('../images/work_background.svg');
     z-index: 2;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,6 +114,30 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
 }
 #button a{
     float: left;
+}
+.heading{
+    font-family: Noto Sans;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #222222;
+}
+.heading2{
+    font-family: Noto Sans;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #222222;
+}
+.subheading{
+    font-family: Noto Sans;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #222222;
 }
 #dribble{
     width:20%;
@@ -392,15 +414,15 @@ a:hover{
 }
 
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-11px, .36rem);
-    transform: rotate(-45deg) translate(-10px, .36rem);
+    -webkit-transform: rotate(-45deg) translate(-9px, .36rem);
+    transform: rotate(-45deg) translate(-9px, .36rem);
 }
 
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-9px, -.36rem);
+    transform: rotate(45deg) translate(-9px, -.36rem);
 }
 
 /*Footer*/
@@ -532,6 +554,46 @@ position: absolute;
 @media screen and (max-device-width: 500px)
 {   k{}
 
+.article_image{
+    margin:1rem !important;
+}
+#article_heading{
+    font-size: 1.25rem;
+    margin-left: .4rem;
+    width: 100%;
+}
+#cover2 img{
+    width: 80vw !important;
+}
+.subheading{
+    font-size: 1rem;
+}
+#text ul{
+    padding-inline-start: 1rem;
+}
+#cover4{
+    width: 100vw;
+    overflow: scroll;
+}
+#cover4 img{
+    width: 72rem !important; 
+}
+#text{
+    width: 86%;
+    font-size: 1.25rem;
+}
+#cover img{
+    width: 86vw !important;
+    margin-top: 1rem !important;
+}
+.heading2{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.heading{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
 .contactemail a img{
     display: none;
 }
@@ -638,30 +700,7 @@ position: absolute;
 }
 
 
-.heading{
-    font-family: Noto Sans;
-    font-size: 2.25rem;
-    font-weight: bold;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    color: #222222;
-}
-.heading2{
-    font-family: Noto Sans;
-    font-size: 2.25rem;
-    font-weight: bold;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: #222222;
-}
-.subheading{
-    font-family: Noto Sans;
-    font-size: 1.75rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    color: #222222;
-}
+
 
 li{
     margin: .75rem;
@@ -794,5 +833,119 @@ b{
 .ui.small.table{
     font-size: .8em;
 }
+}
+
+  
+
+
+        
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 46px;
+  width: 46px;
+}
+
+.menu-link {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.hamburger-icon {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 1px;
+}
+
+.hamburger-bar {
+  background-color: #ffffff;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.hamburger-bar-2 {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hamburger-bar-3 {
+  bottom: 0;
+}
+
+.menu.open .hamburger-bar-1 {
+  transform: translateY(7px) translateY(-50%) rotate(45deg);
+}
+
+.menu.open .hamburger-bar-2 {
+  opacity: 0;
+}
+
+.menu.open .hamburger-bar-3 {
+  transform: translateY(-7px) translateY(50%) rotate(-45deg);
+}
+
+.overlay {
+  background-color: #000000;
+  color: #fffff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.open {
+    background-color: #000000;
+  color: #fffff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: .9;
+  visibility: visible;
+}
+
+.open .link{
+    font-style: Noto Sans;
+    font-size: 1.5rem;
+    text-align: center;
+    opacity: 90%;
+    padding: 5vh;
+    color: #ffffff;
+}
+
+.open .link a{
+    color: #ffffff;
+    opacity: 80%
+}
+
+.open .link a:hover{
+    opacity: 100%;
 }
 

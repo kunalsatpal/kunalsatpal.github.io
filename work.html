@@ -29,8 +29,12 @@
     <div id="home">
         <nav id="navbar">
             <div class="parent">
-                <a id="nav_btn"><span>Toggle Menu</span></a>
-                <li>
+                <div class="burger" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div>
+                                
                     <a href="./index.html" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
                     <span class="group">
                         <a href="./index.html" class="home"><span>HOME</span></a>
@@ -41,6 +45,14 @@
                 </li>
             </div>
         </nav>
+        
+        <div class="overlay">
+          <div class="link"><a href="./index.html">HOME</a></div>
+          <div class="link"><a href="./work.html">ABOUT</a></div>
+          <div class="link"><a href="https://drive.google.com/file/d/1VF_iPyTs-nFasMAhV8fCfj3RFTKCij96/view?usp=sharing" target="_blank">RESUME</a></div>
+          <div class="link"><a href="mailto:kunalsatpal1">CONTACT ME</a></div>
+        </div>
+
         <div class="parent">
         <div id="about" class="ui column grid">
             <div class="row" id="aboutmeheader">
@@ -93,7 +105,7 @@
             </div>
             
          <div class="parent">
-            <div id="1strow"> 
+            <div id="strow"> 
                     <div class="call"> 
                     <img src="./images/img.png" class="peoplepics large" id="peoplepics" data-tooltip="IMG Family" />
                     </div>
@@ -121,26 +133,37 @@
             </div>
            
         </div>    
-        <div id="contact">
-            <div class="contactheader">
-                <div>Say Hello</div>
-                <div class="contactdesc">I am available for freelance projects, remote work or just discussing design, feel free to ping me at</div>
-                <div class="contactemail"><a href="mailto:kunalsatpal1@gmail.com"><img src="./images/mailicon.png">kunalsatpal1@gmail.com</a></div>
-            </div>
-            <div class="line">
+        
+        <div> 
+          <div id="contact">
+              <div class="contactheader">
+                  <div>Say Hello</div>
+                  <div class="contactdesc">I am available for freelance projects, remote work or just discussing design, feel free to ping me at</div>
+                 <div id="footer">
+              <div class="contactemail"><a href="mailto:kunalsatpal1@gmail.com"><img src="./images/mailiconlight.png">kunalsatpal1@gmail.com</a></div>
+              <div class="line"></div>
+              <div class="icons">
+                  <a href="https://dribbble.com/kunalsatpal1" target="_blank"><img src="./images/dripple.svg" class="icon" id="dribble"></a>
+                  <a href="https://medium.com/@kunalsatpal1" target="_blank"><img src="./images/medium.svg" class="icon right" id="medium"></a>
+                  <a href="https://www.linkedin.com/in/kunalsatpal1/" target="_blank"><img src="./images/linkedin.svg" class="icon" id="linkedin"></a>
+              </div>
+          </div>
 
-            </div>
-        </div>
-        <div id="footer">
-            <div class="icons">
-                <a href="https://dribbble.com/kunalsatpal1"><img src="./images/dripple.svg" class="icon" id="dribble"></a>
-                <a href="https://medium.com/@kunalsatpal1"><img src="./images/medium.svg" class="icon right" id="medium"></a>
-                <a href="https://www.linkedin.com/in/kunalsatpal1/"><img src="./images/linkedin.svg" class="icon" id="linkedin"></a>
-            </div>
-        </div>
+
+              </div>
+         
+
+          </div>
+          </div>
 
         <script src="./js/index.js"></script>
         <script>
+        function myFunction(x) {
+    x.classList.toggle("change");
+
+    $(".overlay").toggleClass("open");
+
+    }
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 //options here
@@ -155,6 +178,7 @@
               }
             });
         });
+
         </script>
     
 </body>

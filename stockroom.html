@@ -29,19 +29,29 @@
 	<div id="home">
 		<div style="height:96px;">
 			<nav id="navbar">
-				<div class="parent">
-					<a id="nav_btn"><span>Toggle Menu</span></a>
-					<li>
-						<a href="./index.html" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
-						<span class="group">
-							<a href="./index.html" class="home"><span>HOME</span></a>
-							<a href="./work.html">ABOUT</a>
-							<a href="https://drive.google.com/file/d/1VF_iPyTs-nFasMAhV8fCfj3RFTKCij96/view?usp=sharing" target="_blank"><button class="ui basic button primary resume" id="primary">RESUME</button></a>
-							<a href="mailto:kunalsatpal1@gmail.com"><button class="ui button primary" id="primary">MAIL ME</button></a>
-						</span>
-					</li>
-				</div>
-			</nav>
+            <div class="parent">
+            <div class="burger" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div>
+                                
+                    <a href="./index.html" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
+                    <span class="group">
+                        <a href="./index.html" class="home"><span>HOME</span></a>
+                        <a href="./work.html">ABOUT</a>
+                        <a href="https://drive.google.com/file/d/1VF_iPyTs-nFasMAhV8fCfj3RFTKCij96/view?usp=sharing" target="_blank"><button class="ui basic button primary resume" id="primary">RESUME</button></a>
+                        <a href="mailto:kunalsatpal1@gmail.com"><button class="ui button primary" id="primary">MAIL ME</button></a>
+                    </span>
+                </li>
+            </div>
+        </nav>
+        <div class="overlay">
+          <div class="link"><a href="./index.html">HOME</a></div>
+          <div class="link"><a href="./work.html">ABOUT</a></div>
+          <div class="link"><a href="https://drive.google.com/file/d/1VF_iPyTs-nFasMAhV8fCfj3RFTKCij96/view?usp=sharing" target="_blank">RESUME</a></div>
+          <div class="link"><a href="mailto:kunalsatpal1">CONTACT ME</a></div>
+        </div>
 		</div>
 		
 		<div class="parent">
@@ -438,6 +448,12 @@
 		</div>
 		<script src="./js/index.js"></script>
 		<script>
+		function myFunction(x) {
+    x.classList.toggle("change");
+
+    $(".overlay").toggleClass("open");
+
+    }
 			$(document).ready(function () {
 				$('#fullpage').fullpage({
 					//options here
