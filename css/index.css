@@ -119,7 +119,7 @@ nav a{
     }
 #about{
     position: absolute;
-    bottom: 14em;
+    bottom: 13em;
     width: 100%;
     max-width: 440px;
     height: 7.125em;
@@ -534,10 +534,19 @@ position: absolute;
 .contactheader{
     margin-top: 2rem;
 }
+.circle_image img{
+    max-width: 144px;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: none; 
+}
 
 @media screen and (max-device-width: 840px)
 {
    k{}
+
    .burger{
     display: block;
    }
@@ -559,7 +568,7 @@ position: absolute;
     left: 0;
     right: 0;
     height: fit-content;
-    bottom: 23vh;
+    bottom: 14vh;
     max-width: 30rem;
     width: 80vw;
 }
@@ -653,6 +662,7 @@ position: absolute;
 #aboutmeheader{
        display: block !important;
     padding-bottom: 1.5rem !important;
+    padding-top:  0 !important;
 }
 .row{
     margin: auto !important;
@@ -681,7 +691,7 @@ position: absolute;
 }
 @media screen and (max-device-width: 580px)
 {   k{}
-
+}
 #strow{
     padding-top: 6vh
 }
@@ -768,6 +778,10 @@ position: absolute;
 
 
 @media screen and (max-device-width: 500px){
+
+.circle_image img{
+    display: block; 
+}
 #home{
     height: 90vh;
 }
