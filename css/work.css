@@ -1,6 +1,8 @@
 
 /* site variables*/
-
+#product{
+    color: #78BEFF;
+}
 #primary.button{
     background-color: #78BEFF !important; 
     font-size: 1.25em;
