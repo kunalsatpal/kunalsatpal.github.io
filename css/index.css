@@ -308,7 +308,7 @@ nav a{
 }
 .pictures{
     height: 14em !important;
-    margin-right: .5em;
+    margin-right: 1em;
     margin-top: .7em;
     vertical-align: middle;
 }
@@ -362,18 +362,18 @@ nav a{
 
 /* Contact Part */
 #contact{
-    margin: 0;
+    margin-top: 10vh;
     padding: 0;
-    width: 100vw;
-    height: 35em;
+    
+    height: auto;
     position: relative;
-    background: url('../images/gradient_bg.svg');
+    background: url('../images/contact_dark.svg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 #contact .contactheader{
-        padding-top: 23vh;
+    padding-top: 40vh;
     margin: 0 auto;
     font-family: Noto Sans;
     font-style: normal;
@@ -381,7 +381,7 @@ nav a{
     font-size: 2.75rem;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #222222;
+    color: #ffffff;
     width: 100vw;
 }
 #contact .contactdesc{
@@ -390,22 +390,27 @@ nav a{
     margin: 0 auto;
     margin-top: 2.5em; 
     width: 50vw;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 2.4375rem;
-    color: #0A0A0D;
+    color: #ffffff;
     opacity: 0.5;
 }
-#contact .contactemail, a{
+#footer .contactemail a{
+    color: #ffffff !important;
+
+}
+#footer .contactemail{
     padding-top: 5vh;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: 0.1em;
-    color: #78BEFF !important;
+    color: #ffffff !important;
+
 }
 .contactemail img{
-    width: 1.875rem;
-    height: 1.375rem;
-    margin-right: 0.5em;
+    width: 2rem;
+    margin-right: .8em;
+    letter-spacing: .02em;
     vertical-align: middle;
 }
 a{
@@ -426,18 +431,14 @@ a:hover{
 /*Footer*/
 #footer{
     width: 100vw;
-    height: 18rem;
+    height: 22rem;
     text-align: center;
     position: relative;
-}
-.icons{
-    min-width: 20.5rem;
-    margin: auto;
-    height: 1.375rem;
+    background: #78BEFF;
 }
 #footer .icons{
     position: absolute;
-    top: 9rem;
+    top: 10rem;
     left: 50vw;
     min-width: 20.5rem;
     margin: auto;
@@ -451,6 +452,14 @@ a:hover{
 }
 #footer .icons .right{
     margin: 0 5rem;
+}
+
+.line{
+    width: 31.875rem;
+    opacity: 0.3;
+    border: 1px solid white;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+   
 }
 #dribble{
     width: 33%;
@@ -560,6 +569,9 @@ position: absolute;
 @media screen and (max-device-width: 840px)
 {
     k{}
+    .pictures{
+        margin-right: .5em;
+    }
    #about {
     display: block;
     text-align: center;
@@ -691,7 +703,6 @@ position: absolute;
 }
 @media screen and (max-device-width: 580px)
 {   k{}
-}
 #strow{
     padding-top: 6vh
 }
@@ -720,39 +731,25 @@ position: absolute;
     #home{
     background: radial-gradient(800px at 61.43% 20%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
     }   
-    .pictures{
-    text-align: center;
-    height: 8em !important;
-}
-.element1 {
-    height: 8rem;
-    margin-top: 2rem;
-    margin-left: 0;
-    left: 0;
-} 
- .element2 {
-    height: 8rem;
-    margin-top: 2rem;
-    margin-left: 0rem;
-    left: 0;
-}
-.empty{
-    width: 90%;
-    height: 5rem;
-}
+
 #contact{
-    background: url(../images/bottom.svg);
+    background: url(../images/dark2.svg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-}
+}}
 @media screen and (max-device-width: 420px)
 {   k{}
     
+
+}
+
+
+@media screen and (max-device-width: 500px){
+
     .pictures{
     text-align: center;
     height: 7em !important;
-    width: 35vw;
+    width: auto;
 }
 
 #friend5, #friend4{
@@ -774,11 +771,6 @@ position: absolute;
     width: 90%;
     height: 5rem;
 }
-}
-
-
-@media screen and (max-device-width: 500px){
-
 .circle_image img{
     display: block; 
 }
