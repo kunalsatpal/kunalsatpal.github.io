@@ -413,12 +413,7 @@ nav a{
     letter-spacing: .02em;
     vertical-align: middle;
 }
-a{
-    color: #333;
-}
-a:hover{
-    color: #333;
-}
+
 .line{
     width: 31.87rem;
     opacity: 0.3;
