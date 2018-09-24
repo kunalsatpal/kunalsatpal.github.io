@@ -16,6 +16,9 @@
 }
 
 /* Custom CSS */
+#say_hello{
+    color: #78BEFF;
+}
 #home{
     overflow: hidden;
     position: relative;
@@ -413,9 +416,7 @@ nav a{
     letter-spacing: .02em;
     vertical-align: middle;
 }
-#say_hello{
-    color: #78BEFF;
-}
+
 .line{
     width: 31.87rem;
     opacity: 0.3;
