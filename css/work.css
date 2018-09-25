@@ -22,11 +22,18 @@
     min-height: 100vh;
     height: auto;
     z-index: 2;
-    background: url('../images/work_background.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#home2{    position: relative;
+    min-height: 100vh;
+    height: auto;
+    z-index: 2;
+    background: url('../images/work_background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .group{     float: right;     margin-top: 15px; } #navbar .logo{
 left: -2.25em;     min-width: 180px; } nav{     transition-duration:
 0.5s;     padding-top: 20px;     overflow: hidden;     display: flex;
