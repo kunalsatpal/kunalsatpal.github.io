@@ -550,6 +550,46 @@ position: absolute;
     display: none; 
 }
 
+@media screen and (max-device-width: 1230px)
+{
+    .pictures{
+        height: 13em !important;
+    }
+    .empty{
+        height: 13rem;
+    }
+    .element1, .element2{
+        height: 11%;
+    }
+}
+
+
+@media screen and (max-device-width: 1190px)
+{
+    .pictures{
+        height: 12em !important;
+    }
+    .empty{
+        height: 12rem;
+    }
+    .element1, .element2{
+        height: 10%;
+    }
+}
+@media screen and (max-device-width: 1060px)
+{
+    .pictures{
+        height: 10em !important;
+    }
+    .empty{
+        height: 10rem;
+    }
+    .element1, .element2{
+        height: 9%;
+    }
+}
+
+
 @media screen and (max-device-width: 840px)
 {
    k{}
