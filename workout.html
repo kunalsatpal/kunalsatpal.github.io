@@ -58,8 +58,12 @@
     	<div style="height:96px;">
         <nav id="navbar">
             <div class="parent">
-            <a id="nav_btn"><span>Toggle Menu</span></a>
-                <li>
+            <div class="burger" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div>
+                                
                     <a href="./" id="logo"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
                     <span class="group">
                         <a href="./" class="home"><span>HOME</span></a>
@@ -70,13 +74,20 @@
                 </li>
             </div>
         </nav>
-        </div>     
+        <div class="overlay">
+          <div class="link"><a href="./index.html">HOME</a></div>
+          <div class="link"><a href="./work.html">ABOUT</a></div>
+          <div class="link"><a href="/kunalsatpal_resume.pdf" target="_blank">RESUME</a></div>
+          <div class="link"><a href="mailto:kunalsatpal1">CONTACT ME</a></div>
+        </div>
+		</div>
+		  
     <div class="parent">
-    	<div class="heading2">Gym-On | Workout Trainer</div>
+    	<div class="heading2">GetSweat | Workout Trainer</div>
     	<div id="cover"><img src="./images/gymon.png"></div>
     	<div id="text">
 
-    	<div class="heading">Gym-On | Workout Trainer</div>
+    	<div class="heading">GetSweat | Workout Trainer</div>
     	<div class="subheading"> Internship with Cure.fit </div>
     	<hr></hr>
     	<b>Ever feel like you should manage time for your health, buy new workout pants and immediately regret your decision.</b><br><br>
@@ -196,9 +207,9 @@ Tabs in the lower navigation were decided according to their hierarchical import
               <div class="contactemail"><a href="mailto:kunalsatpal1@gmail.com"><img src="./images/mailiconlight.png">kunalsatpal1@gmail.com</a></div>
               <div class="line"></div>
               <div class="icons">
-                  <a href="https://dribbble.com/kunalsatpal1" target="_blank"><img src="./images/dripple.svg" class="icon" id="dribble"></a>
-                  <a href="https://medium.com/@kunalsatpal1" target="_blank"><img src="./images/medium.svg" class="icon right" id="medium"></a>
-                  <a href="https://www.linkedin.com/in/kunalsatpal1/" target="_blank"><img src="./images/linkedin.svg" class="icon" id="linkedin"></a>
+                  <a href="https://dribbble.com/kunalsatpal1" target="_blank"><img src="./images/dribblel.svg" class="icon" id="dribble"></a>
+                  <a href="https://medium.com/@kunalsatpal1" target="_blank"><img src="./images/mediuml.svg" class="icon right" id="medium"></a>
+                  <a href="https://www.linkedin.com/in/kunalsatpal1/" target="_blank"><img src="./images/linkedinl.svg" class="icon" id="linkedin"></a>
               </div>
           </div>
 
@@ -231,6 +242,14 @@ Tabs in the lower navigation were decided according to their hierarchical import
             $(".nav-placeholder").height(0);
         }
     });
+
+        function myFunction(x) {
+    x.classList.toggle("change");
+
+    $(".overlay").toggleClass("open");
+    $(".menu").toggleClass("open");
+
+  };
         </script>
        
 </body>

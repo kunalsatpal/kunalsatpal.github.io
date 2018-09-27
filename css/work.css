@@ -26,6 +26,13 @@
     background-size: cover;
 }
 
+#home3{    position: relative;
+    min-height: 100vh;
+    height: auto;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #home2{    position: relative;
     min-height: 100vh;
     height: auto;
