@@ -566,7 +566,7 @@ position: absolute;
     margin-top: 2rem;
 }
 
-@media screen and (max-device-width: 840px)
+@media screen and (max-width: 840px)
 {   
     .burger{
         display: inline-block;
@@ -578,7 +578,7 @@ position: absolute;
         display: none;
     }
 }
-@media screen and (max-device-width: 500px)
+@media screen and (max-width: 500px)
 {   k{}
 .circle_image img{
     display: block;

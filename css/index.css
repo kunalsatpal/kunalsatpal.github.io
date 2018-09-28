@@ -550,7 +550,7 @@ position: absolute;
     display: none; 
 }
 
-@media screen and (max-device-width: 1230px)
+@media screen and (max-width: 1230px)
 {
     .pictures{
         height: 13em !important;
@@ -564,7 +564,7 @@ position: absolute;
 }
 
 
-@media screen and (max-device-width: 1190px)
+@media screen and (max-width: 1190px)
 {
     .pictures{
         height: 12em !important;
@@ -576,7 +576,7 @@ position: absolute;
         height: 10%;
     }
 }
-@media screen and (max-device-width: 1060px)
+@media screen and (max-width: 1060px)
 {
     .pictures{
         height: 10em !important;
@@ -590,7 +590,7 @@ position: absolute;
 }
 
 
-@media screen and (max-device-width: 840px)
+@media screen and (max-width: 840px)
 {
    k{}
 
@@ -604,7 +604,7 @@ position: absolute;
         display: none;
     }    
 }
-@media screen and (max-device-width: 840px)
+@media screen and (max-width: 840px)
 {
     k{}
     .pictures{
@@ -739,7 +739,7 @@ position: absolute;
     text-align: center;
 }
 }
-@media screen and (max-device-width: 580px)
+@media screen and (max-width: 580px)
 {   k{}
 #strow{
     padding-top: 6vh
@@ -775,14 +775,14 @@ position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
 }}
-@media screen and (max-device-width: 420px)
+@media screen and (max-width: 420px)
 {   k{}
     
 
 }
 
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-width: 500px){
 
     .pictures{
     text-align: center;
