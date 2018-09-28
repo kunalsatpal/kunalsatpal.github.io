@@ -190,7 +190,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     box-sizing: content-box;
   }
   .scroller {
-    margin-left: -1.25px;
+    margin-left: -1.1px;
     width: 3px;
     height: 10px;
     border-radius: 25%;
