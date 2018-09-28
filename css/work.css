@@ -190,7 +190,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     box-sizing: content-box;
   }
   .scroller {
-    margin-left: -.5px;
+    margin-left: -1.25px;
     width: 3px;
     height: 10px;
     border-radius: 25%;
@@ -640,7 +640,7 @@ position: absolute;
     border-radius: 4px;
 }
 .scroller{
-    margin-left: -1.5px;
+    margin-left: -2.5px;
     width: 5px;
     height: 7px;
     border-radius: 25%;
