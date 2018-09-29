@@ -364,8 +364,9 @@ nav a{
 }
 
 /* Contact Part */
+
 #contact{
-    margin-top: 10vh;
+    margin-top: 2em;
     padding: 0;
     
     height: auto;
@@ -674,7 +675,7 @@ position: absolute;
     top:0;
     float: none;
     margin: auto !important;
-    margin-top: 8rem !important;
+    margin-top: 6rem !important;
 
 }
 
@@ -683,14 +684,17 @@ position: absolute;
 
 }
 .funimage{
-    width:100%;
+    width: 110%;
     display: block;
     margin: auto;
     position: relative;
-    left:0;
-    right:0;
-    margin-top: 11vh;
-    top:0;
+    left: -12px;
+    right: 0;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+
 }
 .peoplepics{
     position: relative;
@@ -741,6 +745,12 @@ position: absolute;
 }
 @media screen and (max-width: 580px)
 {   k{}
+#contact .contactheader {
+    padding-top: 23vh;
+    margin-top: 0;
+    position: relative;
+    top: 0;
+}
 #strow{
     padding-top: 6vh
 }
@@ -773,7 +783,7 @@ position: absolute;
 #contact{
     background: url(../images/dark2.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }}
 @media screen and (max-width: 420px)
 {   k{}
