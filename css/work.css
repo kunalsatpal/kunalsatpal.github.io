@@ -581,7 +581,7 @@ position: absolute;
     }
 }
 @media screen and (max-width: 500px)
-{   k{}
+{
 
 #home2{    position: relative;
     min-height: 100vh;
@@ -704,7 +704,7 @@ position: absolute;
     #work .section{
         min-height: 98vh;
         height: auto;
-        overflow: -webkit-paged-y;
+        overflow-y: -webkit-paged-x;
     }
 
     #HI{
@@ -1013,5 +1013,13 @@ b{
     opacity: 100%;
 }
 
+.clearfix {
+    overflow: auto;
+}
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
