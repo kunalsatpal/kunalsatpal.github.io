@@ -569,7 +569,9 @@ position: absolute;
 }
 
 @media screen and (max-width: 840px)
-{   
+{   .DN{
+    display: none;
+}
     .burger{
         display: inline-block;
     }
