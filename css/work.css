@@ -1,5 +1,9 @@
 
 /* site variables*/
+.card{
+    width: 120%;
+}
+
 #product{
     color: #78BEFF;
 }
@@ -16,7 +20,9 @@
        box-shadow: 0 0 0 1px #78BEFF inset !important;
        border-color: #eeeeee !important;
 }
-
+.BOBm{
+    display: none;
+}
 /* Custom CSS */
 #home{    position: relative;
     min-height: 100vh;
@@ -41,7 +47,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.bottom{
+    float: left; color: #ffffff; opacity: .6; font-family: Noto Sans; font-size: 1.2rem; padding-top: 2.2rem;
+}
+.b-icon{
+    float: right; padding-top: 1.2rem
+}
 
 .group{     float: right;     margin-top: 15px; } #navbar .logo{
 left: -2.25em;     min-width: 180px; } nav{     transition-duration:
@@ -149,7 +160,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     font-size: 2.25rem;
     font-weight: bold;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #222222;
 }
 .heading2{
@@ -165,7 +176,8 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     font-family: Noto Sans;
     font-size: 1.75rem;
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     color: #222222;
 }
 #dribble{
@@ -226,7 +238,7 @@ a:hover{
 }
 #work .section{
     width: 100vw;
-    height: 65vh;
+    height: 72vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,29 +260,30 @@ a:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 62.75rem;
+    max-width: 74.75rem;
     height: 21.8125rem;
-    width: 85%;
-    max-height: 349px;
+    width: 90%;
+    max-height: 347px;
 }
 #work .description{
-    width: 24.3125rem;
+    width: 43rem;
     height: 21.8125rem;
     max-width: 389px;
     max-height: 349px;
     display: flex;
     flex-direction: column;
+    margin-top: 7.4rem;
     justify-content: flex-start;
  
 }
 #work .description .header{
     text-align: left;
-    /*margin-top: 0.5em;*/
+    /* margin-top: 0.5em; */
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
-    line-height: 2.5rem;
-    font-size: 1.75rem;
+    line-height: 3rem;
+    font-size: 2.25rem;
     color: #222222;
     margin-bottom: 0.3125rem;
 }
@@ -278,17 +291,20 @@ a:hover{
     font-family: Noto Sans;
     font-style: normal;
     text-align: left;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.8125rem;
-    font-size: 1.25rem;    
+    font-size: 1.5rem;
+    letter-spacing: .02em;
     color: #999999;
-    margin-bottom: 1.625rem;
+    margin-bottom: 2.25rem;
+    margin-top: .75rem;
 }
 #work .description a{
     text-align: left;
     
 }
 #work .description .desc{
+    display: none;
     text-align: left;
     font-family: Noto Sans;
     font-style: normal;
@@ -304,9 +320,9 @@ a:hover{
     border-radius: 3px;
     background: transparent;
     width: 13.6875rem;
-    height: 3.0625rem;
+    height: 4.75em;
     max-width: 219px;
-    max-height: 49px;
+    max-height: 64px;
 }
 #work .description .odd-button{
     font-family: Noto Sans;
@@ -337,7 +353,8 @@ a:hover{
 #work img{
     width: 100%;
     /*max-height: 346px;*/
-    max-width: 520px;
+    max-width: 600px;
+    float: right;
 }
 /* Contact Part */
 #contact{
@@ -357,7 +374,7 @@ a:hover{
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 2.75rem;
+    font-size: 3.5rem;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -369,8 +386,8 @@ a:hover{
     margin: 0 auto;
     margin-top: 2.5em; 
     width: 50vw;
-    font-size: 1.5rem;
-    line-height: 2.4375rem;
+    font-size: 1.75rem;
+    line-height: 3rem;
     color: #ffffff;
     opacity: 0.5;
 }
@@ -379,10 +396,12 @@ a:hover{
 
 }
 #footer .contactemail{
-    padding-top: 5vh;
+    width: 520px;
+    margin: auto;
+    padding-top: 8vh;
     font-weight: bold;
-    font-size: 1.8rem;
-    letter-spacing: 0.1em;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
     color: #ffffff !important;
 
 }
@@ -393,7 +412,7 @@ a:hover{
     vertical-align: middle;
 }
 .grey{
-    margin-top: 2rem;
+    margin-top: 5rem;
     text-align: center;
     font-family: Noto Sans;
     font-style: normal;
@@ -457,27 +476,17 @@ a:hover{
 /*Footer*/
 #footer{
     width: 100vw;
-    height: 22rem;
+    height: 19rem;
     text-align: center;
     position: relative;
     background: #78BEFF;
 }
-#footer .icons{
-    position: absolute;
-    top: 10rem;
-    left: 50vw;
-    min-width: 20.5rem;
-    margin: auto;
-    margin-left: -10.25rem;
-    height: 1.375rem;
-}
+
 #footer .icons .icon{
     width: 1.375rem;
     height: 1.375rem;
     color: #78BEFF;
-}
-#footer .icons .right{
-    margin: 0 5rem;
+    margin: 0;
 }
 
 .line{
@@ -505,7 +514,8 @@ a:hover{
 
 }
 #text{
-    width: 65%;
+    width: 68%;
+    max-width: 732px;
     font-size: 1.5rem;
     line-height: 2.5rem;
     margin: auto;
@@ -563,13 +573,48 @@ position: absolute;
 }
 #nav_btn span::before{ top: -8px; }
 #nav_btn span::after{ bottom: -8px; } 
-
+.bg{
+    opacity: .93; height: 80px !important;
+}
+.bg1{
+    width: 50%; margin: auto;
+}
 .contactheader{
     margin-top: 2rem;
 }
-
+@media screen and (max-width: 1340px)
+{   #footer .contactemail{
+    width: 520px;
+}
+}
 @media screen and (max-width: 840px)
-{   .DN{
+{   .protected-heading{
+    font-size: 1.5rem;
+    }
+    .protected-text{
+    font-size: 1.1rem !important;
+    line-height: 1.6rem !important;    
+    }
+    .bg{
+    height: 136px !important;
+}
+    .bottom{
+    float: none;
+    }
+    .b-icon{
+        float: none;
+    }  
+   .email{
+    opacity: 1;
+        width: 12rem !important;
+    }
+    .resume1{
+        width: 12rem !important;
+    }
+    #footer .contactemail{
+    width: 430px;
+}
+    .DN{
     display: none;
 }
     .burger{
@@ -581,9 +626,45 @@ position: absolute;
     .group{
         display: none;
     }
+
 }
 @media screen and (max-width: 500px)
-{
+{   #box{
+    margin-top: 4vh !important;
+    margin-bottom: 4vh !important;
+    }
+    input[type=Password], select {
+    width: 100% !important;
+    }
+    .button{
+    margin-left: 0 !important;
+    width: 100% !important;
+    border-radius: 3px !important;
+    margin-top: .6rem !important;    
+    }
+    #left_image{
+    display: block !important;
+    float: none !important;
+    width: auto !important
+    }
+    #right_desc{
+        width: auto !important;
+    }
+    p{
+    line-height: 2rem !important;
+}
+    ol{
+    padding-inline-start: 15px;
+}
+    .BOBM{
+    display: block;
+}
+.BOB{
+    display: none;
+}
+    .bg1{
+    width: 70%; margin: auto;
+}
 
 #home2{    position: relative;
     min-height: 100vh;
@@ -601,8 +682,9 @@ position: absolute;
     margin:1rem !important;
 }
 #article_heading{
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-left: .4rem;
+    line-height: 1.7rem;
     width: 100%;
 }
 #cover2 img{
@@ -677,7 +759,21 @@ position: absolute;
         display: inline-block;
     }
     #footer .contactemail {
-        
+      width: 320px;
+      display: flex;
+    flex-direction: column-reverse;  
+    }
+    .ghost{
+        opacity: 1 !important;
+    }
+    .email{
+        float: none !important;
+        width: 16rem !important;
+        margin-bottom: 14px;
+    }
+    .resume1{
+        float: none !important;
+        width: 16rem !important;
     }
     .line{
         width: 50vw;
@@ -689,6 +785,7 @@ position: absolute;
     #contact .contactdesc{
         width: 75vw;
         font-size: 1.25rem;
+        line-height: 2rem;
 
     }
     #work .section{display: block;}
@@ -700,11 +797,12 @@ position: absolute;
         display: block;
     }
     #work .container{
-        display: block;
+        flex-direction: column-reverse;
         margin: auto;
+        margin-top: 2rem;
     } 
     #work .section{
-        min-height: 98vh;
+        min-height: 90vh;
         height: auto;
         overflow-y: -webkit-paged-x;
     }
@@ -712,7 +810,7 @@ position: absolute;
     #HI{
         text-align: center;
     }
-    .image{
+    .card{
         float: left;
         width: 100%;
         margin-top: 4em;
@@ -731,6 +829,7 @@ position: absolute;
         width: 85%;
         float: left;
         margin-left: 2rem;
+        margin-top: 1rem;
     }
     #contact{
     background: url(../images/dark2.png);
@@ -753,6 +852,7 @@ position: absolute;
     
 
     #contact .contactheader{
+        font-size: 2.5rem;
         padding-top: 23vh;
         margin-top: 0;
         position: relative;
@@ -790,7 +890,7 @@ li{
     text-align: center;
     margin: auto;
     margin-top: 2rem;
-    width:40vw;
+    width:50vw;
     overflow: hidden;
 }
 #cover5{
@@ -1027,4 +1127,114 @@ b{
 @media screen and (max-width: 340px)
 .main .header {
     font-size: 1.8rem;
+}
+
+
+#left_image{
+    overflow: auto;
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+#left_image img{
+    width: 100%;
+}
+#right_desc{
+    width: 69%;
+    display: inline-block;
+}
+#box{margin-top: 20vh;
+    margin-bottom: 20vh;
+    overflow: auto;
+}
+
+input[type=Password], select {
+  width: 45%;
+  font-size: 14px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 46px;
+  box-sizing: border-box;
+}
+.button{
+    margin-left: .5rem;
+    padding-top: .275rem;
+    padding-bottom: .1rem;
+    border: 1px solid #78BEFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: transparent;
+    font-family: Noto Sans;
+    width: 25%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.3125rem;
+    font-size: .875rem;
+    text-align: center;
+    background-color: #78BEFF;
+    color: white;
+    height: 46px;
+    cursor: pointer;
+
+}
+p {
+    line-height: 2.5rem;
+}
+
+.ghost{
+
+    opacity: .8;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: 4.3125rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+.email{z-index: 100; float: left;
+    display: inline-block;
+width:16rem;
+margin-left: 1%;
+    height: 5.25em;
+    max-width: 280px;
+    max-height: 64px;
+    background: #fff;
+    color: #78beff;
+}
+.resume1{
+    z-index: 100;
+    display: inline-block;
+width:16rem;
+margin-left: 1%;
+    height: 5.25em;
+    max-width: 280px;
+    max-height: 64px;
+    border: 1px solid #9ccfff;
+}
+.social{
+z-index: 100;
+    width:3.8rem;
+    margin-right: .5REM;
+    height: 5.25em;
+    max-width: 236px;
+    max-height: 64px;
+    display: inline-block;
+
+}
+.ghost:hover
+    {
+    opacity: 1;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: 4.3125rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+
 }
