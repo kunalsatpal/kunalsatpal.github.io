@@ -785,7 +785,7 @@ position: absolute;
     font-size: 1.25rem;
     line-height: 2rem;
     }
-    
+
     #footer .contactemail {
     width: 320px;
     display: flex;
@@ -868,6 +868,7 @@ position: absolute;
 @media screen and (max-width: 1340px)
 {   #footer .contactemail{
     width: 520px;
+}
 }
 @media screen and (max-width: 500px){
 
