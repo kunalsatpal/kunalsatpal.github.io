@@ -799,10 +799,10 @@ position: absolute;
     #work .container{
         flex-direction: column-reverse;
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 4rem;
     } 
     #work .section{
-        min-height: 90vh;
+        min-height: 78vh;
         height: auto;
         overflow-y: -webkit-paged-x;
     }
