@@ -449,6 +449,7 @@ nav a{
 {   #footer .contactemail{
     width: 520px;
 }
+}
 
 /*Footer*/
 #footer{
@@ -714,7 +715,7 @@ position: absolute;
     top:0;
     float: none;
     margin: auto !important;
-    margin-top: 6rem !important;
+    margin-top: 3rem !important;
 
 }
 
@@ -729,7 +730,7 @@ position: absolute;
     position: relative;
     left: -12px;
     right: 0;
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-left: auto;
     margin-right: auto;
     top: 0;
@@ -749,7 +750,7 @@ position: absolute;
     text-align: center;
 }
 #peoplematter{
-    padding-top: 1rem   ;
+    padding-top: 2.5rem   ;
     margin: auto;
 }
 #aboutmeheader{
@@ -783,7 +784,17 @@ position: absolute;
 }
 }
 @media screen and (max-width: 580px)
-{   #contact .contactdesc {
+{   #photo{
+        display: none;
+    }
+    #images2{
+        display: none;
+    }
+    .test{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #contact .contactdesc {
     width: 75vw;
     font-size: 1.25rem;
     line-height: 2rem;
@@ -835,7 +846,7 @@ position: absolute;
     top: 0;
 }
 #strow{
-    padding-top: 6vh
+    padding-top: 16vh
 }
 .contactemail a {
     font-size: 1.2rem;
