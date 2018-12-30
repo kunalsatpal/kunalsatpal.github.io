@@ -564,7 +564,7 @@ position: absolute;
     height: auto;
     margin: 0 auto;
     margin-bottom: 2rem;
-     
+    display: none; 
 }
 
 @media screen and (max-width: 1230px)
