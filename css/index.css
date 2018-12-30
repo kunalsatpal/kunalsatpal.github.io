@@ -445,7 +445,10 @@ nav a{
     margin: 0 auto;
     margin-top: 3rem;
 }
-
+@media screen and (max-width: 1340px)
+{   #footer .contactemail{
+    width: 520px;
+}
 
 /*Footer*/
 #footer{
@@ -865,10 +868,7 @@ position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
 }}
-@media screen and (max-width: 1340px)
-{   #footer .contactemail{
-    width: 520px;
-}
+
 }
 @media screen and (max-width: 500px){
 
