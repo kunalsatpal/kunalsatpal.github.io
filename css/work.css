@@ -5,20 +5,61 @@
 }
 
 #product{
-    color: #78BEFF;
+    color: #66AFF8;
 }
 #primary.button{
-    background-color: #78BEFF !important; 
+    background-color: #66AFF8 !important; 
     font-size: 1.25em;
     width: 8em;
     height: 3em;   
 }
 #primary.button.basic{
        stroke: solid;
-       color:#78BEFF !important;
+       color:#66AFF8 !important;
        background-color: transparent  !important;
-       box-shadow: 0 0 0 1px #78BEFF inset !important;
+       box-shadow: 0 0 0 1px #66AFF8 inset !important;
        border-color: #eeeeee !important;
+}
+
+.blogcard{
+    width: 23%;
+    box-shadow: 0px 16px 164px rgba(0, 0, 0, 0.06);
+    height: 26rem;
+    border-radius: .26rem;
+}
+
+.blogtitle{
+    font-weight: regular;
+    text-align: left;
+    padding: 2.4rem;
+    font-size: 1.36rem;
+}
+.blogicon{
+    padding: 1rem;
+}
+#whatsapp a{
+    background: #25D266;
+    color: #ffffff !important; 
+}
+#whatsapp{
+    background: #25D266;
+    color: #ffffff !important; 
+}
+#pibitblog{
+    background: #4964EC;
+    color: #ffffff;
+}
+#pibitblog a{
+    background: #4964EC;
+    color: #ffffff !important;
+}
+#attendanceblog{
+    background: #D75B5B;
+    color: #ffffff;
+}
+#attendanceblog a{
+    background: #D75B5B;
+    color: #ffffff !important;
 }
 .BOBm{
     display: none;
@@ -315,7 +356,7 @@ a:hover{
     margin-bottom: 4rem;
 }
 #work .description button{
-    border: 1px solid #78BEFF;
+    border: 1px solid #66AFF8;
     box-sizing: border-box;
     border-radius: 3px;
     background: transparent;
@@ -332,7 +373,7 @@ a:hover{
     line-height: 1.3125rem;
     font-size: 0.875rem;
     text-align: center;
-    color: #78BEFF;
+    color: #66AFF8;
 }
 #work .description .even-button{
     font-family: Noto Sans;
@@ -342,7 +383,7 @@ a:hover{
     line-height: 1.3125rem;
     font-size: 0.875rem;
     text-align: center;
-    background-color: #78BEFF;
+    background-color: #66AFF8;
     color: white;
     cursor: pointer;
 }
@@ -435,7 +476,7 @@ a:hover{
     text-align: center;
     letter-spacing: 0.02em;
 
-    color: #78BEFF;
+    color: #66AFF8;
 }
 .line{
     width: 31.875rem;
@@ -479,13 +520,13 @@ a:hover{
     height: 19rem;
     text-align: center;
     position: relative;
-    background: #78BEFF;
+    background: #66AFF8;
 }
 
 #footer .icons .icon{
     width: 1.375rem;
     height: 1.375rem;
-    color: #78BEFF;
+    color: #66AFF8;
     margin: 0;
 }
 
@@ -520,7 +561,7 @@ a:hover{
     line-height: 2.5rem;
     margin: auto;
     margin-top: 1rem;
-    color: #666666;
+    color: #555555;
     font-family: 'pt-serif';
 
 }
@@ -869,7 +910,8 @@ position: absolute;
 
 
 li{
-    margin: .75rem;
+    margin-bottom: .6rem;
+    margin-top: 1.2rem
 }
 
 #cover {
@@ -1163,7 +1205,7 @@ input[type=Password], select {
     margin-left: .5rem;
     padding-top: .275rem;
     padding-bottom: .1rem;
-    border: 1px solid #78BEFF;
+    border: 1px solid #66AFF8;
     box-sizing: border-box;
     border-radius: 3px;
     background: transparent;
@@ -1174,7 +1216,7 @@ input[type=Password], select {
     line-height: 1.3125rem;
     font-size: .875rem;
     text-align: center;
-    background-color: #78BEFF;
+    background-color: #66AFF8;
     color: white;
     height: 46px;
     cursor: pointer;
@@ -1204,7 +1246,7 @@ margin-left: 1%;
     max-width: 280px;
     max-height: 64px;
     background: #fff;
-    color: #78beff;
+    color: #66AFF8;
 }
 .resume1{
     z-index: 100;
@@ -1238,3 +1280,14 @@ z-index: 100;
     border-radius: 4px;
 
 }
+#bg_grey{
+    width: 68%;
+    max-width: 732px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 16px 42px rgba(0, 0, 0, 0.06);
+    color: #666666;
+    height: fit-content;

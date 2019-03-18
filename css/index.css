@@ -2,16 +2,16 @@
 /* site variables*/
 
 #primary.button{
-    background-color: #78BEFF !important; 
+    background-color: #66AFF8 !important; 
     font-size: 1.25em;
     width: 8em;
     height: 3em;   
 }
 #primary.button.basic{
        stroke: solid;
-       color:#78BEFF !important;
+       color:#66AFF8 !important;
        background-color: transparent  !important;
-       box-shadow: 0 0 0 1px #78BEFF inset !important;
+       box-shadow: 0 0 0 1px #66AFF8 inset !important;
        border-color: #eeeeee !important;
 }
 .bottom{
@@ -32,7 +32,7 @@
 }
 /* Custom CSS */
 #say_hello{
-    color: #78BEFF;
+    color: #66AFF8;
 }
 #home{
     overflow: hidden;
@@ -230,7 +230,7 @@ nav a{
     line-height: 1.5625em;
 }
 #aboutsection .bluedesc{
-    color: #78BEFF !important;
+    color: #66AFF8 !important;
     font-size: 1.125em;
     font-weight: bold !important;
 
@@ -342,14 +342,14 @@ nav a{
     margin-top: 1em;
     height: 14.0em;
     width: 10.875em;
-    border: 1.5px dashed #78BEFF;
+    border: 1.5px dashed #66AFF8;
     border-radius: 6px;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
     line-height: 1.75em;
     font-size: 1.125em;
-    color: #78BEFF;
+    color: #66AFF8;
 
 }
 .empty{
@@ -363,14 +363,14 @@ nav a{
     margin-top: 1rem;
     height: 14.0rem;
     width: 10em;
-    border: 1.5px dashed #78BEFF;
+    border: 1.5px dashed #66AFF8;
     border-radius: 6px;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
     line-height: 1.75em;
     font-size: 1.0rem;
-    color: #78BEFF;
+    color: #66AFF8;
 }
 
 .empty a {
@@ -457,13 +457,13 @@ nav a{
     height: 22rem;
     text-align: center;
     position: relative;
-    background: #78BEFF;
+    background: #66AFF8;
 }
 
 #footer .icons .icon{
     width: 1.375rem;
     height: 1.375rem;
-    color: #78BEFF;
+    color: #66AFF8;
 }
 #footer .icons .right{
     margin: 0rem;
@@ -1038,7 +1038,7 @@ position: absolute;
     margin-left: .5rem;
     padding-top: .275rem;
     padding-bottom: .1rem;
-    border: 1px solid #78BEFF;
+    border: 1px solid #66AFF8;
     box-sizing: border-box;
     border-radius: 3px;
     background: transparent;
@@ -1049,7 +1049,7 @@ position: absolute;
     line-height: 1.3125rem;
     font-size: .875rem;
     text-align: center;
-    background-color: #78BEFF;
+    background-color: #66AFF8;
     color: white;
     height: 46px;
     cursor: pointer;
@@ -1079,7 +1079,7 @@ margin-left: 1%;
     max-width: 280px;
     max-height: 64px;
     background: #fff;
-    color: #78beff;
+    color: #66AFF8;
 }
 .resume1{
     z-index: 100;
