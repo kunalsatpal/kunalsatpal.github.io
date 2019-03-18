@@ -670,7 +670,22 @@ position: absolute;
 
 }
 @media screen and (max-width: 500px)
-{   #box{
+{   #blogcontainer{
+        flex-direction: column !important;
+        margin-top: 10rem;
+    }
+    .blogicon img{
+        width: 50% !important;
+        float: none !important;
+    }
+    .blogicon{
+        padding: 0;
+    }
+    .blogcard{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    #box{
     margin-top: 4vh !important;
     margin-bottom: 4vh !important;
     }
