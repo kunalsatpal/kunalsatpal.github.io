@@ -672,7 +672,7 @@ position: absolute;
 @media screen and (max-width: 500px)
 {   #blogcontainer{
         flex-direction: column !important;
-        margin-top: 10rem;
+        margin-top: 10em;
     }
     .blogicon img{
         width: 50% !important;
