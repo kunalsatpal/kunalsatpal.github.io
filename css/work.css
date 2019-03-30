@@ -859,7 +859,7 @@ position: absolute;
     #work .container{
         flex-direction: column-reverse;
         margin: auto;
-        margin-top: 4rem;
+        margin-top: 14rem;
     } 
     #work .section{
         min-height: 78vh;
@@ -873,7 +873,7 @@ position: absolute;
     .card{
         float: left;
         width: 100%;
-        margin-top: 4em;
+        margin-top:4em;
     }
     #work .section:nth-child(odd) {
     background: url(../images/bg1.png);
