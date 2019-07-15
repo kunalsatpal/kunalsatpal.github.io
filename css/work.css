@@ -685,6 +685,7 @@ position: absolute;
         padding: 0;
     }
     .blogcard{
+        height: auto;
         position: static;
         width: 90%;
         margin-bottom: 2rem;
