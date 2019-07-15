@@ -848,7 +848,7 @@ position: absolute;
         line-height: 2rem;
 
     }
-    #work .section{display: block;}
+    #work .section{display: flex;}
 
     .group{
         display: none;
