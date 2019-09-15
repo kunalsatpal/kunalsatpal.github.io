@@ -55,12 +55,12 @@
     background: #4964EC;
     color: #ffffff !important;
 }
-#attendanceblog{
-    background: #D75B5B;
+#cureblog{
+    background: #000000;
     color: #ffffff;
 }
-#attendanceblog a{
-    background: #D75B5B;
+#cureblog a{
+    background: #000000;
     color: #ffffff !important;
 }
 .BOBm{
