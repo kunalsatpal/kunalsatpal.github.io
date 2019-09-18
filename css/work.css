@@ -858,6 +858,8 @@ position: absolute;
         display: block;
     }
     #work .container{
+        max-height: none;
+        height: max-content;
         flex-direction: column-reverse;
         margin: auto;
         margin-top: 14rem;
