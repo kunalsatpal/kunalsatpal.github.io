@@ -331,13 +331,13 @@ a:hover{
     margin-bottom: 0.3125rem;
 }
 .header:empty{
-    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px);
+    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px) !important;
 }
 .sub-header:empty{
-    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px);
+    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px) !important;
 }
 img:empty{
-    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px);
+    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px) !important; 
 }
 #work .description .sub-header{
     font-family: Noto Sans;
