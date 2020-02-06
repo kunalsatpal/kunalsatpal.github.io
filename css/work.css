@@ -330,15 +330,6 @@ a:hover{
     color: #222222;
     margin-bottom: 0.3125rem;
 }
-#work .description .header:empty{
-    background: linear-gradient(45deg, #e4e4e4, transparent) !important;
-}
-#work .description .sub-header:empty{
-    background: linear-gradient(45deg, #e4e4e4, transparent) !important; 
-}
-img:empty{
-    background: linear-gradient(45deg, #e4e4e4, transparent) !important;
-}
 #work .description .sub-header{
     font-family: Noto Sans;
     font-style: normal;
