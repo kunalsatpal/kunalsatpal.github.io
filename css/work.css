@@ -330,6 +330,13 @@ a:hover{
     color: #222222;
     margin-bottom: 0.3125rem;
 }
+#work .description .header:empty-cells{
+    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px);
+}
+#work .description .sub-header:empty-cells{
+    background: linear-gradient(90deg, $base-color 0px, $shine-color 40px, $base-color 80px);
+}
+
 #work .description .sub-header{
     font-family: Noto Sans;
     font-style: normal;
