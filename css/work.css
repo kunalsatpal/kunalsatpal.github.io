@@ -1,12 +1,14 @@
 
 /* site variables*/
+.card{
+    display: none;
+}
 .number{
     font-family: 'Work Sans', sans-serif;
 }
 .normal{
     font-weight: 500;
 }
-
 #product{
     color: #66AFF8;
 }
@@ -35,6 +37,7 @@
 }
 
 .blogtitle{
+    line-height: 1.6em;
     font-weight: regular;
     text-align: left;
     padding: 2.4rem;
@@ -86,6 +89,26 @@
     background-size: auto 84%, auto, auto;
     
 }
+
+#work #curefit2{
+    background: url('../images/curefit.png'), linear-gradient(179.99deg, #FCFFFD 1.35%, #FBFEFE 66.64%, #E3F0FF 97%);
+    background-repeat: no-repeat;
+    background-position: 130% 85%, 0px 0px, 0px 0px;
+    background-size: auto 75%, auto, auto;
+}
+
+#work #placement{
+    background: url('../images/IMG_logo.png'), linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
+    background-repeat: no-repeat;
+    background-position: 130% 85%, 0px 0px, 0px 0px;
+    background-size: auto 75%, auto, auto;
+}
+#work #talentbite{
+    background: url('../images/talentbite2.png'), linear-gradient(180deg, #0078D1 1.34%, #2EB4FC 96.54%);
+    background-repeat: no-repeat;
+    background-position: 87% 100%, 0px 0px, 0px 0px;
+    background-size: auto 84%, auto, auto;
+}
 #home3{    position: relative;
     min-height: 100vh;
     height: auto;
@@ -102,10 +125,10 @@
     background-size: cover;
 }
 .bottom{
-    float: left; color: #ffffff; opacity: .6; font-family: 'Raleway', sans-serif; font-size: 1.2rem; padding-top: 2.2rem;
+    float: left; color: #000; opacity: .6; font-family: 'Raleway', sans-serif; font-size: 1.2rem; padding-top: 2.2rem;
 }
 .b-icon{
-    float: right; padding-top: 1.2rem
+    float: right; padding-top: 2em
 }
 
 .group{     float: right;     margin-top: 15px; } #navbar .logo{
@@ -290,21 +313,10 @@ a:hover{
 }
 #work .section{
     width: 100vw;
-    height: 90vh;
+    height: 94vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#work .section:nth-child(odd){
-    background: url('../images/odd.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-#work .section:nth-child(even){
-    background: url('../images/even.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #work .container{
     display: flex;
@@ -332,6 +344,24 @@ a:hover{
     color: #000;
     margin-bottom: 3rem;
     }
+#placement .work_number{
+    text-align: left;
+    /* margin-top: 0.5em; */
+    font-weight: 800;
+    line-height: 3.6rem;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 3rem;
+    }
+#talentbite .work_number{
+    text-align: left;
+    /* margin-top: 0.5em; */
+    font-weight: 800;
+    line-height: 3.6rem;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 3rem;
+    }  
 #work .description .header{
     text-align: left;
     /* margin-top: 0.5em; */
@@ -340,6 +370,26 @@ a:hover{
     line-height: 4.6rem;
     font-size: 3.6rem;
     color: #000;
+    margin-bottom: 1.5rem;
+}
+#placement .description .header {
+    text-align: left;
+    /* margin-top: 0.5em; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 4.6rem;
+    font-size: 3.6rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+#talentbite .description .header {
+    text-align: left;
+    /* margin-top: 0.5em; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 4.6rem;
+    font-size: 3.6rem;
+    color: #fff;
     margin-bottom: 1.5rem;
 }
 #work .description .sub-header{
@@ -351,6 +401,31 @@ a:hover{
     font-size: 1.5rem;
     letter-spacing: .02em;
     color: #999999;
+    margin-bottom: 2.5rem;
+    margin-top: .75rem;
+}
+#talentbite .description .sub-header{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+    letter-spacing: .02em;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    margin-top: .75rem;
+    opacity: .55;
+}
+#placement .description .sub-header{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+    letter-spacing: .02em;
+    color: #aaa;
     margin-bottom: 2.5rem;
     margin-top: .75rem;
 }
@@ -369,7 +444,7 @@ a:hover{
     color: rgba(17, 17, 17, 0.4);
     margin-bottom: 4rem;
 }
-#work .description button{
+.description button{
     border: 1px solid #66AFF8;
     box-sizing: border-box;
     border-radius: 3px;
@@ -378,6 +453,25 @@ a:hover{
     height: 4.75em;
     max-width: 219px;
     max-height: 64px;
+}
+.description .Password_continue{
+    float:left;
+    width: 33%;
+    float: left;
+    height: 5.5em;
+    background: #000;
+    border: none;
+    font-size: .9em;
+}
+#placement .Password_continue{
+    float:left;
+    width: 33%;
+    float: left;
+    height: 5.5em;
+    color: #000;
+    background: #fff;
+    border: none;
+    font-size: .9em;
 }
 #work .description .odd-button{
     font-family: 'Raleway', sans-serif;
@@ -389,15 +483,15 @@ a:hover{
     text-align: center;
     color: #66AFF8;
 }
-#work .description .even-button{
+.description .even-button{
     font-family: 'Raleway', sans-serif;
-    width: 100%;
-    font-style: normal;
-    font-weight: normal;
+    width: 24em;
+    /* font-style: normal; */
+    /* font-weight: normal; */
     line-height: 1.3125rem;
-    font-size: 0.875rem;
+    font-size: .9em;
     text-align: center;
-    background-color: #66AFF8;
+    background-color: #000;
     color: white;
     cursor: pointer;
 }
@@ -414,37 +508,35 @@ a:hover{
 /* Contact Part */
 #contact{
     margin-top: 0em;
-    padding: 0;
+    padding-bottom: 1.5em;
     
     height: auto;
     position: relative;
-    background: url('../images/contact_dark.svg');
+    background: linear-gradient(180deg, #F4F4F4 37.78%, #FFFFFF 97.18%);;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 #contact .contactheader{
-    padding-top: 40vh;
+    padding-top: 1.5em;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.5rem;
+    font-weight: 800;
+    font-size: 3.8em;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: #000;
     width: 100vw;
 }
 #contact .contactdesc{
     font-weight: normal;
     text-align: center;
     margin: 0 auto;
-    margin-top: 2.5em; 
+    margin-top: 1em; 
     width: 50vw;
     font-size: 1.75rem;
     line-height: 3rem;
-    color: #ffffff;
-    opacity: 0.7;
+    color: #999;
 }
 #footer .contactemail a{
     color: #ffffff !important;
@@ -454,6 +546,7 @@ a:hover{
     width: 520px;
     margin: auto;
     padding-top: 8vh;
+    margin-top: 2em;
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
@@ -530,11 +623,13 @@ a:hover{
 
 /*Footer*/
 #footer{
+    color: #555;
+    margin-top: 2.4em;
     width: 100vw;
     height: 19rem;
     text-align: center;
     position: relative;
-    background: #66AFF8;
+    background: rgba(0, 0, 0, 0.05)
 }
 
 #footer .icons .icon{
@@ -886,6 +981,7 @@ position: absolute;
         text-align: center;
     }
     .card{
+        display: block;
         float: left;
         width: 100%;
         margin-top:4em;
@@ -1225,15 +1321,24 @@ b{
 }
 
 input[type=Password], select {
-  width: 45%;
-  font-size: 14px;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: 65%;
+  font-size: .9em;
+  padding: 16px 20px;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  height: 46px;
-  box-sizing: border-box;
+  border-color: #000000 !important; 
+  border-radius: 2px;
+  height: 4.5em;
+}
+#placement input[type=Password], select {
+  width: 65%;
+  font-size: .9em;
+  padding: 16px 20px;
+  display: inline-block;
+  border-color: #fff !important;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  height: 4.5em;
 }
 .button{
     margin-left: .5rem;
@@ -1293,13 +1398,15 @@ margin-right: 4%;
     border: 1px solid #9ccfff;
 }
 .social{
-z-index: 100;
-    width:3.8rem;
+    /* z-index: 100; */
+    width: 3.8rem;
     margin-right: .5REM;
-    height: 5.25em;
+    /* height: 5.25em; */
     max-width: 236px;
-    max-height: 64px;
-    display: inline-block;
+    /* max-height: 64px; */
+    display: block;
+    float: right;
+    margin-top: 2.4em;
 
 }
 .ghost:hover
