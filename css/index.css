@@ -15,7 +15,7 @@
        border-color: #eeeeee !important;
 }
 .bottom{
-    float: left; color: #ffffff; opacity: .6; font-family: Noto Sans; font-size: 1.2rem; padding-top: 2.2rem;
+    float: left; color: #ffffff; opacity: .6; font-family: 'Raleway', sans-serif; font-size: 1.2rem; padding-top: 2.2rem;
 }
 .b-icon{
     float: right; padding-top: 2.2rem
@@ -89,7 +89,7 @@ nav li{
     display: inline;
 }
 nav a{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
@@ -144,7 +144,7 @@ nav a{
     z-index: 3;
 }
 #aboutmeheader{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     position: relative;
     margin: 0;
     top: 0;
@@ -164,7 +164,7 @@ nav a{
     margin: 0;
     padding: 0;
 
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1em;
@@ -190,7 +190,7 @@ nav a{
     height: 14.9375em;
 }
 #aboutsection #aboutmeheader{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     position: relative;
     margin: 0;
     top: 0;
@@ -209,7 +209,7 @@ nav a{
     bottom: 0;
     margin-top: .9em;
     padding: 0;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1em;
@@ -222,7 +222,7 @@ nav a{
     bottom: 0;
     margin-top: .9em;
     padding: 0;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1em;
@@ -344,7 +344,7 @@ nav a{
     width: 10.875em;
     border: 1.5px dashed #66AFF8;
     border-radius: 6px;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 1.75em;
@@ -365,7 +365,7 @@ nav a{
     width: 10em;
     border: 1.5px dashed #66AFF8;
     border-radius: 6px;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 1.75em;
@@ -396,7 +396,7 @@ nav a{
 #contact .contactheader{
     padding-top: 40vh;
     margin: 0 auto;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 3.5rem;
@@ -1017,7 +1017,7 @@ position: absolute;
 }
 
 .open .link{
-    font-style: Noto Sans;
+    font-style: 'Raleway', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     opacity: 90%;
@@ -1042,7 +1042,7 @@ position: absolute;
     box-sizing: border-box;
     border-radius: 3px;
     background: transparent;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     width: 25%;
     font-style: normal;
     font-weight: normal;
@@ -1062,7 +1062,7 @@ p {
 .ghost{
 
     opacity: 1;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-align: center;
@@ -1104,7 +1104,7 @@ z-index: 100;
 .ghost:hover
     {
     opacity: 1;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-align: center;

@@ -1,7 +1,10 @@
 
 /* site variables*/
-.card{
-    width: 120%;
+.number{
+    font-family: 'Work Sans', sans-serif;
+}
+.normal{
+    font-weight: 500;
 }
 
 #product{
@@ -9,16 +12,18 @@
 }
 #primary.button{
     background-color: #66AFF8 !important; 
-    font-size: 1.25em;
-    width: 8em;
-    height: 3em;   
+    font-size: 1rem;
+    width: 9em;
+    height: 3.5em;   
 }
 #primary.button.basic{
        stroke: solid;
-       color:#66AFF8 !important;
-       background-color: transparent  !important;
-       box-shadow: 0 0 0 1px #66AFF8 inset !important;
-       border-color: #eeeeee !important;
+    color: #000000 !important;
+    background-color: #eeeeee !important;
+    box-shadow: 0 0 0 1px #000000 inset !important;
+    border-color: #000000 !important;
+    border-radius: 2px;
+    margin-left: 0px !important;
 }
 
 .blogcard{
@@ -74,7 +79,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#work #curefit{
+    background: url('../images/fitclub2.png'), linear-gradient(180deg, #FDFCFF 1.34%, #FBFAFF 60.19%, #E3E0FF 97.18%);
+    background-repeat: no-repeat;
+    background-position: 87% 100%, 0px 0px, 0px 0px;
+    background-size: auto 84%, auto, auto;
+    
+}
 #home3{    position: relative;
     min-height: 100vh;
     height: auto;
@@ -83,15 +94,15 @@
     background-size: cover;
 }
 #home2{    position: relative;
-    min-height: 100vh;
+    min-height: 86vh;
     height: auto;
     z-index: 2;
-    background:url('../images/work_background.svg');
+    background: linear-gradient(180deg, #FFFFFF 4%, #F5F5F5 96%);;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bottom{
-    float: left; color: #ffffff; opacity: .6; font-family: Noto Sans; font-size: 1.2rem; padding-top: 2.2rem;
+    float: left; color: #ffffff; opacity: .6; font-family: 'Raleway', sans-serif; font-size: 1.2rem; padding-top: 2.2rem;
 }
 .b-icon{
     float: right; padding-top: 1.2rem
@@ -101,9 +112,8 @@
 left: -2.25em;     min-width: 180px; } nav{     transition-duration:
 0.5s;     padding-top: 20px;     overflow: hidden;     display: flex;
 align-items: center;     background-color transparent;     z-index:
-20; } nav li{     display: inline; } nav a{     font-family: Noto
-Sans;     font-style: normal;     font-weight: normal;     line-
-height: normal;     font-size: .8em;     color: #333333 !important; }
+20; } nav li{     display: inline; } nav a{     font-family: 'Raleway', sans-serif ;     font-style: normal;     font-weight: normal;     line-
+height: normal;     font-size: 1em;     color: #333333 !important; }
 
 #navbar{
     z-index: 20 !important;
@@ -121,7 +131,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     width: 100%;
 }
 .home{
-    margin-right: 2.25em !important;
+    margin-right: 2.7em !important;
 }
 .resume{
     margin-right: 1.025em !important;
@@ -150,7 +160,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     /* bottom: 14rem; */
     text-align: center;
     text-align: center;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-size: 1em;
     text-align: center;
     line-height: 1.3125rem;
@@ -167,8 +177,8 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
 
 .main .header{
     height: 2.875rem;
-    font-weight: bold;
-    font-size: 2.75em;
+    font-weight: 800;
+    font-size: 3.8em;
     margin: 0 auto;
 }
 .main .desc{
@@ -199,7 +209,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     float: left;
 }
 .heading{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-size: 2.25rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -207,7 +217,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     color: #222222;
 }
 .heading2{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-size: 2.25rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -216,7 +226,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     color: #222222;
 }
 .subheading{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.75rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -229,7 +239,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
 /* Mouse Scroller */
 .scroll-downs {
     position: absolute;
-    top: 16vh;
+    top: 14vh;
     right: 0;
     bottom: 0;
     left: 0;
@@ -241,19 +251,18 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
     width: .5px;
     padding: 10px 13px;
     height: 21px;
-    border: 2px solid #222222;
-    border-radius: 25px;
+    border: .01px solid #fff;
+    border-radius: 0px;
     opacity: 0.75;
     box-sizing: content-box;
   }
   .scroller {
-    margin-left: -1.1px;
     width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: #222222;
+    height: 12vh;
+    border-radius: 1%;
+    background-color: #000;
     animation-name: scroll;
-    animation-duration: 2.2s;
+    animation-duration: 3s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
     animation-iteration-count: infinite;
   }
@@ -265,7 +274,7 @@ height: normal;     font-size: .8em;     color: #333333 !important; }
 /* WORK PART SLIDERS */
 #work{
     text-align: center;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -281,7 +290,7 @@ a:hover{
 }
 #work .section{
     width: 100vw;
-    height: 72vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -298,48 +307,51 @@ a:hover{
     background-size: cover;
 }
 #work .container{
-    margin-top: 8em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 74.75rem;
-    height: 21.8125rem;
-    width: 90%;
-    max-height: 347px;
+    max-width: 81.75rem;
+    width: 90vw;
 }
 #work .description{
-    width: 43rem;
-    height: 21.8125rem;
-    max-width: 389px;
-    max-height: 349px;
+    float: left;
+    width: 44vw;
+    max-width: 40em;
     display: flex;
     flex-direction: column;
-    margin-top: 4.4rem;
     justify-content: flex-start;
  
 }
+#work .work_number{
+    text-align: left;
+    /* margin-top: 0.5em; */
+    font-weight: 800;
+    line-height: 3.6rem;
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 3rem;
+    }
 #work .description .header{
     text-align: left;
     /* margin-top: 0.5em; */
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 3rem;
-    font-size: 2.25rem;
-    color: #222222;
-    margin-bottom: 0.3125rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 4.6rem;
+    font-size: 3.6rem;
+    color: #000;
+    margin-bottom: 1.5rem;
 }
 #work .description .sub-header{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     text-align: left;
     font-weight: normal;
-    line-height: 2rem;
-    font-size: 1.25rem;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
     letter-spacing: .02em;
     color: #999999;
-    margin-bottom: 2.25rem;
+    margin-bottom: 2.5rem;
     margin-top: .75rem;
 }
 #work .description a{
@@ -349,11 +361,11 @@ a:hover{
 #work .description .desc{
     display: none;
     text-align: left;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.425rem;
-    font-size: 0.875rem;
+    line-height: 2.2em;
+    font-size: 1.5em;
     color: rgba(17, 17, 17, 0.4);
     margin-bottom: 4rem;
 }
@@ -368,7 +380,7 @@ a:hover{
     max-height: 64px;
 }
 #work .description .odd-button{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     width: 100%;
     font-weight: normal;
@@ -378,7 +390,7 @@ a:hover{
     color: #66AFF8;
 }
 #work .description .even-button{
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     width: 100%;
     font-style: normal;
     font-weight: normal;
@@ -414,7 +426,7 @@ a:hover{
 #contact .contactheader{
     padding-top: 40vh;
     margin: 0 auto;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 3.5rem;
@@ -457,7 +469,7 @@ a:hover{
 .grey{
     margin-top: 5rem;
     text-align: center;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 2.4375rem;
@@ -470,7 +482,7 @@ a:hover{
 }
 .dribble-link a{
     margin-top: 0em;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 2.4375rem;
@@ -569,11 +581,11 @@ a:hover{
 }
 
 table {
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
 } 
 #article_heading{
     width: 65%;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin: auto;
@@ -607,7 +619,7 @@ float: left;
 display: block; 
 background: #000; 
 position: relative; 
-text-indent: -9000px; 
+text-indent: -8000px; 
 }
 #nav_btn span{ margin: 8px 0; }
 #nav_btn span::before, #nav_btn span::after{ 
@@ -728,10 +740,10 @@ position: absolute;
 }
 
 #home2{    position: relative;
-    min-height: 100vh;
+    min-height: 87vh;
     height: auto;
     z-index: 2;
-    background:url('../images/work_background.png');
+    background: linear-gradient(180deg, #FFFFFF 4%, #F4F4F4 96%);;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1162,7 +1174,7 @@ b{
 }
 
 .open .link{
-    font-style: Noto Sans;
+    font-style: 'Raleway', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     opacity: 90%;
@@ -1231,7 +1243,7 @@ input[type=Password], select {
     box-sizing: border-box;
     border-radius: 3px;
     background: transparent;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     width: 25%;
     font-style: normal;
     font-weight: normal;
@@ -1251,7 +1263,7 @@ p {
 .ghost{
 
     opacity: 1;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-align: center;
@@ -1293,7 +1305,7 @@ z-index: 100;
 .ghost:hover
     {
     opacity: 1;
-    font-family: Noto Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-align: center;
