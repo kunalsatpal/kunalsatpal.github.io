@@ -20,10 +20,10 @@
 }
 #primary.button.basic{
    stroke: solid;
-   color: #000000 !important;
+   color: #111 !important;
    background-color: #eeeeee !important;
-   box-shadow: 0 0 0 1px #000000 inset !important;
-   border-color: #000000 !important;
+   box-shadow: 0 0 0 1px #111 inset !important;
+   border-color: #111 !important;
    border-radius: 2px;
    margin-left: 0px !important;
 }
@@ -64,11 +64,11 @@
     color: #ffffff !important;
 }
 #cureblog{
-    background: #000000;
+    background: #111;
     color: #ffffff;
 }
 #cureblog a{
-    background: #000000;
+    background: #111;
     color: #ffffff !important;
 }
 .BOBm{
@@ -98,7 +98,7 @@
 }
 
 #work #placement{
-    background: url('../images/IMG_logo2.png'), linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
+    background: url('../images/IMG_logo2.png'), linear-gradient(180deg, #111 0%, #030303 62.35%, #2E2E2E 96.54%);
     background-repeat: no-repeat;
     background-position: 101% 52%, 0px 0px, 0px 0px;
     background-size: auto 60%, auto, auto;
@@ -126,7 +126,7 @@
 }
 .bottom{
     float: left;
-    color: #000;
+    color: #111;
     opacity: .4;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -266,7 +266,7 @@ nav a{
     font-weight: bold;
     margin-top: 3rem;
     margin-bottom: 1rem;
-    color: #000;
+    color: #111;
 }
 .heading2{
     font-family: 'Raleway', sans-serif;
@@ -283,7 +283,7 @@ nav a{
     font-weight: bold;
     margin-top: 3rem;
     margin-bottom: 1rem;
-    color: #000;
+    color: #111;
 }
 #dribble{
     width:20%;
@@ -312,7 +312,7 @@ nav a{
     width: 3px;
     height: 12vh;
     border-radius: 1%;
-    background-color: #000;
+    background-color: #111;
     animation-name: scroll;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
@@ -370,7 +370,7 @@ a:hover{
     font-weight: 800;
     line-height: 3.6rem;
     font-size: 1.2rem;
-    color: #000;
+    color: #111;
     margin-bottom: 3rem;
 }
 #placement .work_number{
@@ -398,7 +398,7 @@ a:hover{
     font-weight: 800;
     line-height: 4.6rem;
     font-size: 3.6rem;
-    color: #000;
+    color: #111;
     margin-bottom: 1.5rem;
 }
 #placement .description .header {
@@ -488,7 +488,7 @@ a:hover{
     width: 33%;
     float: left;
     height: 5.5em;
-    background: #000;
+    background: #111;
     border: none;
     font-size: .9em;
 }
@@ -497,7 +497,7 @@ a:hover{
     width: 33%;
     float: left;
     height: 5.5em;
-    color: #000;
+    color: #111;
     background: #fff;
     border: none;
     font-size: .9em;
@@ -520,7 +520,7 @@ a:hover{
     line-height: 1.3125rem;
     font-size: .9em;
     text-align: center;
-    background-color: #000;
+    background-color: #111;
     color: white;
     cursor: pointer;
 }
@@ -554,7 +554,7 @@ a:hover{
     font-size: 3.8em;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #000;
+    color: #111;
     width: 100vw;
 }
 #contact .contactdesc{
@@ -755,7 +755,7 @@ table {
     height: 4px; 
     float: left; 
     display: block; 
-    background: #000; 
+    background: #111; 
     position: relative; 
     text-indent: -8000px; 
 }
@@ -888,7 +888,7 @@ table {
     }
     #work #placement{
 
-        background: linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
+        background: linear-gradient(180deg, #111 0%, #030303 62.35%, #2E2E2E 96.54%);
     }
     #work #talentbite{
 
@@ -1350,7 +1350,7 @@ b{
 }
 
 .overlay {
-  background-color: #000000;
+  background-color: #111;
   color: #fff;
   height: 100%;
   width: 100%;
@@ -1367,7 +1367,7 @@ b{
 }
 
 .open {
-    background-color: #000000;
+    background-color: #111;
     color: #ffffff;
     height: 100%;
     width: 100%;
@@ -1439,7 +1439,7 @@ input[type=Password], select {
   font-size: .9em;
   padding: 16px 20px;
   display: inline-block;
-  border-color: #000000 !important; 
+  border-color: #111 !important; 
   border-radius: 2px;
   height: 4.5em;
 }
