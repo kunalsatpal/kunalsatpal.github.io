@@ -1,5 +1,13 @@
 
 /* site variables*/
+
+.b-icon{
+    float: right;
+    padding-top: 2.4em;
+}
+.funimage{
+    display: none !important; 
+}
 @keyframes scroll{
     from { background-position: 87% -500%, 0px 0px, 0px 0px; }
     to { background-position: 87% 500, 0px 0px, 0px 0px; }
@@ -11,12 +19,19 @@
     background-size: auto 86%, auto, auto;
 }
 #work #company{
-    height: 65vh;
-    background: url('../images/fitclub2.png'), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
+    height: 75vh;
+    background: url('../images/work_logos.png'), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
     background-repeat: no-repeat;
-    animation: scroll 10s infinite; 
+    background-size: auto 60%, auto, auto;
+    background-position: 87% 50%, 0px 0px, 0px 0px;
 
-    background-size: auto 84%, auto, auto;
+}
+#work #Interests{
+    height: 80vh;
+    background: url('../images/interests.png'), linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
+    background-repeat: no-repeat;
+    background-size: auto 100%, auto, auto;
+    background-position: 82% 50%, 0px 0px, 0px 0px;
 
 }
 #work{
@@ -43,7 +58,7 @@
     align-items: center;
     max-width: 81.75rem;
     width: 90vw;
- 
+    
 }
 #work .description{
     float: left;
@@ -52,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
- 
+    
 }
 #work .description .header{
     text-align: left;
@@ -76,7 +91,7 @@
     margin-bottom: 2.5rem;
     margin-top: .75rem
 }
-   
+
 
 #primary.button{
     background-color: #66AFF8 !important; 
@@ -85,13 +100,13 @@
     height: 3.5em;   
 }
 #primary.button.basic{
-       stroke: solid;
-    color: #000000 !important;
-    background-color: #eeeeee !important;
-    box-shadow: 0 0 0 1px #000000 inset !important;
-    border-color: #000000 !important;
-    border-radius: 2px;
-    margin-left: 0px !important;
+ stroke: solid;
+ color: #000000 !important;
+ background-color: #eeeeee !important;
+ box-shadow: 0 0 0 1px #000000 inset !important;
+ border-color: #000000 !important;
+ border-radius: 2px;
+ margin-left: 0px !important;
 }
 .bottom{
     float: left;
@@ -208,7 +223,7 @@ nav a{
     height: 80vh;
 }
 #me{
-        position: absolute;
+    position: absolute;
     float: right;
     margin-top: 5em;
     z-index: 2;
@@ -217,7 +232,7 @@ nav a{
     min-width: 346px;
     margin-right: 3em;
     bottom: -5.7625em;
-    }
+}
 #about{
     position: absolute;
     bottom: 13em;
@@ -234,7 +249,8 @@ nav a{
     top: 0;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.5em;
+    font-size: 3.2em;
+    line-height: 4.6rem;
     color: #000;
     align-self: left;
     padding-top: 0;
@@ -279,13 +295,13 @@ nav a{
     top: 0;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.5em;
-    color: #333333;
+    font-size: 3.2em;
+    color: #000;
     align-self: left;
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0.0em;
-    line-height: 1.5em;
+    line-height: 4.6rem;
 }
 #aboutsection #aboutmedesc{
     position: relative;
@@ -297,7 +313,7 @@ nav a{
     font-weight: normal;
     font-size: 1.1em;
     color: #888888;
-    line-height: 1.5625em;
+    line-height: 1.5em;
     max-width: 440px;
 }
 #aboutmedesc2{
@@ -491,7 +507,7 @@ nav a{
     font-weight: normal;
     text-align: center;
     margin: 0 auto;
-    margin-top: 1em;
+    margin-top: 1.5em;
     width: 50vw;
     font-size: 1.75rem;
     line-height: 3rem;
@@ -555,7 +571,7 @@ nav a{
     opacity: 0.3;
     border: 1px solid white;
     transform: matrix(1, 0, 0, 1, 0, 0);
-   
+    
 }
 #dribble{
     width: 33%;
@@ -613,25 +629,25 @@ nav a{
 /*media queries*/
 
 #nav_btn{ 
-display: none;
-float: right; 
-padding: 1.25rem;
-padding-right: 0;
-cursor: pointer; 
+    display: none;
+    float: right; 
+    padding: 1.25rem;
+    padding-right: 0;
+    cursor: pointer; 
 }
 #nav_btn span, #nav_btn span::before, #nav_btn span::after{ 
-width: 28px; 
-height: 4px; 
-float: left; 
-display: block; 
-background: #000; 
-position: relative; 
-text-indent: -9000px; 
+    width: 28px; 
+    height: 4px; 
+    float: left; 
+    display: block; 
+    background: #000; 
+    position: relative; 
+    text-indent: -9000px; 
 }
 #nav_btn span{ margin: 8px 0; }
 #nav_btn span::before, #nav_btn span::after{ 
-content: ''; 
-position: absolute;
+    content: ''; 
+    position: absolute;
 }
 #nav_btn span::before{ top: -8px; }
 #nav_btn span::after{ bottom: -8px; } 
@@ -663,16 +679,21 @@ position: absolute;
 
 
 @media screen and (max-width: 1190px)
-{
-    .pictures{
-        height: 12em !important;
-    }
-    .empty{
-        height: 12rem;
-    }
-    .element1, .element2{
-        height: 10%;
-    }
+{   #work #company {
+    background: url(../images/work_logos.png), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
+    background-repeat: no-repeat;
+    background-size: auto 40%, auto, auto;
+    background-position: 87% 50%, 0px 0px, 0px 0px;
+}
+.pictures{
+    height: 12em !important;
+}
+.empty{
+    height: 12rem;
+}
+.element1, .element2{
+    height: 10%;
+}
 }
 @media screen and (max-width: 1060px)
 {
@@ -691,48 +712,48 @@ position: absolute;
 @media screen and (max-width: 840px)
 {   .protected-heading{
     font-size: 1.5rem;
-    }
-    .protected-text{
+}
+.protected-text{
     font-size: 1.1rem !important;
     line-height: 1.6rem !important;    
-    }
-    .bg{
+}
+.bg{
     height: 136px !important;
 }
-    .bottom{
+.bottom{
     float: none;
-    }
-    .b-icon{
-        float: none;
-    }  
-   .email{
+}
+.b-icon{
+    float: none;
+}  
+.email{
     opacity: 1;
-        width: 12rem !important;
-    }
-    .resume1{
-        width: 12rem !important;
-    }
-    #footer .contactemail{
+    width: 12rem !important;
+}
+.resume1{
+    width: 12rem !important;
+}
+#footer .contactemail{
     width: 430px;
 }
-   
-   .DN{
-    display: none;
-   }
-   .burger{
-    display: block;
-   }
-   #nav_btn{
-        display: block;
-    }
-    .group{
-        display: none;
-    }    
 
-    .pictures{
-        margin-right: .5em;
-    }
-   #about {
+.DN{
+    display: none;
+}
+.burger{
+    display: block;
+}
+#nav_btn{
+    display: block;
+}
+.group{
+    display: none;
+}    
+
+.pictures{
+    margin-right: .5em;
+}
+#about {
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -744,24 +765,24 @@ position: absolute;
     max-width: 30rem;
     width: 80vw;
 }
-    #work .description .desc {margin-bottom: 2rem;
+#work .description .desc {margin-bottom: 2rem;
     font-size: 1rem;
     line-height: 1.6rem;    
-    }
-    #contact .contactdesc{
-        width: 75vw;
-        font-size: 1.25rem;
-    }
-    .group{
-        display: none;
-    }
-    #nav_btn{
-        display: block;
-    }
-    #me{
-        display: none;
-    }
-    #aboutsection #about{
+}
+#contact .contactdesc{
+    width: 75vw;
+    font-size: 1.25rem;
+}
+.group{
+    display: none;
+}
+#nav_btn{
+    display: block;
+}
+#me{
+    display: none;
+}
+#aboutsection #about{
     display: block;
     top: 3rem;
     text-align: center;
@@ -806,7 +827,7 @@ position: absolute;
 }
 .funimage{
     width: 110%;
-    display: block;
+    display: block !important;
     margin: auto;
     position: relative;
     left: -12px;
@@ -835,7 +856,9 @@ position: absolute;
     margin: auto;
 }
 #aboutmeheader{
-       display: block !important;
+    font-size: 2em;
+    line-height: 3.2rem;
+    display: block !important;
     padding-bottom: 1.5rem !important;
     padding-top:  0 !important;
 }
@@ -850,7 +873,7 @@ position: absolute;
     margin-left: 0;
     left: 0;
 } 
- .element2 {
+.element2 {
     height: 11rem;
     margin-top: 2rem;
     margin-left: 1rem;
@@ -866,60 +889,60 @@ position: absolute;
 }
 @media screen and (max-width: 580px)
 {   #photo{
-        display: none;
-    }
-    #images2{
-        display: none;
-    }
-    .test{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    #contact .contactdesc {
+    display: none;
+}
+#images2{
+    display: none;
+}
+.test{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#contact .contactdesc {
     width: 75vw;
     font-size: 1.25rem;
     line-height: 2rem;
-    }
+}
 
-    #footer .contactemail {
+#footer .contactemail {
     width: 320px;
     display: flex;
     flex-direction: column-reverse;
-    }
+}
 
-    #box{
+#box{
     margin-top: 4vh !important;
     margin-bottom: 4vh !important;
-    }
-    input[type=Password], select {
+}
+input[type=Password], select {
     width: 100% !important;
-    }
-    .contactemail a {
+}
+.contactemail a {
     font-size: 1.2rem;
-    }
-    .email {
+}
+.email {
     float: none !important;
     width: 16rem !important;
     margin-bottom: 14px;
-    }
-    .ghost {
+}
+.ghost {
     opacity: 1 !important;
-    }
-    .resume1 {
+}
+.resume1 {
     float: none !important;
     width: 16rem !important;
 }
-    .button{
+.button{
     margin-left: 0 !important;
     width: 100% !important;
     border-radius: 3px !important;
     margin-top: .6rem !important;    
-    }
-    #left_image{
+}
+#left_image{
     display: block !important;
     float: none !important;
     width: auto !important
-    }
+}
 #contact .contactheader {
     padding-top: 23vh;
     margin-top: 0;
@@ -937,34 +960,47 @@ position: absolute;
 }
 .line{
     width: 50vw;
-    }
-    .contactheader{
+}
+.contactheader{
     margin-top: 0;
     position: relative;
     top: 0;
 }
-    .line{
-        width: 65vw;
-        margin-left: auto;
-        margin-right: auto;
-        left:0;
-        right:0;
-        margin-top: 2.5rem;
-    }
-    #home{
+.line{
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
+    margin-top: 2.5rem;
+}
+#home{
     background: radial-gradient(800px at 61.43% 20%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
-    }   
+}   
 
 #contact{
-    background: url(../images/dark2.svg);
+    
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 }
-@media screen and (max-width: 500px){
-
-    .pictures{
+@media screen and (max-width: 580px){
+   #work #interests{
+     background: linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
+ }   
+ #work .container{
+    flex-direction: column-reverse;
+    
+}   
+.funimage{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;    
+    display: block;
+}
+.pictures{
     text-align: center;
     height: 7em !important;
     width: auto;
@@ -979,7 +1015,7 @@ position: absolute;
     margin-left: 0;
     left: 0;
 } 
- .element2 {
+.element2 {
     height: 6rem;
     margin-top: 2rem;
     margin-left: 0rem;
@@ -992,10 +1028,34 @@ position: absolute;
 .circle_image img{
     display: block; 
 }
-#home{
-    height: 85vh;
+#work .description{
+    margin:auto;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    /* float: left; */
+    /* width: 44vw; */
+    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
-
+#work .description .header{
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+#work .description .sub-header{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+#work #about_me {
+    background: linear-gradient(180deg, #fff 2%, #Efefef 98%);
+}    
+#work #company{
+    background: linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
+}
 #navbar .logo {
     min-width: 180px !important;
     width: 50%;
@@ -1004,7 +1064,7 @@ position: absolute;
     left: -1.25em;
 }
 }
-        
+
 .menu {
   position: absolute;
   top: 20px;
@@ -1081,19 +1141,19 @@ position: absolute;
 }
 .open {
     background-color: #000000;
-  color: #fffff;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  text-align: center;
-  transition: opacity 0.2s ease-in-out;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: .9;
-  visibility: visible;
+    color: #fffff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .9;
+    visibility: visible;
 }
 
 .open .link{
@@ -1153,8 +1213,8 @@ p {
 }
 .email{z-index: 100; float: right;
     display: inline-block;
-width:16rem;
-margin-right: 4%;
+    width:16rem;
+    margin-right: 4%;
     height: 5.25em;
     max-width: 280px;
     max-height: 64px;
@@ -1164,27 +1224,27 @@ margin-right: 4%;
 .resume1{
     z-index: 100;
     display: inline-block;
-width:16rem;
-margin-right: 4%;
+    width:16rem;
+    margin-right: 4%;
     height: 5.25em;
     max-width: 280px;
     max-height: 64px;
     border: 1px solid #9ccfff;
 }
 .social{
-    /* z-index: 100; */
-    width: 3.8rem;
-    margin-right: .5REM;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 1.5REM;
+    font-size: 1rem;
     /* height: 5.25em; */
     max-width: 236px;
     /* max-height: 64px; */
     display: block;
     float: right;
-    margin-top: 2.4em;
+    font-weight: 500;
 
 }
 .ghost:hover
-    {
+{
     opacity: 1;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
