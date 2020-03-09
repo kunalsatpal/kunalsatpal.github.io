@@ -888,7 +888,14 @@ nav a{
 }
 }
 @media screen and (max-width: 580px)
-{   #photo{
+{   .social{
+    display: inline !important;
+    float: none !important;
+}
+    .bg1{
+    width: 80%;
+}
+    #photo{
     display: none;
 }
 #images2{
