@@ -868,9 +868,7 @@ table {
 }
 @media screen and (max-width: 500px)
 {   
-    .description button{
-        max-width: none;
-    }
+    
     #work .work_number{
         margin-bottom: 1em;
     }
