@@ -1085,7 +1085,7 @@ table {
     flex-direction: column-reverse;
     margin: auto;
     margin-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
 } 
 #work .section{
     min-height: 78vh;
