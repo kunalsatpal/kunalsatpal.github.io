@@ -867,7 +867,12 @@ table {
 
 }
 @media screen and (max-width: 500px)
-{   
+{   .description .Password_continue {
+    max-width: 100%;
+    }
+    .description .even-button{
+        max-width: 100%;
+    }
     
     #work .work_number{
         margin-bottom: 1em;
