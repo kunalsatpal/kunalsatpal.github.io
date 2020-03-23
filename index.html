@@ -177,7 +177,7 @@
       <div class="desc">Working with a team of 55 other designers and developers I have not only designed but also learned the process of building a whole product from scratch. Responsible for managing and maintaining projects and make sure that they are implemented properly. </div>
 
       <div>            
-        <input id="password" type="Password" placeholder="Enter Passkey to read the case study" style="float: left">
+        <input id="password2" type="Password" placeholder="Enter Passkey to read the case study" style="float: left">
         <button id="pass" class="button Password_continue" onclick="href()">Read Case Study</button>
       </div>
 
@@ -342,6 +342,23 @@
 
       };
       var input = document.getElementById("password");
+      input.addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+          document.getElementById("pass").click();
+        }
+      })
+      String.prototype.hashCode = function() {
+        var hash = 0, i, chr;
+        if (this.length === 0) return hash;
+        for (i = 0; i < this.length; i++) {
+          chr   = this.charCodeAt(i);
+          hash  = ((hash << 5) - hash) + chr;
+          hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+      };
+      var input = document.getElementById("password2");
       input.addEventListener("keyup", function(event) {
         event.preventDefault();
         if (event.keyCode === 13) {
