@@ -514,6 +514,7 @@ a:hover{
     color: #66AFF8;
 }
 .description .even-button{
+    border: none;
     font-family: 'Raleway', sans-serif;
     width: 24em;
     /* font-style: normal; */
