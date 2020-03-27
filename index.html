@@ -84,6 +84,10 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7492W4"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <div class="load_wrapper">    
+      <img  src="./images/loader.gif">
+    </div>
     <div id="home2">
 
      <nav id="navbar">
@@ -110,7 +114,7 @@
       <div class="link"><a href="./kunalsatpal_resume.pdf" onClick="ga('send', 'event', { eventCategory: 'general', eventAction: 'click', eventLabel: 'resume', eventValue: 1});" target="_blank">RESUME</a></div>
       <div class="link"><a href="mailto:kunalsatpal1">CONTACT ME</a></div>
     </div>
-
+    
     <div class="parent">
       <div class="main">
         <div class="header" id="HI">
@@ -311,49 +315,57 @@
       </div>  
     </div>    
 
+    <script >
 
-    <script src="./js/index.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('#fullpage').fullpage({
+    window.onload = function load() { load(); setInterval(load, 3000); };
+
+      function load(){
+      $(".load_wrapper").fadeOut("slow")
+
+    });
+  </script>
+  <script src="./js/index.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
                 //options here
                 autoScrolling:true,
                 licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
               });
-        $(window).scroll(function() {
-          if (window.pageYOffset > 0) {
-            $('#navbar').addClass("sticky");
-          } else {
-            $('#navbar').removeClass("sticky");
-          }
-        });
-      });
-
-      $('.scroll_down').click (function() {
-        $('html, body').animate({scrollTop: $('#work').offset().top }, 'medium');
-        return false;
-      });
-
-      function myFunction(x) {
-        x.classList.toggle("change");
-
-        $(".overlay").toggleClass("open");
-        $(".menu").toggleClass("open");
-
-      };
-      var input = document.getElementById("password");
-      input.addEventListener("keyup", function(event) {
-        event.preventDefault();
-        if (event.keyCode === 13) {
-          document.getElementById("pass").click();
+      $(window).scroll(function() {
+        if (window.pageYOffset > 0) {
+          $('#navbar').addClass("sticky");
+        } else {
+          $('#navbar').removeClass("sticky");
         }
-      })
-      String.prototype.hashCode = function() {
-        var hash = 0, i, chr;
-        if (this.length === 0) return hash;
-        for (i = 0; i < this.length; i++) {
-          chr   = this.charCodeAt(i);
-          hash  = ((hash << 5) - hash) + chr;
+      });
+    });
+
+    $('.scroll_down').click (function() {
+      $('html, body').animate({scrollTop: $('#work').offset().top }, 'medium');
+      return false;
+    });
+
+    function myFunction(x) {
+      x.classList.toggle("change");
+
+      $(".overlay").toggleClass("open");
+      $(".menu").toggleClass("open");
+
+    };
+    var input = document.getElementById("password");
+    input.addEventListener("keyup", function(event) {
+      event.preventDefault();
+      if (event.keyCode === 13) {
+        document.getElementById("pass").click();
+      }
+    })
+    String.prototype.hashCode = function() {
+      var hash = 0, i, chr;
+      if (this.length === 0) return hash;
+      for (i = 0; i < this.length; i++) {
+        chr   = this.charCodeAt(i);
+        hash  = ((hash << 5) - hash) + chr;
           hash |= 0; // Convert to 32bit integer
         }
         return hash;
