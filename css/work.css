@@ -2,7 +2,7 @@
 /* site variables*/
 .load_wrapper{
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 100;
     width: 100vw;
     height: 100vh;
