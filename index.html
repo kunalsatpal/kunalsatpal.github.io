@@ -317,12 +317,6 @@
     </script>
     <script src="./js/index.js"></script>
     <script>
-      $(document).ready(function() {
-        $('#fullpage').fullpage({
-                //options here
-                autoScrolling:true,
-                licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
-              });
         $(window).scroll(function() {
           if (window.pageYOffset > 0) {
             $('#navbar').addClass("sticky");
@@ -330,7 +324,7 @@
             $('#navbar').removeClass("sticky");
           }
         });
-      });
+      
 
       $('.scroll_down').click (function() {
         $('html, body').animate({scrollTop: $('#work').offset().top }, 'medium');
@@ -412,12 +406,7 @@
         $(".overlay").toggleClass("open");
 
       }
-      $(document).ready(function () {
-        $('#fullpage').fullpage({
-          //options here
-          autoScrolling: true,
-          licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
-        });
+      
         $(window).scroll(function () {
           if (window.pageYOffset > 0) {
             $('#navbar').addClass("sticky");
@@ -425,7 +414,6 @@
             $('#navbar').removeClass("sticky");
           }
         });
-      });
       $(document).on("scroll", function () {
         if ($(document).scrollTop() > 150) {
           $(".nav-placeholder").height($("#navbar ").outerHeight());
