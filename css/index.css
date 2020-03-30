@@ -53,7 +53,7 @@
 }
 #work{
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -79,7 +79,7 @@
 }
 #work .description{
     float: left;
-    width: 44vw;
+    width: 42vw;
     max-width: 40em;
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@
 #work .description .header{
     text-align: left;
     /* margin-top: 0.5em; */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 4.6rem;
     font-size: 3.6rem;
@@ -97,12 +97,12 @@
     margin-bottom: 1.5rem;
 }
 #work .description .sub-header{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
     font-weight: normal;
     line-height: 2.6rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: .02em;
     color: #999999;
     margin-bottom: 2.5rem;
@@ -129,7 +129,7 @@
     float: left;
     color: #000;
     opacity: .6;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     padding-top: 2.4rem;
 }
@@ -204,7 +204,7 @@ nav li{
     display: inline;
 }
 nav a{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
@@ -260,7 +260,7 @@ nav a{
 }
 #aboutmeheader{
     line-height: 3.5rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     margin: 0;
     top: 0;
@@ -280,12 +280,12 @@ nav a{
     bottom: 0;
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #999;
-    line-height: 1.5em;
+    line-height: 2.6rem;
 }
 #aboutsection{
     position: relative;
@@ -306,7 +306,7 @@ nav a{
     height: 14.9375em;
 }
 #aboutsection #aboutmeheader{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     margin: 0;
     top: 0;
@@ -325,7 +325,7 @@ nav a{
     bottom: 0;
     margin-top: .9em;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1em;
@@ -338,7 +338,7 @@ nav a{
     bottom: 0;
     margin-top: .9em;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1em;
@@ -460,7 +460,7 @@ nav a{
     width: 10.875em;
     border: 1.5px dashed #66AFF8;
     border-radius: 6px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 1.75em;
@@ -481,7 +481,7 @@ nav a{
     width: 10em;
     border: 1.5px dashed #66AFF8;
     border-radius: 6px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 1.75em;
@@ -512,7 +512,7 @@ nav a{
 #contact .contactheader{
     padding-top: 1.5em;
     margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 3.8em;
     text-align: center;
@@ -1181,7 +1181,7 @@ input[type=Password], select {
 }
 
 .open .link{
-    font-style: 'Raleway', sans-serif;
+    font-style: 'Poppins', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     opacity: 90%;
@@ -1206,7 +1206,7 @@ input[type=Password], select {
     box-sizing: border-box;
     border-radius: 3px;
     background: transparent;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 25%;
     font-style: normal;
     font-weight: normal;
@@ -1226,7 +1226,7 @@ p {
 .ghost{
 
     opacity: 1;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-align: center;
@@ -1256,7 +1256,7 @@ p {
     border: 1px solid #9ccfff;
 }
 .social{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-right: 1.5REM;
     font-size: 1rem;
     /* height: 5.25em; */
@@ -1270,7 +1270,7 @@ p {
 .ghost:hover
 {
     opacity: 1;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-align: center;

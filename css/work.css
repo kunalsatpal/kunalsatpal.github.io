@@ -144,7 +144,7 @@
     float: left;
     color: #000;
     opacity: .4;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1rem;
     padding-top: 2.2rem;
@@ -175,7 +175,7 @@ nav li{
 } 
 
 nav a{    
-  font-family: 'Raleway', sans-serif ; 
+  font-family: 'Poppins', sans-serif ; 
   font-style: normal;     
   font-weight: normal;     
   line-height: normal;     
@@ -228,7 +228,7 @@ nav a{
     /* bottom: 14rem; */
     text-align: center;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em;
     text-align: center;
     line-height: 1.3125rem;
@@ -277,7 +277,7 @@ nav a{
     float: left;
 }
 .heading{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.25rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -285,7 +285,7 @@ nav a{
     color: #000;
 }
 .heading2{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.25rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -294,7 +294,7 @@ nav a{
     color: #222222;
 }
 .subheading{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.75rem;
     font-weight: bold;
     margin-top: 3rem;
@@ -343,7 +343,7 @@ nav a{
 /* WORK PART SLIDERS */
 #work{
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -374,7 +374,7 @@ a:hover{
 }
 #work .description{
     float: left;
-    width: 44vw;
+    width: 43vw;
     max-width: 40em;
     display: flex;
     flex-direction: column;
@@ -411,7 +411,7 @@ a:hover{
 #work .description .header{
     text-align: left;
     /* margin-top: 0.5em; */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 4.6rem;
     font-size: 3.6rem;
@@ -421,7 +421,7 @@ a:hover{
 #placement .description .header {
     text-align: left;
     /* margin-top: 0.5em; */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 4.6rem;
     font-size: 3.6rem;
@@ -431,7 +431,7 @@ a:hover{
 #talentbite .description .header {
     text-align: left;
     /* margin-top: 0.5em; */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 4.6rem;
     font-size: 3.6rem;
@@ -439,19 +439,19 @@ a:hover{
     margin-bottom: 1.5rem;
 }
 #work .description .sub-header{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
     font-weight: normal;
     line-height: 2.6rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: .02em;
     color: #999999;
     margin-bottom: 2.5rem;
     margin-top: .75rem;
 }
 #talentbite .description .sub-header{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
     font-weight: normal;
@@ -464,7 +464,7 @@ a:hover{
     opacity: .55;
 }
 #placement .description .sub-header{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
     font-weight: normal;
@@ -482,7 +482,7 @@ a:hover{
 #work .description .desc{
     display: none;
     text-align: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 2.2em;
@@ -520,7 +520,7 @@ a:hover{
     font-size: .9em;
 }
 #work .description .odd-button{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     width: 100%;
     font-weight: normal;
@@ -531,7 +531,7 @@ a:hover{
 }
 .description .even-button{
     border: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 24em;
     /* font-style: normal; */
     /* font-weight: normal; */
@@ -567,7 +567,7 @@ a:hover{
 #contact .contactheader{
     padding-top: 1.5em;
     margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 3.8em;
     text-align: center;
@@ -609,7 +609,7 @@ a:hover{
 .grey{
     margin-top: 5rem;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 2.4375rem;
@@ -622,7 +622,7 @@ a:hover{
 }
 .dribble-link a{
     margin-top: 0em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 2.4375rem;
@@ -737,11 +737,11 @@ a:hover{
 }
 
 table {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
 } 
 #article_heading{
     width: 65%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin: auto;
@@ -1407,7 +1407,7 @@ b{
 }
 
 .open .link{
-    font-style: 'Raleway', sans-serif;
+    font-style: 'Poppins', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     opacity: 90%;
@@ -1485,7 +1485,7 @@ input[type=Password], select {
     box-sizing: border-box;
     border-radius: 3px;
     background: transparent;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 25%;
     font-style: normal;
     font-weight: normal;
