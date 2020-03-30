@@ -55,7 +55,7 @@
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
 <link rel="stylesheet" type="text/css" media="screen" href="./css/work.css" />
-<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Poppins:400,500,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!--End-->
@@ -79,7 +79,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <div class="load_wrapper">    
-        <img  src="./images/loader.gif">
+      <img  src="./images/loader.gif">
     </div>
     <div id="home2">
 
@@ -199,6 +199,16 @@
   <div style="margin-top: 8rem; margin-bottom: -12em;">BLOGS</div>
   <div class="section" id="blogsection">
     <div class="container" style="margin-top: 10rem;" id="blogcontainer">
+      <div class="blogcard image">
+        <a href="./portfolio.html">
+          <div class="blogtitle">
+            Designing and Iterating my portfolio
+          </div>
+          <div class="blogicon">
+            <img src="./images/Logo_blog.png">
+          </div>
+        </a>
+      </div>
       <div class="blogcard image" id="cureblog">
         <a href="./Internship_curefit.html">
           <div class="blogtitle">
@@ -231,12 +241,7 @@
       </div>
 
 
-      <div class="blogcard image">
-        <div class="blogtitle">
-          More blogs coming soon...
-        </div>
 
-      </div>
     </div>
   </div>
 
@@ -317,13 +322,13 @@
     </script>
     <script src="./js/index.js"></script>
     <script>
-        $(window).scroll(function() {
-          if (window.pageYOffset > 0) {
-            $('#navbar').addClass("sticky");
-          } else {
-            $('#navbar').removeClass("sticky");
-          }
-        });
+      $(window).scroll(function() {
+        if (window.pageYOffset > 0) {
+          $('#navbar').addClass("sticky");
+        } else {
+          $('#navbar').removeClass("sticky");
+        }
+      });
       
 
       $('.scroll_down').click (function() {
@@ -407,13 +412,13 @@
 
       }
       
-        $(window).scroll(function () {
-          if (window.pageYOffset > 0) {
-            $('#navbar').addClass("sticky");
-          } else {
-            $('#navbar').removeClass("sticky");
-          }
-        });
+      $(window).scroll(function () {
+        if (window.pageYOffset > 0) {
+          $('#navbar').addClass("sticky");
+        } else {
+          $('#navbar').removeClass("sticky");
+        }
+      });
       $(document).on("scroll", function () {
         if ($(document).scrollTop() > 150) {
           $(".nav-placeholder").height($("#navbar ").outerHeight());

@@ -1,4 +1,5 @@
 
+
 /* site variables*/
 .load_wrapper{
     display: flex;
@@ -47,7 +48,7 @@
 .blogcard{
     position: relative;
     width: 23%;
-    box-shadow: 0px 16px 164px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 16px 164px rgba(0, 0, 0, 0.09);
     height: 26rem;
     border-radius: .26rem;
 }
@@ -280,7 +281,7 @@ nav a{
     font-family: 'Poppins', sans-serif;
     font-size: 2.25rem;
     font-weight: bold;
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     margin-bottom: 1rem;
     color: #000;
 }
@@ -727,12 +728,12 @@ a:hover{
 #text{
     width: 68%;
     max-width: 732px;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     line-height: 2.25rem;
     margin: auto;
     margin-top: 1rem;
     color: #555555;
-    font-family: 'pt-serif';
+    font-family: 'PT serif', serif;
 
 }
 
@@ -1499,7 +1500,7 @@ input[type=Password], select {
 
 }
 p {
-    line-height: 2.5rem;
+    line-height: 2.65rem;
 }
 
 
