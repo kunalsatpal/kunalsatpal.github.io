@@ -39,7 +39,7 @@
     height: 75vh;
     background: url('../images/work_logos.png'), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
     background-repeat: no-repeat;
-    background-size: auto 56%, auto, auto;
+    background-size: auto 56%, auto, auto; 
     background-position: 87% 50%, 0px 0px, 0px 0px;
 
 }
@@ -420,7 +420,7 @@ nav a{
     t/*op: 61.125em;*/
     margin-left: 0%;
     width: 43%;
-    max-width:500px;
+    max-width:600px;
 
 }
 .medium{
@@ -441,6 +441,9 @@ nav a{
     min-width: 100vw;
 }
 .pictures{
+    border-radius: 6px;
+    object-fit: cover; 
+    width: 13.5vw;
     height: 14em !important;
     margin-right: 1em;
     margin-top: .7em;
