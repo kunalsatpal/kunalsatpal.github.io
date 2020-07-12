@@ -61,6 +61,7 @@
     font-size: 1.36rem;
 }
 .blogicon{
+	width: 100%;
     position: absolute;
     bottom: 1rem;
 }
@@ -370,8 +371,8 @@ a:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 81.75rem;
-    width: 90vw;
+    max-width: 1300px;
+    width: 85vw;
 }
 #work .description{
     float: left;
@@ -720,8 +721,8 @@ a:hover{
 }
 
 .parent{
-    width: 85vw;
-    max-width: 1100px;
+    width: 81.5vw;
+    max-width: 1300px;
     margin: auto;
 
 }
