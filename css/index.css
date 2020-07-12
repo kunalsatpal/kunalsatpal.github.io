@@ -39,7 +39,7 @@
     height: 75vh;
     background: url('../images/work_logos.png'), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
     background-repeat: no-repeat;
-    background-size: auto 60%, auto, auto;
+    background-size: auto 56%, auto, auto;
     background-position: 87% 50%, 0px 0px, 0px 0px;
 
 }
@@ -73,8 +73,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 81.75rem;
-    width: 90vw;
+    max-width: 1300px;
+    width: 85vw;
 
 }
 #work .description{
@@ -602,8 +602,8 @@ nav a{
 
 
 .parent{
-    width: 85vw;
-    max-width: 1100px;
+    width: 81.5vw;
+    max-width: 1300px;
     margin: 0 auto;
 
 }
