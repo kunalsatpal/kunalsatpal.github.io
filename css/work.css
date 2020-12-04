@@ -108,14 +108,14 @@
     
 }
 
-#work #curefit2{
-    background: url('../images/curefit_logo2.png'), linear-gradient(179.99deg, #FCFFFD 4%, #FBFEFE 60%, #E3F0FF 94%);
+#work #placement{
+    background: url('../images/Placement_logo.png'), linear-gradient(179.99deg, #FCFFFD 4%, #FBFEFE 20%, #E3F0FF 94%);
     background-repeat: no-repeat;
-    background-position: 102% 52%, 0px 0px, 0px 0px;
-    background-size: auto 60%, auto, auto;
+    background-position: 110% 80%, 0px 0px, 0px 0px;
+    background-size: auto 92%, auto, auto;
 }
 
-#work #placement{
+#work #curefit2{
     background: url('../images/IMG_logo2.png'), linear-gradient(180deg, #111 1.68%, #171717 98.35%);;
     background-repeat: no-repeat;
     background-position: 102% 52%, 0px 0px, 0px 0px;
@@ -392,7 +392,7 @@ a:hover{
     color: #000;
     margin-bottom: 3rem;
 }
-#placement .work_number{
+#curefit2 .work_number{
     text-align: left;
     /* margin-top: 0.5em; */
     font-weight: 800;
@@ -420,7 +420,7 @@ a:hover{
     color: #000;
     margin-bottom: 1.5rem;
 }
-#placement .description .header {
+#curefit2 .description .header {
     text-align: left;
     /* margin-top: 0.5em; */
     font-family: 'Poppins', sans-serif;
@@ -465,7 +465,7 @@ a:hover{
     margin-top: .75rem;
     opacity: .55;
 }
-#placement .description .sub-header{
+#curefit2 .description .sub-header{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
@@ -511,7 +511,7 @@ a:hover{
     border: none;
     font-size: .9em;
 }
-#placement .Password_continue{
+#curefit2 .Password_continue{
     float:left;
     width: 33%;
     float: left;
@@ -908,11 +908,11 @@ table {
         background: linear-gradient(180deg, #FDFCFF 1.34%, #FBFAFF 60.19%, #E3E0FF 97.18%);
 
     }
-    #work #curefit2{
+    #work #placement{
 
         background: linear-gradient(179.99deg, #FCFFFD 4%, #FBFEFE 60%, #E3F0FF 94%);
     }
-    #work #placement{
+    #work #curefit2{
 
         background: linear-gradient(180deg, #111 0%, #030303 62.35%, #2E2E2E 96.54%);
     }
@@ -1468,7 +1468,7 @@ input[type=Password], select {
   border-radius: 2px;
   height: 4.5em;
 }
-#placement input[type=Password], select {
+#curefit2 input[type=Password], select {
   width: 65%;
   font-size: .9em;
   padding: 16px 20px;
