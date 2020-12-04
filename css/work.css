@@ -111,12 +111,12 @@
 #work #placement{
     background: url('../images/Placement_logo.png'), linear-gradient(179.99deg, #FCFFFD 4%, #FBFEFE 20%, #E3F0FF 94%);
     background-repeat: no-repeat;
-    background-position: 110% 80%, 0px 0px, 0px 0px;
-    background-size: auto 92%, auto, auto;
+    background-position: 100% 50%, 0px 0px, 0px 0px;
+    background-size: auto 90%, auto, auto;
 }
 
 #work #curefit2{
-    background: url('../images/IMG_logo2.png'), linear-gradient(180deg, #111 1.68%, #171717 98.35%);;
+    background: url('../images/Curefit_logo.png'), linear-gradient(180deg, #111 1.68%, #171717 98.35%);;
     background-repeat: no-repeat;
     background-position: 102% 52%, 0px 0px, 0px 0px;
     background-size: auto 60%, auto, auto;
