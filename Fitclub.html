@@ -1,7 +1,7 @@
 <!doctype <!DOCTYPE html>
 <html>
 <head>
-  
+
  <!-- Global site tag (gtag.js) - Google Analytics -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101926066-2"></script>
  <script>
@@ -176,33 +176,64 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       			<b>
       				Who will get the reward?-
       			</b>
-      			Every FitClub member is eligible to get the reward - this includes all Cult/Mind members, as well as users who are not members
-      		</li>
-      		<li>
-      			<b>
-      				When will they get the reward?-
-      			</b>
-      			Eligible users will get the reward upon completing every Cult/Mind class. The reward will, however, be limited to 1 per day. (Due to business constraints)
-      		</li>
-      		<li>
-      			<b>
-      				How will they get the reward?-
-      			</b>
-      			The users will receive the reward on the app (not on the web in v1) - the reward will be variable and will be revealed. Even if the user books the class via the web and attends it, she will get the reward message - but to avail, she has to use it on the app.	
-      		</li>
-      	</ol>
-      </p>
-      <div class="heading">Diving into flows and deliverables</div>
-      <p>  
-        After getting sure about the product and the ecosystem, it was really essential to map all flows and experience which can be looked at further stages of design.
-      </p>
-      
-      <div id="cover2" class="BOB"><img src="./images/Fitclub/user_flow.png" loading="lazy" alt="..." ></div><br><br>
-    </div>
-  </div>
-  <div id="cover4" class="BOBm" style=" height: 60vh;"><img src="./images/Fitclub/user_flow.png" loading="lazy" alt="..." ></div>
-  <div class="parent">
-    <div id="text">
+      			Every FitClub member is eligible to get the reward - this includes all Cult/Mind members, as well as users who are not members. User motivations very much differnt from Eat.fit users.  
+            <table class="ui small definition table">
+              <tbody>
+                <tr>
+                  <td class="four wide">Eat.fit Members</td>
+                  <td class="twelve wide">
+                    Users already using fitclub for Eat.fit orders.
+                    <ul class="ui list">
+                      <li>Need upfront discount before buying</li>
+                      <li>At moment purchases</li>
+                      <li>Large ticket size in terms of payable amount</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Cult/Mind Members</td>
+                  <td>
+                    <ul class="ui list">
+                      <li>Book class in advance seceral days before.</li>
+                      <li>Forget abbout the class sometimes</li>
+                      <li>Can book a class easily with two taps. (Very low ticket size)</li>
+                      <li>Getting out of bed and going to the cult center is the biggest task</li>
+                      <li>Beacuse of which a lot of cancellations happen with nearly zero penalty</li>
+                    </ul>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </li>
+          <br>
+          <li>
+           <b>
+            When will they get the reward?-
+          </b>
+          Eligible users will get the reward upon completing every Cult/Mind class. The reward will, however, be limited to 1 per day. (Due to business constraints)
+        </li>
+        <li>
+         <b>
+          How will they get the reward?-
+        </b>
+        The users will receive the reward on the app (not on the web in v1) - the reward will be variable and will be revealed. Even if the user books the class via the web and attends it, she will get the reward message - but to avail, she has to use it on the app.	
+      </li>
+    </ol>
+  </p>
+
+  <div class="heading">Diving into flows and deliverables</div>
+  <p>  
+    After getting sure about the product and the ecosystem, it was really essential to map all flows and experience which can be looked at further stages of design.
+  </p>
+
+  <div id="cover2" class="BOB"><img src="./images/Fitclub/user_flow.png" loading="lazy" alt="..." ></div><br><br>
+</div>
+</div>
+<div id="cover4" class="BOBm" style=" height: 60vh;"><img src="./images/Fitclub/user_flow.png" loading="lazy" alt="..." ></div>
+<div class="parent">
+  <div id="text">
       <!--
       <p>
       	According to the flow we mapped all the properties that are to be worked on and the components that are to be designed. This way of mapping increases efficiency when working with cross-functional teams. 
@@ -320,8 +351,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <br>
 <div class="parent">
   <div id="text">	
-    
-    
+
+
    <div class="heading">
      Discovery points will lead to fitclub page
    </div>
@@ -506,7 +537,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 </div>
 <div> 
-  
+
   <div id="contact">
     <div class="contactheader">
       <div>Say Hello</div>
@@ -566,55 +597,55 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   };
 
- document.addEventListener("DOMContentLoaded", function() {
-  var lazyloadImages;    
+  document.addEventListener("DOMContentLoaded", function() {
+    var lazyloadImages;    
 
-  if ("IntersectionObserver" in window) {
-    lazyloadImages = document.querySelectorAll(".lazy");
-    var imageObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          var image = entry.target;
-          image.src = image.dataset.src;
-          image.classList.remove("lazy");
-          imageObserver.unobserve(image);
-        }
-      });
-    });
-
-    lazyloadImages.forEach(function(image) {
-      imageObserver.observe(image);
-    });
-  } else {  
-    var lazyloadThrottleTimeout;
-    lazyloadImages = document.querySelectorAll(".lazy");
-    
-    function lazyload () {
-      if(lazyloadThrottleTimeout) {
-        clearTimeout(lazyloadThrottleTimeout);
-      }    
-
-      lazyloadThrottleTimeout = setTimeout(function() {
-        var scrollTop = window.pageYOffset;
-        lazyloadImages.forEach(function(img) {
-          if(img.offsetTop < (window.innerHeight + scrollTop)) {
-            img.src = img.dataset.src;
-            img.classList.remove('lazy');
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
           }
         });
-        if(lazyloadImages.length == 0) { 
-          document.removeEventListener("scroll", lazyload);
-          window.removeEventListener("resize", lazyload);
-          window.removeEventListener("orientationChange", lazyload);
-        }
-      }, 20);
-    }
+      });
 
-    document.addEventListener("scroll", lazyload);
-    window.addEventListener("resize", lazyload);
-    window.addEventListener("orientationChange", lazyload);
-  }
-})
+      lazyloadImages.forEach(function(image) {
+        imageObserver.observe(image);
+      });
+    } else {  
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload () {
+        if(lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }    
+
+        lazyloadThrottleTimeout = setTimeout(function() {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if(lazyloadImages.length == 0) { 
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 20);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
 
 </script>
 
