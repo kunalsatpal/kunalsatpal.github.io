@@ -30,16 +30,16 @@
     to { background-position: 87% 500, 0px 0px, 0px 0px; }
 }
 #work #about_me{
-    background: url('../images/me.png'), linear-gradient(180deg, #fff 2%, #Efefef 98%);
+    background: url('../images/me3.png');
     background-repeat: no-repeat;
-    background-position: 87% 100%, 0px 0px, 0px 0px;
-    background-size: auto 86%, auto, auto;
+    background-position:90% 100%, 0px 0px, 0px 0px;
+    background-size: auto 90%, auto, auto;
 }
 #work #company{
     height: 75vh;
     background: url('../images/work_logos.png'), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
     background-repeat: no-repeat;
-    background-size: auto 56%, auto, auto; 
+    background-size: auto 80%, auto, auto; 
     background-position: 87% 50%, 0px 0px, 0px 0px;
 
 }
@@ -58,7 +58,7 @@
     font-weight: bold;
     line-height: normal;
     font-size: 1.125rem;
-    margin-top: 1.25rem;
+    /*margin-top: 1.25rem;*/
     color: rgba(0, 0, 0, 0.7);
 }
 #work .section{
@@ -92,7 +92,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 4.6rem;
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     color: #000;
     margin-bottom: 1.5rem;
 }
@@ -111,18 +111,18 @@
 
 
 #primary.button{
-    background-color: #66AFF8 !important; 
+     
     font-size: 1rem;
-    width: 9em;
-    height: 3.5em;   
+    width: 8.2em;
+    height: 3em;   
 }
 #primary.button.basic{
  stroke: solid;
- color: #000000 !important;
- background-color: #eeeeee !important;
- box-shadow: 0 0 0 1px #000000 inset !important;
+ color: #111 !important;
+ background-color: #fff !important;
+ box-shadow: 0 0 0 1px #111 inset !important;
  border-color: #000000 !important;
- border-radius: 2px;
+ border-radius: 5px;
  margin-left: 0px !important;
 }
 .bottom{
