@@ -979,6 +979,7 @@ table {
     #work .description .header{
         font-size: 2em;
         line-height: 1.4em;
+        color: #222;
     }
     #work .description .sub-header{
         font-size: 1em;

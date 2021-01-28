@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="175px" height="175px" viewBox="0 0 175 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sticky2</title>
+    <g id="sticky2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2-Copy-2">
+            <rect id="Rectangle" fill="#3888FF" x="0" y="0" width="175" height="175" rx="2"></rect>
+            <path d="M135.828427,0 L173,0 C174.104569,-2.02906125e-16 175,0.8954305 175,2 L175,39.1715729 C175,40.2761424 174.104569,41.1715729 173,41.1715729 C172.469567,41.1715729 171.960859,40.9608592 171.585786,40.5857864 L134.414214,3.41421356 C133.633165,2.63316498 133.633165,1.36683502 134.414214,0.585786438 C134.789286,0.210713681 135.297994,2.76197422e-15 135.828427,0 Z" id="Rectangle" fill="#A5C9FF"></path>
+        </g>
+    </g>
+</svg>
