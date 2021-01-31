@@ -700,12 +700,8 @@ nav a{
 
 
 @media screen and (max-width: 1190px)
-{   #work #company {
-    background: url(../images/work_logos.png), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
-    background-repeat: no-repeat;
-    background-size: auto 40%, auto, auto;
-    background-position: 87% 50%, 0px 0px, 0px 0px;
-}
+{   
+    
 .pictures{
     height: 12em !important;
 }
@@ -727,13 +723,38 @@ nav a{
     .element1, .element2{
         height: 9%;
     }
+
+#work #about_me {
+    
+    background-size: auto 70%, auto, auto;
+    background-position: 87% 100%, 0px 0px, 0px 0px;
+}   
+    #work #company {
+    background-repeat: no-repeat;
+    background-size: auto 70%, auto, auto;
+    background-position: 87% 50%, 0px 0px, 0px 0px;
 }
-
-
+#work .description .header{
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+}
+#aboutmeheader{
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+}
+#aboutmedesc{
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+}
 @media screen and (max-width: 840px)
 {   .protected-heading{
     font-size: 1.5rem;
 }
+
+#work #company {
+    background: linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
+ }   
 .protected-text{
     font-size: 1.1rem !important;
     line-height: 1.6rem !important;    
@@ -786,9 +807,13 @@ nav a{
     max-width: 30rem;
     width: 80vw;
 }
-#work .description .desc {margin-bottom: 2rem;
+#work .description .sub-header {margin-bottom: 2rem;
     font-size: 1rem;
     line-height: 1.6rem;    
+ }   
+    #work .description .header {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
 }
 #contact .contactdesc{
     width: 75vw;
@@ -846,19 +871,7 @@ nav a{
     top: 5rem !important;
 
 }
-.funimage{
-    width: 110%;
-    display: block !important;
-    margin: auto;
-    position: relative;
-    left: -12px;
-    right: 0;
-    margin-top: 8rem;
-    margin-left: auto;
-    margin-right: auto;
-    top: 0;
 
-}
 .peoplepics{
     position: relative;
     display: block;
@@ -914,6 +927,23 @@ nav a{
 {   .social{
     display: inline !important;
     float: none !important;
+}
+#work #Interests{
+    background: linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
+}
+
+.funimage{
+    width: 110%;
+    display: block !important;
+    margin: auto;
+    position: relative;
+    left: -12px;
+    right: 0;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+
 }
     .bg1{
     width: 80%;
@@ -1016,9 +1046,7 @@ input[type=Password], select {
 
 }
 @media screen and (max-width: 580px){
-   #work #interests{
-     background: linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
- }   
+     
  #work .container{
     flex-direction: column-reverse;
     
@@ -1084,6 +1112,7 @@ input[type=Password], select {
     background: linear-gradient(180deg, #fff 2%, #Efefef 98%);
 }    
 #work #company{
+    height: fit-content;
     background: linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
 }
 #navbar .logo {
