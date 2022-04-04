@@ -115,6 +115,14 @@
     background-size: auto 80%, auto, auto;
     
 }
+#work #cart_abandonment{
+    background: url('../images/cart_abandonment.png'), linear-gradient(180deg, #FDFCFF 1.34%, #DFFFF3 97.18%);
+    background-repeat: no-repeat;
+    background-position: 92% 100%, 0px 0px, 0px 0px;
+    background-size: auto 80%, auto, auto;
+    
+}
+
 
 #work #placement{
     background: url('../images/Placement_logo.png'), linear-gradient(179.99deg, #FCFFFD 4%, #FBFEFE 20%, #E3F0FF 94%);
@@ -896,6 +904,10 @@ table {
 
         background-size: auto 40%, auto, auto;
     }
+    #work #cart_abandonment{
+
+        background-size: auto 45%, auto, auto;
+    }
     #work #curefit2{
 
         background-size: auto 30%, auto, auto;
@@ -993,6 +1005,11 @@ table {
     background:  linear-gradient(180deg, #FFFFFF 0.57%, rgba(255, 255, 255, 0.970736) 60.7%, rgba(255, 255, 255, 0.97) 70.1%, rgba(255, 255, 255, 0.86) 93.26%), linear-gradient(90deg, #00BEFF 8.78%, #FFDC18 53.8%, #FF3278 97.3%);
    
     }
+    #work #cart_abandonment{
+    background: linear-gradient(180deg, #FDFCFF 1.34%, #DFFFF3 97.18%);
+  
+    
+}
     #work #placement{
 
         background: linear-gradient(179.99deg, #FCFFFD 4%, #FBFEFE 60%, #E3F0FF 94%);
