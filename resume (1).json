@@ -1,0 +1,182 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "education": "",
+    "awards": "Achievements",
+    "work": "Work Experience",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Kunal Satpal",
+    "phone": "+91 7597248129",
+    "website": "https://kunalsatpal.com",
+    "location": {
+      "address": "Bangalore"
+    },
+    "email": "kunalsatpal1@gmail.com"
+  },
+  "education": [
+    {
+      "institution": "Indian Institute of Technology Roorkee",
+      "location": "Roorkee, India",
+      "studyType": "B.Tech",
+      "startDate": "2016",
+      "endDate": "2020",
+      "area": "Chemical Engineering",
+      "gpa": "7.44"
+    }
+  ],
+  "work": [
+    {
+      "company": "Gojek",
+      "location": "Bangalore, India",
+      "position": "Senior Product Designer",
+      "website": "",
+      "endDate": "Present",
+      "highlights": [
+        "I oversee GoFood promos, and loyalty to enhance customer satisfaction, engagement, and drive platform growth.",
+        "Redesigned the promo journey for better promo redemptions and promo perception"
+      ],
+      "startDate": "June 2022"
+    },
+    {
+      "highlights": [
+        "Designed the cult.fit marketplace onboarding, successfully reducing turnaround time to 3~4 days from 10~15 days",
+        "Collaborated with 4 designers to develop a new design system for the overall app and web experience.",
+        "Designed the new navigation and landing page for product line: Wellness, increasing category page visits by 5%",
+        "Currently designing for Wellness and working on cross-sell constructs and usability studies"
+      ],
+      "company": "Cult.fit Healthcare Pvt Ltd",
+      "position": "Product Designer",
+      "location": "Bangalore, India",
+      "startDate": "June 2020",
+      "endDate": "June 2022"
+    },
+    {
+      "highlights": [
+        "Designed loyalty program Fitclub V2 to increase classes attended per user/month",
+        "Designed and seamlessly executed workout history and weekly reports for better engagement of users",
+        "Designed No Cost EMI payment flow, reducing customer contact ratio from x% to x-1%."
+      ],
+      "company": "Cult.fit Healthcare Pvt Ltd ",
+      "position": "Product Design Internship",
+      "location": "Bangalore, India",
+      "startDate": "May 2019",
+      "endDate": "August 2019"
+    },
+    {
+      "highlights": [
+        "Designed a cataloging dashboard, monitoring the whole business and help their salesman pitch the products.",
+        "Worked in Scrum methodology with 2 managers and one fellow designer in 2 week-long sprints"
+      ],
+      "company": "West Agile Labs",
+      "position": "Contract Product Designer",
+      "location": "Remote",
+      "startDate": "October 2018",
+      "endDate": "January 2019"
+    },
+    {
+      "highlights": [
+        "Designed a new referral system, increasing new user to member conversion and overall member retention. ",
+        "Did user research to gain insights for user motivation and laid IA to avoid cannibalisation."
+      ],
+      "company": "Cult.fit Healthcare Pvt Ltd",
+      "position": "Product Design Internship",
+      "location": "Bangalore, India",
+      "startDate": "May 2018",
+      "endDate": "July 2018"
+    },
+    {
+      "highlights": [
+        "Lead the design at Pibit providing online presence for local merchants increasing footfall by real time offers.",
+        "Cultivated 22 clients and 10,000+ users in Roorkee and Dehradun"
+      ],
+      "company": "Pibit",
+      "position": "Founding Product Designer",
+      "location": "Roorkee",
+      "startDate": "April 2017",
+      "endDate": "November 2017"
+    },
+    {
+      "highlights": [
+        "Managed a team of 12+ designers and built products for 10,000+ students/faculties.",
+        " Designed the placement portal which has about 2 Lakh page visits per day during placements."
+      ],
+      "company": "Information Management Group ",
+      "position": "Head of Design",
+      "location": "Roorkee",
+      "startDate": "Jan 2017",
+      "endDate": "March 2020"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Sketch",
+        "Principle",
+        "Figma",
+        "Invisionapp",
+        "Zeplin",
+        "Marvel",
+        "Illustrator",
+        "Photoshop",
+        "After Effects"
+      ],
+      "name": "Software Packages"
+    },
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        null
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "English SRW",
+        "Hindi SRW"
+      ],
+      "name": "Languages"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        null
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "KVPY Scholar",
+      "awarder": "",
+      "summary": "Marked a rank of 492 among 1.5 Lakh applicants",
+      "date": "2015"
+    },
+    {
+      "title": "IIT-JEE ",
+      "summary": "Cleared JEE Mains and Advanced with a rank of 3732",
+      "date": "2016"
+    },
+    {
+      "title": "Featured Site of the day (CSS Lights),",
+      "date": "2018"
+    },
+    {
+      "title": "Site of the day (Design Nominees),",
+      "date": "2018"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "education",
+    "awards",
+    "projects",
+    "skills"
+  ]
+}
