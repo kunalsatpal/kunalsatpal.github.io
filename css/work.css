@@ -1,3 +1,32 @@
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #fff;
+    color: #555;
+    font-size: 80%;
+    position: absolute;
+    padding: 6px 12px 6px 12px;
+    bottom: 10vh;
+    left: 5%;
+    white-space: break-spaces;
+    box-shadow: 1px 1px 8px #efefef;
+    opacity: 0;
+    border: 0.2px solid #999;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 8px;
+    width: 18vw;
+    height: fit-content;
+    line-height: 130%
+}
+[data-title] {
+    position: relative;
+}
+
 
 
 /* site variables*/
@@ -168,7 +197,7 @@
     background: url('../images/first_fold_home.png'), linear-gradient(260.08deg, #FFFFFF 12.37%, #F0F0F0 83.13%);
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    background-size: contain;
+    background-size: cover;
 }
 .bottom{
     float: left;
@@ -323,6 +352,7 @@ nav a{
     text-align: center;
     color: #222222;
 }
+
 .subheading{
     font-family: 'Poppins', sans-serif;
     font-size: 1.75rem;
