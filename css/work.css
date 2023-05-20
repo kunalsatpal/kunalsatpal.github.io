@@ -165,7 +165,7 @@
     min-height: 86vh;
     height: auto;
     z-index: 2;
-    background: linear-gradient(180deg, #FFFFFF 4%, #F5F5F5 96%);;
+    background: url(../images/home2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
