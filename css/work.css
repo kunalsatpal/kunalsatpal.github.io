@@ -165,9 +165,10 @@
     min-height: 86vh;
     height: auto;
     z-index: 2;
-    background: url('../images/first_fold_home.png');
+    background: url('../images/first_fold_home.png'), linear-gradient(260.08deg, #FFFFFF 12.37%, #F0F0F0 83.13%);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 50% 100%;
+    background-size: contain;
 }
 .bottom{
     float: left;
@@ -336,13 +337,13 @@ nav a{
 /* Mouse Scroller */
 .scroll-downs {
     position: absolute;
-    top: 14vh;
+    top: 24vh;
     right: 0;
     bottom: 0;
     left: 0;
     margin:auto;
     width :34px;
-    height: 55px;
+    height: 25px;
 }
 .mousey {
     width: .5px;
@@ -355,7 +356,7 @@ nav a{
 }
 .scroller {
     width: 3px;
-    height: 12vh;
+    height: 3vh;
     border-radius: 1%;
     background-color: #000;
     animation-name: scroll;
