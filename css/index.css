@@ -997,7 +997,7 @@ nav a{
 
 
 #work .text_desc{
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     line-height: 24px;
 }
 #work .description .sub-header {
@@ -1011,7 +1011,7 @@ font-size: 1.5rem !important;
 }
 
 #work .description .smaller_text{
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     margin:0 !important;
 }
 
@@ -1294,7 +1294,7 @@ input[type=Password], select {
     width: auto !important
 }
 #contact .contactheader {
-    padding-top: 23vh;
+    padding-top: 12vh;
     margin-top: 0;
     position: relative;
     top: 0;
@@ -1340,7 +1340,16 @@ input[type=Password], select {
  #work .container{
     flex-direction: column-reverse;
     
-}   
+} 
+
+#height_62vh_on_mobile{
+    height: 62vh !important;
+}
+
+#Carousel1 .naruto{
+    height: inherit !important;
+}
+
 .funimage{
     width: 90%;
     margin: auto;
