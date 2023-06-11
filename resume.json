@@ -4,7 +4,8 @@
     "education": "",
     "awards": "Achievements",
     "work": "Work Experience",
-    "skills": "Skills"
+    "skills": "Skills",
+    "projects": "Initiatives"
   },
   "basics": {
     "name": "Kunal Satpal",
@@ -88,7 +89,7 @@
     },
     {
       "highlights": [
-        "Lead the design at Pibit providing online presence for local merchants increasing footfall by real time offers.",
+        "Led the design at Pibit providing online presence for local merchants increasing footfall by real time offers.",
         "Cultivated 22 clients and 10,000+ users in Roorkee and Dehradun"
       ],
       "company": "Pibit",
@@ -99,8 +100,8 @@
     },
     {
       "highlights": [
-        "Managed a team of 12+ designers and built products for 10,000+ students/faculties.",
-        " Designed the placement portal which has about 2 Lakh page visits per day during placements."
+        "Managed a team of 12+ designers and built products for over 10,000 students and faculties",
+        "Designed the placement portal which has about 2 Lakh page visits per day during placements."
       ],
       "company": "Information Management Group ",
       "position": "Head of Design",
@@ -145,8 +146,10 @@
   "projects": [
     {
       "keywords": [
-        null
-      ]
+        "Nov 2020 - Feb 2021"
+      ],
+      "name": "Rise Design",
+      "description": "CONDUCTED MULTIPLE REMOTE DESIGN THINKING WORKSHOPS BUILDING AWARENESS AND USE OF THE MINDSET IN THE FIELD"
     }
   ],
   "awards": [
@@ -174,9 +177,9 @@
     "templates",
     "profile",
     "work",
-    "education",
-    "awards",
     "projects",
-    "skills"
+    "education",
+    "skills",
+    "awards"
   ]
 }
