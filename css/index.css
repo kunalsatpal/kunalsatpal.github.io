@@ -121,6 +121,19 @@
   visibility: visible;
 }
 
+
+
+#People_images_tooltip .tooltip-container[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+  width: inherit;
+  left: 10%;
+  bottom: 1.2rem;
+  background-color: #2228;
+  color: #fff;
+}
+
 .tooltip-container[data-title]:after {
   content: attr(data-title);
   background-color: #fff;
@@ -351,7 +364,7 @@
 
 color: #B92422;
 
-opacity: 0.6;
+opacity: 0.75;
 }
 
 #work #left_header{
