@@ -174,16 +174,11 @@
 }
 
 @keyframes moveSlideshow {
-  0% {
-    transform: translateX(0);
-  }
+  
   100% {
     transform: translateX(-100%);
   }
 
- 120% {
-    transform: translateX(0); /* Transition back to the initial state */
-  }
 }
 
 .scroll-container {
@@ -201,7 +196,6 @@
 .scroll-container::-webkit-scrollbar {
   display: none; /* Hide the scroll bar */
 }
-
 
 
 .gridscroll {
