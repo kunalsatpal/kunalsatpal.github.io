@@ -1,4 +1,216 @@
 
+/*FLames gif*/
+.super-hover {
+    display: inline-block;
+        background: none;
+        overflow: visible;
+        transition: background 0.3s ease;
+    }
+
+    .super-hover:hover {
+        background: url(../images/flames.gif) bottom/cover no-repeat;
+        
+    }
+
+@keyframes super-saiyan-animation {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes super-saiyan-animation {
+  0%, 100% {
+    text-shadow: none;
+    transform: scale(1);
+  }
+  10%, 90% {
+    text-shadow: 0 0 10px #fff4, 0 0 20px #ff04, 0 0 30px #ff04, 0 0 40px #ff04, 0 0 50px #ff04;
+    transform: scale(1.1);
+  }
+  20%, 80% {
+    text-shadow: 0 0 20px #fff4, 0 0 30px #ff04, 0 0 40px #ff04, 0 0 50px #ff04, 0 0 60px #ff04;
+    transform: scale(1.2);
+  }
+  30%, 70% {
+    text-shadow: 0 0 30px #fff4, 0 0 40px #ff04, 0 0 50px #ff04, 0 0 60px #ff04, 0 0 70px #ff04;
+    transform: scale(1.3);
+  }
+  40%, 60% {
+    text-shadow: 0 0 40px #fff4, 0 0 50px #ff04, 0 0 60px #ff04, 0 0 70px #ff04, 0 0 80px #ff04;
+    transform: scale(1.4);
+  }
+  50% {
+    text-shadow: 0 0 50px #fff4, 0 0 60px #ff04, 0 0 70px #ff04, 0 0 80px #ff04, 0 0 90px #ff04;
+    transform: scale(1.5);
+  }
+}
+
+.super-saiyan {
+  position: relative;
+  animation: super-saiyan-animation 4s infinite;
+}
+
+
+
+
+@keyframes vibrate {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-1px) rotateZ(-2deg);
+  }
+  20% {
+    transform: translateX(1px) rotateZ(2deg);
+  }
+  30% {
+    transform: translateX(-1px) rotateZ(-2deg);
+  }
+  40% {
+    transform: translateX(1px) rotateZ(2deg);
+  }
+  50% {
+    transform: translateX(-1px) rotateZ(-2deg);
+  }
+  60% {
+    transform: translateX(1px) rotateZ(2deg);
+  }
+  70% {
+    transform: translateX(-1px) rotateZ(-2deg);
+  }
+  80% {
+    transform: translateX(1px) rotateZ(2deg);
+  }
+  90% {
+    transform: translateX(-1px) rotateZ(-2deg);
+  }
+  100% {
+    transform: translateX(0) rotateZ(0);
+  }
+}
+
+
+.phone-image {
+  position: absolute;
+  flex: none;
+  left: 12vw;
+  bottom: 80px;
+  background: url(../images/phone.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+    animation: vibrate .3s steps(3) 1s infinite;
+}
+
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+
+.tooltip-container[data-title]:after {
+  content: attr(data-title);
+  background-color: #fff;
+  color: #555;
+  font-size: 80%;
+  font-weight: 400;
+  position: absolute;
+  padding: 6px 12px 6px 12px;
+  bottom: 5%;
+  left: 5%;
+  white-space: break-spaces;
+  opacity: 0;
+  border: 0.2px solid #999;
+  z-index: 99999;
+  visibility: hidden;
+  border-radius: 8px;
+  width: 18vw;
+  height: fit-content;
+  line-height: 130%;
+}
+
+
+
+.boys img:nth-child(2) {
+  display: none;
+}
+
+.boys:hover img:nth-child(1) {
+  display: none;
+}
+
+.boys:hover img:nth-child(2) {
+  display: block;
+}
+
+.games_heading{
+    width: 50% !important; max-width: 764px !important;
+}
+
+@keyframes moveSlideshow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-container {
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius: 15px;
+  width: 100vw;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Hide the scroll bar */
+}
+
+
+
+.gridscroll {
+  display: inline-block;
+  animation: moveSlideshow 80s infinite linear;
+  scroll-snap-type: x mandatory; /* Enable snap scrolling */
+}
+
+.gridscroll img {
+  margin-right: 22px;
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  scroll-snap-align: start; /* Align images to snap points */
+}
+
+ .gridscroll.animate {
+      animation-play-state: running; /* Start animation when class 'animate' is added */
+    }
+
+    .gridscroll:hover {
+      animation-play-state: paused !important;
+    }
+
+
+
 /* site variables*/
 .load_wrapper{
     display: flex;
@@ -17,6 +229,17 @@
 }
 
 
+.fit{
+ width:100%; height:100%; object-fit: cover; border-radius: 2rem; padding: 1rem;
+}
+.book_cover{
+    height: 31vw !important;
+}
+
+.naruto{
+    width: 12vw !important;
+    height: 36vw !important;
+}
 
 .b-icon{
     float: right;
@@ -30,17 +253,19 @@
     to { background-position: 87% 500, 0px 0px, 0px 0px; }
 }
 #work #about_me{
-    background: url('../images/me3.png');
+    background: url('../images/about_cover.png');
     background-repeat: no-repeat;
     background-position:90% 100%, 0px 0px, 0px 0px;
     background-size: auto 90%, auto, auto;
 }
 #work #company{
-    height: 75vh;
-    background: url('../images/work_logos.png'), linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
+    height: 85vh;
+    background: url('../images/goku.png'), #ffeeee;
     background-repeat: no-repeat;
-    background-size: auto 80%, auto, auto; 
-    background-position: 87% 50%, 0px 0px, 0px 0px;
+    background-size: 100%, auto, auto, auto; 
+    background-position: 50% 100%, 0px 0px, 0px 0px;
+    align-items: flex-start;
+    padding-top: 5rem;
 
 }
 #work #Interests{
@@ -52,7 +277,7 @@
 
 }
 #work{
-    text-align: center;
+
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -60,6 +285,7 @@
     font-size: 1.125rem;
     /*margin-top: 1.25rem;*/
     color: rgba(0, 0, 0, 0.7);
+    background: #FFEEEE;
 }
 #work .section{
     width: 100vw;
@@ -77,6 +303,11 @@
     width: 85vw;
 
 }
+
+.game_image_responsive{
+    width: 8vw; height:8vw
+}
+
 #work .description{
     float: left;
     width: 42vw;
@@ -89,26 +320,53 @@
 #work .description .header{
     text-align: left;
     /* margin-top: 0.5em; */
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-family: 'Playfair Display', sans-serif;
+    color: #8F2A24 !important;
+    font-weight: 900;
     line-height: 4.6rem;
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     color: #000;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;;
 }
 #work .description .sub-header{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
-    font-weight: normal;
-    line-height: 2.6rem;
-    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    font-size: 2rem;
     letter-spacing: .02em;
-    color: #999999;
-    margin-bottom: 2.5rem;
-    margin-top: .75rem
+    color: #3338;
+    margin-bottom: .5rem;
+    margin-top: 0.75rem;
+}
+#work .text_desc{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 36px;
+    text-align: left;
+
+color: #B92422;
+
+opacity: 0.6;
 }
 
+#work #left_header{
+    width: 30%;
+    max-width: 459px;
+}
+
+#work #games{
+    background: url(../images/game.png);
+    background-size: auto, 100%, auto, auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50% ;
+    height: 90vh;
+}
 
 #primary.button{
      
@@ -215,9 +473,11 @@ nav a{
 #navbar{
     z-index: 20 !important;
     width:100%;
+    background: #FFEEEE;
+
 }
 .sticky{
-    background-color: white;
+    background-color: #fff9 !important;
     position: fixed;
     z-index: 20 !important;
     top: 0;
@@ -225,6 +485,7 @@ nav a{
     padding-bottom: .5em;
     width: 100%;
     transition-duration: 0.4s;
+    backdrop-filter: blur(24px);
 }
 .home{
     margin-right: 2.7em !important;
@@ -501,8 +762,7 @@ nav a{
 /* Contact Part */
 
 #contact{
-    margin-top: 4em;
-    padding-top: 1em;
+    padding-top: 3em;
     padding-bottom: 4em;
     height: auto;
     position: relative;
@@ -514,7 +774,7 @@ nav a{
 #contact .contactheader{
     padding-top: 1.5em;
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 800;
     font-size: 3.8em;
     text-align: center;
@@ -731,13 +991,30 @@ nav a{
 }   
     #work #company {
     background-repeat: no-repeat;
-    background-size: auto 70%, auto, auto;
-    background-position: 87% 50%, 0px 0px, 0px 0px;
+    /*background-size: auto 70%, auto, auto;
+    background-position: 87% 50%, 0px 0px, 0px 0px;*/
+}
+
+
+#work .text_desc{
+    font-size: 1rem !important;
+    line-height: 24px;
+}
+#work .description .sub-header {
+font-size: 1.5rem !important;
+    line-height: 3.4rem;
+
 }
 #work .description .header{
-    font-size: 2.4rem;
+    font-size: 2.4rem !important;
     line-height: 3.4rem;
 }
+
+#work .description .smaller_text{
+    font-size: 1rem !important;
+    margin:0 !important;
+}
+
 #aboutmeheader{
     font-size: 2.4rem;
     line-height: 3.4rem;
@@ -797,7 +1074,7 @@ nav a{
 }
 #about {
     display: block;
-    text-align: center;
+
     margin: 0 auto;
     position: absolute;
     left: 0;
@@ -831,7 +1108,7 @@ nav a{
 #aboutsection #about{
     display: block;
     top: 3rem;
-    text-align: center;
+
     width: 100% !important;
     height: fit-content !important;
     margin: auto;
@@ -842,7 +1119,7 @@ nav a{
 } 
 
 #about{
-    text-align: center;
+
 }  
 #aboutsection #aboutmeheader {
     display: block;
@@ -930,6 +1207,19 @@ nav a{
 }
 #work #Interests{
     background: linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
+}
+
+.game_image_responsive{
+    width: 16vw; height:16vw
+}
+
+.fit{
+    display: none;
+}
+
+.boys .fit{
+    display: block;
+    width: 90vw;
 }
 
 .funimage{
@@ -1059,7 +1349,6 @@ input[type=Password], select {
     display: block;
 }
 .pictures{
-    text-align: center;
     height: 7em !important;
     width: auto;
 }
@@ -1084,15 +1373,15 @@ input[type=Password], select {
     height: 5rem;
 }
 .circle_image img{
-    display: block; 
+    
 }
 #work .description{
     margin:auto;
     width: 90%;
-    align-items: center;
-    text-align: center;
+/*    align-items: center;*/
+
     /* float: left; */
-    /* width: 44vw; */
+     width: 44vw; 
     max-width: 40em;
     display: flex;
     flex-direction: column;
@@ -1101,16 +1390,86 @@ input[type=Password], select {
 #work .description .header{
     font-size: 2rem;
     line-height: 3rem;
-    text-align: center;
+
 }
 #work .description .sub-header{
     font-size: 1.2rem;
     line-height: 1.8rem;
-    text-align: center;
+    
 }
 #work #about_me {
-    background: linear-gradient(180deg, #fff 2%, #Efefef 98%);
-}    
+    background: #ffeeee;
+}
+.phone-image{
+    display: none;
+
+}
+.hide_border{
+    display: none;
+}
+
+#work .section {
+    height: 60vh;
+}
+
+#work #books {
+    height: 40vh !important;
+}
+
+#work #company {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#work .section .container{
+    width: 85vw !important;
+    max-width: none !important;
+}
+
+#work #company{
+    align-items: center;
+
+}
+.section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section #text_description{
+    width: 85% !important;
+}
+
+.section .container{
+    width: 85% !important;
+}
+
+.naruto {
+    width: 30vw !important;
+    height: 75vw !important;
+}
+
+
+#work .section .container .description{
+    width: 100% !important; 
+}
+
+#work .section .container .description .sub-header{
+    margin:0;
+}
+#work #games{
+    background: #D52D0D;
+    height: 70vh;
+}
+
+.gridscroll img{
+    width: 40vw;
+    height: 62vw !important;
+}
+
 #work #company{
     height: fit-content;
     background: linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
