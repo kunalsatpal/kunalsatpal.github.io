@@ -135,7 +135,7 @@
 </div>
 <div id="work">  
     <div class="section" id="company" style="position: relative">
-     <span class="phone-image"></span>        
+     <!-- <span class="phone-image"></span>         -->
         <div class="container" id="left_header">
             <div class="description" >
                 <div class="sub-header">
@@ -535,6 +535,7 @@ const observer = new IntersectionObserver(entries => {
       gridScroll.style.animationPlayState = 'running';
     } else {
       gridScroll.style.animationPlayState = 'paused';
+
     }
   });
 });
@@ -545,20 +546,22 @@ observer.observe(scrollContainer);
 </script>
 
 <script>
-    const Container = document.querySelector('#Naruto_auto_scroll');
-const Scroll = document.querySelector('#Carousel1');
+    const Container = document.querySelector('#Carousel1');
+const Scroll = document.querySelector('.gridScroll');
 
 const new_observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       gridScroll.style.animationPlayState = 'running';
+
     } else {
       gridScroll.style.animationPlayState = 'paused';
+
     }
   });
 });
 
-observer.observe(Container);
+new_observer.observe(Container);
 </script>
 
 
