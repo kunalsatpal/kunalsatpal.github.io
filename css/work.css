@@ -1,3 +1,67 @@
+/* Styles */
+
+.white-gradient {
+    background: linear-gradient(to left, rgba(223, 255, 245, 0) 0%, #DFFFF5 100%);
+
+}
+
+.slider {
+    background-color: #DFFFF5;
+/*    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
+    height: 120px;
+    width: fit-content;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.slider::before,
+.slider::after {
+    content: "";
+    height: 120px;
+    position: absolute;
+    width: 250px;
+    z-index: 2;
+    background: linear-gradient(to left, rgba(223, 255, 245, 0) 0%, #DFFFF5 100%);
+    }
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slide-track {
+    background-color: #DFFFF5;
+    animation: exp_carousel 40s linear infinite;
+    display: flex;
+    width: calc(250px * 16);
+}
+
+.slide {
+    height: 100px;
+    width: 250px;
+}
+
+/* Animation */
+
+@keyframes exp_carousel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 8));
+    }
+}
+
+
+
 [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease 0.5s;
@@ -134,6 +198,7 @@
     background-repeat: no-repeat;
     background-position: 82% 52%, 0px 0px, 0px 0px;
     background-size: auto 32%, auto, auto;
+    height: 70vh;
     
 }
 
