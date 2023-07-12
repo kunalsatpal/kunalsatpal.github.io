@@ -332,24 +332,23 @@
     text-align: left;
     /* margin-top: 0.5em; */
     font-family: 'Playfair Display', sans-serif;
-    color: #8F2A24 !important;
+    color: #340f0f !important;
     font-weight: 900;
     line-height: 4.6rem;
     font-size: 3.6rem;
     color: #000;
-    margin-bottom: 1.5rem;;
+    margin-bottom: 1.2rem;;
 }
 #work .description .sub-header{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
     font-weight: 400;
-    line-height: 3.2rem;
-    font-size: 2rem;
+    line-height: 2.7rem;
+    font-size: 1.8rem;
     letter-spacing: .02em;
-    color: #3338;
-    margin-bottom: .5rem;
-    margin-top: 0.75rem;
+    color: #6c2928cc;
+    margin-bottom: 0.5rem;
 }
 #work .text_desc{
     
@@ -360,7 +359,7 @@
     line-height: 36px;
     text-align: left;
 
-color: #B92422;
+color: #6c2928;
 
 opacity: 0.75;
 }
