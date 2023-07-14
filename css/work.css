@@ -5,11 +5,129 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/*Side nav css*/
+
+div.side_scroll { 
+                margin:4px, 4px; 
+                padding:4px; 
+                background-color: green; 
+                width: 500px; 
+                height: 110px; 
+                overflow-x: hidden; 
+                overflow-x: auto; 
+                text-align:justify; 
+            }
+
+#side_nav {
+    position: fixed;
+    text-align: left;
+    list-style: none;
+    width: 200px;
+    left: -350px;
+    z-index: 0;
+    background: #fff8;
+    backdrop-filter: blur(5px);
+    border-right: 1px solid #eee;
+    transition: left .75s;
+}
+
+#sidebar_arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -20px;
+  width: 20px;
+  height: 20px;
+  background: #ddd5;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.new-text {
+  position: relative;
+  display: inline-block;
+  color: red;
+  font-weight: 700;
+}
+
+.new-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+#sidebar_arrow:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #ddd5;
+  backdrop-filter: blur(5px);
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+}
+
+
+#side_nav ul{
+    list-style: none;
+    padding: 0;
+}
+/* Navigation Menu - List items */
+.nav-item {
+    /* non-critical appearance styles */
+    
+   
+}
+
+.nav-item a {
+    /* non-critical appearance styles */
+    display: block;
+    padding: 1.2em 1em 1em 2.4em;
+    color: #555;
+    font-size: 1em;
+    text-decoration: none;
+    transition: color 0.2s, background 0.5s;
+
+}
+
+.nav-item a:hover {
+    color: #333;
+    box-shadow: 0px 0px 10px 0px rgba(16, 24, 32, 0.10);
+}
+
+/*Side nav css ends here*/
+
 .slider {
     background-color: #DFFFF5;
 /*    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
     height: 120px;
-    width: fit-content;
+/*    width: fit-content;*/
     margin: auto;
     overflow: hidden;
     display: flex;
