@@ -200,7 +200,7 @@
 
 .gridscroll {
   display: inline-block;
-  animation: moveSlideshow 80s infinite linear;
+  animation: moveSlideshow 160s infinite linear;
   scroll-snap-type: x mandatory; /* Enable snap scrolling */
 }
 
