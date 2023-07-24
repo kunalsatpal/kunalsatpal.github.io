@@ -813,6 +813,26 @@ a:hover{
     text-align: center;
     color: #66AFF8;
 }
+
+.mail_button{
+    border-width: 1.2px;
+    border-radius: 6px;
+    border-color: #999;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+    padding: 1em 1.5em;
+
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    line-height: 1.3125rem;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #fff0;
+margin-top: 1.6em;
+    cursor: pointer;
+
+}
+
 .description .even-button{
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -839,7 +859,7 @@ a:hover{
 /* Contact Part */
 #contact{
     margin-top: 0em;
-    padding-bottom: 1.5em;
+    padding-bottom: 6.5em;
 
     height: auto;
     position: relative;
@@ -849,7 +869,7 @@ a:hover{
     text-align: center;
 }
 #contact .contactheader{
-    padding-top: 1.5em;
+    padding-top: 3em;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -863,7 +883,7 @@ a:hover{
     font-weight: normal;
     text-align: center;
     margin: 0 auto;
-    margin-top: 1em; 
+    margin-top: .2em; 
     width: 50vw;
     font-size: 1.75rem;
     line-height: 3rem;
