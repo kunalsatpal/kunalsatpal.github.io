@@ -270,13 +270,17 @@
     background-size: auto 90%, auto, auto;
 }
 #work #company{
+    display: flex;
     height: 85vh;
-    background: url('../images/goku.png'), #ffeeee;
+    background: url(../images/goku.png), #ffeeee;
     background-repeat: no-repeat;
-    background-size: 100%, auto, auto, auto; 
+    background-size: 100%, auto, auto, auto;
     background-position: 50% 100%, 0px 0px, 0px 0px;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 5rem;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 #work #Interests{
@@ -1060,6 +1064,8 @@ font-size: 1.5rem !important;
 
 #work #company {
     background: linear-gradient(145deg, #FFFFFF 3%, #efefef 97%);
+        height: fit-content;
+    padding-bottom: 4rem;
  }   
 .protected-text{
     font-size: 1.1rem !important;
