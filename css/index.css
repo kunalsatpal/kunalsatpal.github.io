@@ -1590,6 +1590,11 @@ input[type=Password], select {
   opacity: 0;
 }
 
+.mail_button{
+        font-size: 1rem;
+
+}
+
 .menu.open .hamburger-bar-3 {
   transform: translateY(-7px) translateY(50%) rotate(-45deg);
 }
