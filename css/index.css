@@ -24,6 +24,11 @@
   }
 }
 
+.BOBm{
+    display: none;
+    width: 100%;
+}
+
 @keyframes super-saiyan-animation {
   0%, 100% {
     text-shadow: none;
@@ -1019,8 +1024,8 @@ margin-top: 1.6em;
 
 #work #about_me {
     
-    background-size: auto 70%, auto, auto;
-    background-position: 87% 100%, 0px 0px, 0px 0px;
+   /* background-size: auto 70%, auto, auto;
+    background-position: 87% 100%, 0px 0px, 0px 0px;*/
 }   
     #work #company {
     background-repeat: no-repeat;
@@ -1246,6 +1251,10 @@ font-size: 1.5rem !important;
 
 .game_image_responsive{
     width: 16vw; height:16vw
+}
+
+.BOBm{
+    display: block;
 }
 
 .fit{
@@ -1505,7 +1514,7 @@ input[type=Password], select {
     margin:0;
 }
 #work #games{
-    background: #D52D0D;
+    background: #2B0902;
     height: 70vh;
 }
 
