@@ -1248,7 +1248,10 @@ font-size: 1.5rem !important;
 #work #Interests{
     background: linear-gradient(180deg, #000000 0%, #030303 62.35%, #2E2E2E 96.54%);
 }
+.mail_button{
+        font-size: 1rem;
 
+}
 .game_image_responsive{
     width: 16vw; height:16vw
 }
@@ -1590,10 +1593,7 @@ input[type=Password], select {
   opacity: 0;
 }
 
-.mail_button{
-        font-size: 1rem;
 
-}
 
 .menu.open .hamburger-bar-3 {
   transform: translateY(-7px) translateY(50%) rotate(-45deg);
