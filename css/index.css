@@ -264,10 +264,10 @@
     to { background-position: 87% 500, 0px 0px, 0px 0px; }
 }
 #work #about_me{
-    background: url('../images/about_cover.png');
+    background: url('../images/about_me_cover.png');
     background-repeat: no-repeat;
-    background-position:90% 100%, 0px 0px, 0px 0px;
-    background-size: auto 90%, auto, auto;
+    background-position:50% 50%, 0px 0px, 0px 0px;
+    background-size: 100%, auto, auto, auto;
 }
 #work #company{
     display: flex;
@@ -336,7 +336,7 @@
     text-align: left;
     /* margin-top: 0.5em; */
     font-family: 'Playfair Display', sans-serif;
-    color: #340f0f !important;
+    color: #2B0902 !important;
     font-weight: 900;
     line-height: 4.6rem;
     font-size: 3.6rem;
@@ -492,8 +492,8 @@ nav a{
 .sticky{
     background-color: #fff9 !important;
     position: fixed;
-    z-index: 20 !important;
     top: 0;
+    z-index: 20 !important;
     padding-top: .2em;
     padding-bottom: .5em;
     width: 100%;
