@@ -126,7 +126,7 @@ div.side_scroll {
 .slider {
     background-color: #DFFFF5;
 /*    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
-    height: 120px;
+    height: 104px;
 /*    width: fit-content;*/
     margin: auto;
     overflow: hidden;
@@ -159,12 +159,12 @@ div.side_scroll {
     background-color: #DFFFF5;
     animation: exp_carousel 40s linear infinite;
     display: flex;
-    width: calc(250px * 16);
+    width: calc(180px * 16);
 }
 
 .slide {
     height: 100px;
-    width: 250px;
+    width: 180px;
 }
 
 /* Animation */
@@ -174,7 +174,7 @@ div.side_scroll {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px * 8));
+        transform: translateX(calc(-180px * 8));
     }
 }
 
@@ -857,6 +857,7 @@ margin-top: 1.6em;
     /*max-height: 346px;*/
     max-width: 600px;
     float: right;
+    height: auto;
 }
 /* Contact Part */
 #contact{
