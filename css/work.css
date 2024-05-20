@@ -312,7 +312,7 @@ div.side_scroll {
     background-size: cover;
 }
 #work #job{
-    background: url('../images/Gojek-Logo.png'), linear-gradient(180deg, #FDFCFF 1.34%, #DFFFF5 97.18%);
+    background: url('../images/Hinge_logo.png'), linear-gradient(180deg, #FDFCFF 1.34%, #DFFFF5 97.18%);
     background-repeat: no-repeat;
     background-position: 82% 52%, 0px 0px, 0px 0px;
     background-size: auto 32%, auto, auto;
