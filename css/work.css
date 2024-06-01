@@ -293,7 +293,7 @@ div.side_scroll {
     color: #ffffff !important;
 }
 #cureblog{
-    background: #111;
+    background: #000;
     color: #ffffff;
 }
 #cureblog a{
@@ -365,6 +365,11 @@ div.side_scroll {
     background-repeat: no-repeat;
     background-position: 90% 100%, 0px 0px, 0px 0px;
     background-size: auto 85%, auto, auto;
+}
+
+#work #blogsection{
+    align-items: start;
+    height: 72vh;
 }
 #home3{    position: relative;
     min-height: 100vh;
@@ -1247,6 +1252,8 @@ table {
     }
     #work #job{
     background:  linear-gradient(180deg, #FDFCFF 1.34%, #DFFFF5 97.18%);
+    height: auto;
+    
    
     }
     #work #cart_abandonment{
@@ -1472,6 +1479,13 @@ table {
     height: auto;
     overflow-y: -webkit-paged-x;
 }
+ 
+    #work #blogsection {
+        min-height: 78vh;
+        height: auto;
+        overflow-y: -webkit-paged-x;
+    }
+
 
 #HI{
     text-align: center;
