@@ -29,17 +29,30 @@
   ],
   "work": [
     {
-      "company": "Gojek",
+      "company": "Hinge Health",
       "location": "Bangalore, India",
       "position": "Senior Product Designer",
       "website": "",
       "endDate": "Present",
       "highlights": [
+        "I oversee Carehub, tool used by therpists and coaches to provide the best care to our 25 million members.",
+        "Implemented a streamlined workflow tracking system for Physical Therapists, reducing errors and improving efficiency.",
+        "Created a user persona document used as a key onboarding tool and source of truth for understanding users",
+        "Conducted three tech talks and participated in a panel discussion, boosting design awareness across the organization"
+      ],
+      "startDate": "December 2023"
+    },
+    {
+      "highlights": [
         "I lead GoFood growth & promos, solving for activation and retention for a diverse 600k DAU of GoFood.",
         "Pioneered a promo page overhaul, increasing page visits from x to 2.5x and page conversion x% to 2x%.",
         "Drove 20+ experiments in a year, resulting in improved promo perception & 2% surge in redemption"
       ],
-      "startDate": "June 2022"
+      "company": "Gojek",
+      "position": "Senior Product Designer ",
+      "location": "Bangalore, India",
+      "startDate": "July 2022",
+      "endDate": "November 2023"
     },
     {
       "highlights": [
@@ -48,8 +61,8 @@
         "Designed the new navigation and landing page for product line: Wellness, increasing category page visits by 5%",
         "Created multiple cross-sell channels for wellness. Cart-abandoment alone increasing 4% conversions"
       ],
-      "company": "Cult.fit Healthcare Pvt Ltd",
-      "position": "Product Designer",
+      "company": "Cult.fit Healthcare Pvt Ltd ",
+      "position": "Product Designer 2 > Senior Product Designer",
       "location": "Bangalore, India",
       "startDate": "June 2020",
       "endDate": "June 2022"
@@ -73,9 +86,9 @@
       ],
       "company": "West Agile Labs",
       "position": "Contract Product Designer",
-      "location": "Remote",
       "startDate": "October 2018",
-      "endDate": "January 2019"
+      "endDate": "January 2019",
+      "location": "Remote"
     },
     {
       "highlights": [
@@ -93,22 +106,22 @@
         "Led the design at Pibit providing online presence for local merchants increasing footfall by real time offers.",
         "Cultivated 22 clients and 10,000+ users in Roorkee and Dehradun"
       ],
-      "company": "Pibit",
       "position": "Founding Product Designer",
       "location": "Roorkee",
       "startDate": "April 2017",
-      "endDate": "November 2017"
+      "endDate": "November 2017",
+      "company": "Pibit"
     },
     {
       "highlights": [
         "Managed a team of 12+ designers and built products for over 10,000 students and faculties",
         "Designed the placement portal which has about 2 Lakh page visits per day during placements."
       ],
-      "company": "Information Management Group ",
-      "position": "Head of Design",
-      "location": "Roorkee",
+      "endDate": "March 2020",
       "startDate": "Jan 2017",
-      "endDate": "March 2020"
+      "location": "Roorkee",
+      "position": "Head of Design",
+      "company": "Information Management Group "
     }
   ],
   "skills": [
@@ -178,9 +191,9 @@
     "templates",
     "profile",
     "work",
-    "projects",
     "education",
     "skills",
+    "projects",
     "awards"
   ]
 }
