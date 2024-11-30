@@ -19,51 +19,50 @@
   "education": [
     {
       "institution": "Indian Institute of Technology Roorkee",
-      "location": "Roorkee, India",
+      "location": "Roorkee",
       "studyType": "B.Tech",
       "startDate": "2016",
       "endDate": "2020",
-      "area": "Chemical Engineering",
-      "gpa": "7.44"
+      "area": "Chemical Engineering"
     }
   ],
   "work": [
     {
       "company": "Hinge Health",
-      "location": "Bangalore, India",
+      "location": "Bangalore",
       "position": "Senior Product Designer",
       "website": "",
       "endDate": "Present",
       "highlights": [
-        "I oversee Carehub, tool used by therpists and coaches to provide the best care to our 25 million members.",
-        "Implemented a streamlined workflow tracking system for Physical Therapists, reducing errors and improving efficiency.",
-        "Created a user persona document used as a key onboarding tool and source of truth for understanding users",
+        "Overseeing Carehub dashboard & workflows, tool used by therapists to provide care to 25 million members",
+        "Implemented a streamlined workflow system, improving efficiency by 6% and member engagement by 2%",
+        "Created AI frameworks to enhance decision-making for Physical Therapists and improving member relationship",
         "Conducted three tech talks and participated in a panel discussion, boosting design awareness across the organization"
       ],
       "startDate": "December 2023"
     },
     {
       "highlights": [
-        "I lead GoFood growth & promos, solving for activation and retention for a diverse 600k DAU of GoFood.",
-        "Pioneered a promo page overhaul, increasing page visits from x to 2.5x and page conversion x% to 2x%.",
+        "Led GoFood growth & promos, solving for activation and retention for a diverse 600k DAU of GoFood",
+        "Pioneered a promo page overhaul, increasing page visits from x to 2.5x and page conversion x% to 2x%",
         "Drove 20+ experiments in a year, resulting in improved promo perception & 2% surge in redemption"
       ],
       "company": "Gojek",
       "position": "Senior Product Designer ",
-      "location": "Bangalore, India",
+      "location": "Bangalore",
       "startDate": "July 2022",
       "endDate": "November 2023"
     },
     {
       "highlights": [
-        "Designed the cult.fit marketplace onboarding, successfully reducing turnaround time to 3~4 days from 10~15 days",
-        "Collaborated with 4 designers to develop a new design system for the overall app and web experience.",
+        "Designed the cult.fit marketplace onboarding, successfully reducing turnaround time to 3-4 days from 10-15 days",
+        "Collaborated with 4 designers to develop a new design system for the overall app and web experience",
         "Designed the new navigation and landing page for product line: Wellness, increasing category page visits by 5%",
-        "Created multiple cross-sell channels for wellness. Cart-abandoment alone increasing 4% conversions"
+        "Created 5 cross-sell experiments for wellness, including cart abandonment, resulting in 4% increase in conversions"
       ],
-      "company": "Cult.fit Healthcare Pvt Ltd ",
+      "company": "Cult.fit Healthcare Pvt. Ltd.",
       "position": "Product Designer 2 > Senior Product Designer",
-      "location": "Bangalore, India",
+      "location": "Bangalore",
       "startDate": "June 2020",
       "endDate": "June 2022"
     },
@@ -71,56 +70,45 @@
       "highlights": [
         "Designed loyalty program Fitclub V2 to increase classes attended per user/month",
         "Designed and seamlessly executed workout history and weekly reports for better engagement of users",
-        "Designed No Cost EMI payment flow, reducing customer contact ratio from x% to x-1%."
+        "Designed No Cost EMI payment flow, reducing customer contact ratio from x% to x-1%"
       ],
-      "company": "Cult.fit Healthcare Pvt Ltd ",
+      "company": "Cult.fit Healthcare Pvt. Ltd.",
       "position": "Product Design Internship",
-      "location": "Bangalore, India",
+      "location": "Bangalore",
       "startDate": "May 2019",
       "endDate": "August 2019"
     },
     {
       "highlights": [
-        "Designed a cataloging dashboard, monitoring the whole business and help their salesman pitch the products.",
-        "Worked in Scrum methodology with 2 managers and one fellow designer in 2 week-long sprints"
+        "Designed a new referral system, increasing new user to member conversion and overall member retention",
+        "Researched and created a clear IA to avoid cannibalisation of functions"
       ],
-      "company": "West Agile Labs",
-      "position": "Contract Product Designer",
-      "startDate": "October 2018",
-      "endDate": "January 2019",
-      "location": "Remote"
-    },
-    {
-      "highlights": [
-        "Designed a new referral system, increasing new user to member conversion and overall member retention. ",
-        "Did user research to gain insights for user motivation and laid IA to avoid cannibalisation."
-      ],
-      "company": "Cult.fit Healthcare Pvt Ltd",
       "position": "Product Design Internship",
-      "location": "Bangalore, India",
       "startDate": "May 2018",
-      "endDate": "July 2018"
+      "endDate": "July 2018",
+      "location": "Bangalore",
+      "company": "Cult.fit Healthcare Pvt. Ltd."
     },
     {
       "highlights": [
-        "Led the design at Pibit providing online presence for local merchants increasing footfall by real time offers.",
+        "Led the design at Pibit providing online presence for local merchants increasing footfall by real time offers",
         "Cultivated 22 clients and 10,000+ users in Roorkee and Dehradun"
       ],
+      "company": "Pibit",
       "position": "Founding Product Designer",
       "location": "Roorkee",
       "startDate": "April 2017",
-      "endDate": "November 2017",
-      "company": "Pibit"
+      "endDate": "January 2018"
     },
     {
       "highlights": [
         "Managed a team of 12+ designers and built products for over 10,000 students and faculties",
-        "Designed the placement portal which has about 2 Lakh page visits per day during placements."
+        "Designed the placement portal which has about 2 Lakh page visits per day during placements"
       ],
-      "endDate": "March 2020",
-      "startDate": "Jan 2017",
-      "location": "Roorkee",
       "position": "Head of Design",
+      "location": "Roorkee",
+      "startDate": "Jan 2017",
+      "endDate": "March 2020",
       "company": "Information Management Group "
     }
   ],
@@ -179,11 +167,11 @@
       "date": "2016"
     },
     {
-      "title": "Featured Site of the day (CSS Lights),",
+      "title": "Featured Site of the day (CSS Lights)",
       "date": "2018"
     },
     {
-      "title": "Site of the day (Design Nominees),",
+      "title": "Site of the day (Design Nominees)",
       "date": "2018"
     }
   ],
@@ -192,8 +180,8 @@
     "profile",
     "work",
     "education",
-    "skills",
     "projects",
-    "awards"
+    "awards",
+    "skills"
   ]
 }
