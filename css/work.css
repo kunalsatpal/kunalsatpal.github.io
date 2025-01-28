@@ -1113,17 +1113,23 @@ table {
 .contactheader{
     margin-top: 2rem;
 }
-@media screen and (max-width: 1260px)
+@media screen and (max-width: 1300px)
 {   
     #footer .contactemail{
     width: 520px;
     }
 }
-@media screen and (max-width: 1260px)
+@media screen and (max-width: 1300px)
 {   #work #curefit{
 
     background-size: auto 64%, auto, auto;
 }
+
+   #work #promo{
+
+    background-size: 42% auto, auto, auto;
+}
+
 #work #curefit2{
 
     background-size: auto 45%, auto, auto;
