@@ -344,6 +344,48 @@ var currentScrollPos = window.pageYOffset;
 					$(".menu").toggleClass("open");
 
 				};
+
+window.addEventListener('DOMContentLoaded', function() {
+  var sideNav = document.getElementById("side_nav");
+  var prevScrollPos = window.pageYOffset;
+  var hasScrolled = false;
+
+  // Initially hide the sidebar
+  sideNav.style.left = "-200px";
+
+  window.addEventListener('scroll', function() {
+    var currentScrollPos = window.pageYOffset;
+
+    if (!hasScrolled && currentScrollPos > 0) {
+      sideNav.style.left = "0";
+      hasScrolled = true;
+    }
+
+    prevScrollPos = currentScrollPos;
+  });
+});
+
+ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(event) {
+      event.preventDefault();
+      var targetId = this.getAttribute('href').substring(1);
+      var targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        var offset = 100; // Adjust this value based on your header height
+        var elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+
+
+
+
 			</script>
 
 		</body>
